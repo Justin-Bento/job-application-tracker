@@ -109,12 +109,26 @@ function Testimonials() {
 function CallToAction_Products() {
   return (
     <>
-      <section className="" aria-label="Section 05">
-        <h5 className="headline-large">Section 06</h5>
+      <section className="relative px-6 py-24 overflow-hidden text-center isolate sm:rounded-3xl sm:px-16 bg-primary-200 dark:bg-primary-900" aria-label="Section 05">
+        <h5 className="font-bold headline-small">Make Microgreens Part Of Your Diet Today!</h5>
+        <p className="mt-4 text-lg body-large lg:max-w-prose lg:mx-auto ">Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur
+          commodo do ea.</p>
+        <div className="flex items-center justify-center mt-10 gap-x-6">
+          <a
+            href="#"
+            className="px-3 py-2 text-sm font-semibold rounded-md text-primary-50 bg-primary-600 hover:bg-primary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
+          >
+            Order Today
+          </a>
+          <a href="#" className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary-600 ring-1 ring-inset ring-primary-300 hover:bg-primary-50">
+            Learn more <span aria-hidden="true">→</span>
+          </a>
+        </div>
       </section>
     </>
   )
 }
+
 function CallToAction_SocialMedia() {
   return (
     <>
