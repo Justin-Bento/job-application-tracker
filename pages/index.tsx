@@ -91,8 +91,42 @@ function Incentives() {
 function Product_Benifites() {
   return (
     <>
-      <section className="" aria-label="Section 03">
-        <h3 className="headline-large">Section 03</h3>
+      <section className="px-4 py-24 mx-auto max-w-7xl">
+        <div className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+          <div>
+            <h3 className="mb-4 font-bold capitalize headline-large">Clear overview for efficient tracking</h3>
+            <p className="mb-5 body-large">
+              Handle your subscriptions and transactions efficiently with the clear overview in Dashboard. Features like the smart search option allow you to quickly find any data you’re looking for.
+            </p>
+            <button
+              type="button"
+              className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary-600 ring-1 ring-inset ring-primary-300 hover:bg-primary-50"
+            >
+              Button text
+            </button>
+          </div>
+          <div className="w-full h-[420px] relative bg-primary-200 dark:bg-primary-900 rounded-xl">
+            <Image fill quality={40} src="/media/urban-greens-auntigua.jpg" alt="" aria-label="micro-greens-inside-steak sandwitch" className="object-cover object-center rounded-xl" />
+          </div>
+        </div>
+        <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+          <div className="order-none md:order-2">
+            <h3 className="mb-4 font-bold capitalize headline-large">Decide how you integrate Payments</h3>
+            <p className="mb-5 body-large">
+              Love to code? Next to our ready-made and free plugins you can use our expansive yet simple API; decide how you integrate Payments and build advanced and reliable products yourself from
+              scratch.
+            </p>
+            <button
+              type="button"
+              className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary-600 ring-1 ring-inset ring-primary-300 hover:bg-primary-50"
+            >
+              Button text
+            </button>
+          </div>
+          <div className="w-full h-[420px] relative bg-primary-200 dark:bg-primary-900 rounded-xl">
+            <Image fill quality={40} src="/media/micro-greens-with-steak.jpg" alt="" aria-label="micro-greens-inside-steak sandwitch" className="object-cover object-center rounded-xl" />
+          </div>
+        </div>
       </section>
     </>
   )
