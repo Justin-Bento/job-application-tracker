@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Appbar from "../components/Appbar"
+import Footer from "../components/Footer"
 import Head from "next/head"
 import { incentives } from "@/lib/data"
 
@@ -20,6 +21,7 @@ export default function index() {
         <Testimonials />
         <CallToAction_SocialMedia />
       </main>
+      <Footer />
     </>
   )
 }
