@@ -28,9 +28,9 @@ function HeroSection() {
       <section className="">
         <div className="my-8 space-y-6">
           <div className="justify-start hidden sm:flex sm:justify-center">
-            <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-primary-950 ring-1 ring-primary-900/10 hover:ring-primary-900/20">
+            <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-primary-950 dark:text-primary-50 ring-1 ring-primary-900/10 dark:ring-primary-100/30 hover:ring-primary-900/20 dark:hover:ring-primary-100/30">
               Anim aute id magna aliqua ad ad non deserunt sunt.{' '}
-              <a href="#" className="font-semibold text-primary-600 whitespace-nowrap">
+              <a href="#" className="font-semibold text-primary-600 dark:text-primary-300 whitespace-nowrap">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Read more <span aria-hidden="true">&rarr;</span>
               </a>
