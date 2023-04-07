@@ -2,26 +2,90 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: 'Public Sans';
+  font-weight: 100 900;
+  font-display: block;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/PublicSans-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Public Sans';
+  font-weight: 100 900;
+  font-display: block;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url('/fonts/PublicSans-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  body {
+    @apply system-colour;
   }
 }
+@layer components {
+  .wrapper {
+    @apply mx-auto max-w-7xl sm:px-6 lg:px-8
+  }
+  .system-colour {
+    @apply dark:bg-primary-950 bg-primary-50/70
+  }
+  .wrapper-sapce {
+    @apply p-4 space-y-4 sm:space-y-8 sm:my-8 md:my-16 md:space-y-16 lg:my-20 lg:space-y-20;
+  }
+  .display-large {
+    @apply text-[3.563rem] leading-tight font-normal dark:text-primary-50 text-primary-950
+  }
+  .display-medium {
+    @apply text-[2.813rem] leading-tight font-normal dark:text-primary-50 text-primary-950
+  }
+  .display-small {
+    @apply text-[2.25rem] leading-tight font-normal dark:text-primary-50 text-primary-950
+  }
+  /* End Of Display Typography */
+  .headline-large {
+    @apply text-[2rem] leading-tight font-normal dark:text-primary-50 text-primary-950
+  }
+  .headline-medium {
+    @apply text-[1.75rem] leading-tight font-normal dark:text-primary-50 text-primary-950
+  }
+  .headline-small {
+    @apply text-[1.5rem] leading-tight font-normal dark:text-primary-50 text-primary-950
+  }
+  /* End Of Headline Typography */
+  .title-large {
+    @apply text-[1.375rem] leading-tight font-normal dark:text-primary-50 text-primary-950
+  }
+  .title-medium {
+    @apply text-base leading-tight font-normal dark:text-primary-50 text-primary-950
+  }
+  .title-small {
+    @apply text-sm leading-tight font-normal dark:text-primary-50 text-primary-950
+  }
+  /* End Of title Typography */
+  .label-large {
+    @apply text-sm dark:text-primary-50 text-primary-950;
+  }
+  .label-medium {
+    @apply text-xs dark:text-primary-50 text-primary-950;
+  }
+  .label-small {
+    @apply text-xxs/* 11 px */ dark:text-primary-50 text-primary-950;
+  }
+  /* End Of label Typography */
+  .body-large {
+    @apply text-base font-normal leading-7 dark:text-primary-50 text-primary-950;
+  }
+  .body-medium {
+    @apply text-sm font-normal leading-4 dark:text-primary-50 text-primary-950;
+  }
+  .body-small {
+    @apply text-xs font-normal leading-4 dark:text-primary-50 text-primary-950;
+  }
+  /* End Of body Typography */
+}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+#__next {
+  min-height: 100%;
 }
