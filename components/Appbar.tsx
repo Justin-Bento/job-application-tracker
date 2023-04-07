@@ -14,7 +14,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="shadow shadow-primary-900/10 bg-primary-50 dark:bg-primary-950">
+    <header className="border shadow-primary-900/10 bg-primary-50 dark:bg-primary-950">
       <nav className="flex items-center justify-between p-4 mx-auto max-w-7xl lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
