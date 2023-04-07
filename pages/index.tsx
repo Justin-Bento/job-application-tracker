@@ -1,6 +1,8 @@
 import Image from "next/image"
 import Appbar from "../components/Appbar"
 import Head from "next/head"
+import { incentives } from "@/lib/data"
+
 export default function index() {
   return (
     <>
@@ -66,8 +68,22 @@ function HeroSection() {
 function Incentives() {
   return (
     <>
-      <section className="" aria-label="Section 02">
-        <h2 className="headline-large">Section 02</h2>
+      <section className="" aria-label="Incentives to buy microgreens">
+        <div className="grid max-w-2xl grid-cols-1 px-4 mx-auto gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3">
+          {incentives.map((incentive) => (
+            <div key={incentive.name} className="text-center sm:flex sm:text-left lg:block lg:text-center">
+              <div className="sm:flex-shrink-0">
+                <div className="flow-root">
+                  <img className="h-24 mx-auto w-28" src={incentive.imageSrc} alt="" />
+                </div>
+              </div>
+              <div className="mt-3 sm:ml-3 sm:mt-0 lg:ml-0 lg:mt-3">
+                <h3 className="title-large text-primary-50">{incentive.name}</h3>
+                <p className="mt-2 body-large text-primary-100/80">{incentive.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
     </>
   )
