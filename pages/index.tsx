@@ -1,8 +1,9 @@
 import Image from "next/image"
-
+import Appbar from "../components/Appbar"
 export default function index() {
   return (
     <>
+      <Appbar />
       <main className="wrapper-sapce wrapper ">
         <HeroSection />
         <Incentives />
