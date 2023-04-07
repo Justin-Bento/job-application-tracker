@@ -1,8 +1,14 @@
 import Image from "next/image"
 import Appbar from "../components/Appbar"
+import Head from "next/head"
 export default function index() {
   return (
     <>
+      <Head>
+        <title>Urban Greens Antigua</title>
+        <meta name="title" content="Urban Greens Antigua" />
+        <meta name="description" content="Discover the unbeatable flavor and nutritional benefits of incorporating sustainable microgreens into your lifestyle in Antigua & Barbuda" />
+      </Head>
       <Appbar />
       <main className="wrapper-sapce wrapper ">
         <HeroSection />
