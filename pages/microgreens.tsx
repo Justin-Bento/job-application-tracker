@@ -1,12 +1,18 @@
-import Appbar from '@/components/Appbar'
-import Footer from '@/components/Footer'
+import Head from "next/head";
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+// End of Next.js Scripts
+import Appbar from '@/components/Appbar'
+import Footer from '@/components/Footer'
 
 export default function microgreens() {
   return (
     <>
+      <Head>
+        <title>Microgreens - Urban Greens Antigua</title>
+        <meta name="title" content="Urban Greens Antigua" />
+        <meta name="description" content="Discover the unbeatable flavor and nutritional benefits of incorporating sustainable microgreens into your lifestyle in Antigua & Barbuda" />
+      </Head>
       <Appbar />
       <main className="wrapper-sapce wrapper">
         <section className="max-w-4xl">
