@@ -79,3 +79,43 @@ export const Footer_Navigation = [
     ),
   },
 ]
+
+export const FAQs = [
+  {
+    id: 1,
+    question: "What are microgreens?",
+    answer:
+      "Microgreens are young, tender plants that are harvested just a few weeks after germination.",
+  },
+  {
+    id: 1,
+    question: "What are the benefits of microgreens?",
+    answer:
+      "Microgreens are high in nutrients, have antioxidant properties, promote healthy skin, aid in digestion, are low in calories, and are versatile in cooking",
+  },
+  {
+    id: 1,
+    question: "What nutrients do microgreens contain?",
+    answer:
+      "Microgreens are known to contain high levels of vitamins and minerals such as vitamin C, vitamin E, beta-carotene, iron, and calcium.",
+  },
+  {
+    id: 1,
+    question: "How do microgreens promote healthy skin?",
+    answer:
+      "Microgreens contain high levels of antioxidants and vitamins that can help to improve skin health.",
+  },
+  {
+    id: 1,
+    question: "How can I use microgreens in cooking?",
+    answer:
+      "Microgreens are very versatile and can be added to a variety of dishes such as salads, sandwiches, soups, and smoothies.",
+  },
+  {
+    id: 1,
+    question: "Are microgreens a good addition to a weight loss diet?",
+    answer:
+      "Yes, microgreens are low in calories and can be a great addition to a healthy diet for those looking to lose weight.",
+  },
+  // More questions...
+]

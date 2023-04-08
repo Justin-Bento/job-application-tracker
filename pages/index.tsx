@@ -2,7 +2,8 @@ import Image from "next/image"
 import Appbar from "../components/Appbar"
 import Footer from "../components/Footer"
 import Head from "next/head"
-import { incentives } from "@/lib/data"
+import { incentives, FAQs } from "@/lib/data"
+import Link from "next/link"
 
 export default function index() {
   return (
@@ -34,7 +35,7 @@ function HeroSection() {
           <div className="justify-start hidden sm:flex sm:justify-center">
             <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-primary-950 dark:text-primary-50 ring-1 ring-primary-900/10 dark:ring-primary-100/30 hover:ring-primary-900/20 dark:hover:ring-primary-100/30">
               Anim aute id magna aliqua ad ad non deserunt sunt.{' '}
-              <a href="#" className="font-semibold text-primary-600 dark:text-primary-300 whitespace-nowrap">
+              <a href="#" className="font-semibold text-primary-600 dark:text-primary-300 primary-950space-nowrap">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Read more <span aria-hidden="true">&rarr;</span>
               </a>
@@ -136,8 +137,22 @@ function Product_Benifites() {
 function Testimonials() {
   return (
     <>
-      <section className="" aria-label="Section 04">
-        <h4 className="headline-large">Section 04</h4>
+      <section className="relative px-6 py-24 overflow-hidden text-left isolate sm:rounded-3xl sm:px-16 rounded-xl bg-primary-200 dark:bg-primary-900" aria-label="Section 05">
+        <div className="relative max-w-2xl mx-auto lg:mx-0">
+          <img className="w-auto h-12" src="https://tailwindui.com/img/logos/workcation-logo-green-950.svg" alt="" />
+          <figure>
+            <blockquote className="mt-6 font-bold title-large">
+              <p>
+                “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
+                molestiae. Numquam corrupti in laborum sed rerum et corporis.”
+              </p>
+            </blockquote>
+            <figcaption className="mt-6 body-large">
+              <div className="font-semibold">Judith Black</div>
+              <div className="mt-1">CEO of Workcation</div>
+            </figcaption>
+          </figure>
+        </div>
       </section>
     </>
   )
@@ -169,7 +184,26 @@ function CallToAction_SocialMedia() {
   return (
     <>
       <section className="" aria-label="Section 06">
-        <h6 className="headline-large">Section 07</h6>
+        <div className="px-6 py-16 mx-auto max-w-7xl sm:py-24 lg:px-8">
+          <h2 className="headline-large">Frequently asked questions</h2>
+          <p className="max-w-2xl mt-6 body-large">
+            Have a different question and can’t find the answer you’re looking for? Reach out to our support team by
+            <Link href="mailto:info@urbangreensanu.com" className="font-semibold text-primary-600 hover:text-primary-500">
+              sending us an email
+            </Link>
+            and we’ll get back to you as soon as we can.
+          </p>
+          <div className="mt-20">
+            <dl className="space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:gap-x-10">
+              {FAQs.map((faq) => (
+                <div key={faq.id}>
+                  <dt className="font-bold capitalize title-medium">{faq.question}</dt>
+                  <dd className="mt-2 body-large">{faq.answer}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </div>
       </section>
     </>
   )
