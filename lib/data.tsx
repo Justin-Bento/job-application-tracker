@@ -119,3 +119,11 @@ export const FAQs = [
   },
   // More questions...
 ]
+
+export const Appbar_Navigation = [
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '/about' },
+  { name: 'Microgreens', href: '/microgreens' },
+  { name: "FAQs", href: '/FAQs' },
+  { name: 'Contact', href: '/contact' },
+]
