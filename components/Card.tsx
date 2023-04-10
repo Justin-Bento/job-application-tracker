@@ -1,16 +1,23 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Card() {
+interface CardProps {
+  Headline?: string;
+  title: string;
+  link: string;
+  description: string;
+}
+
+export default function Card({ Headline, link, description }: CardProps) {
   return (
     <>
-      <Link href="/microgreens/*" className="p-4 overflow-hidden transition-all divide-y divide-gray-200 bg-primary-100 hover:bg-primary-200 dark:bg-primary-950 dark:hover:bg-primary-900 rounded-xl">
+      <Link href={link} className="p-4 overflow-hidden transition-all divide-y divide-gray-200 bg-primary-100 hover:bg-primary-200 dark:bg-primary-950 dark:hover:bg-primary-900 rounded-xl">
         <div className="relative px-4 py-5 sm:p-6 h-[200px]">
           <Image fill quality={40} src="/media/webse-main-image.jpg" alt="" className='object-cover object-center rounded-xl hover:opacity-95' />
         </div>
         <div className="py-4">
-          <h2 className="font-bold title-medium">Card Title Goes Here</h2>
-          <p className="mt-2 body-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas voluptatum totam eligendi placeat, assumenda impedit omnis!</p>
+          {Headline && <h2 className="font-bold title-medium">{Headline}</h2>}
+          <p className="mt-2 body-medium">{description}</p>
           <button
             type="button"
             className="px-2 mt-4 inline-flex gap-2 items-center py-1.5 body-small font-semibold"
