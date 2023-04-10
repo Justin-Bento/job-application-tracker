@@ -104,25 +104,6 @@ export default function Microgreense
                 Product options
               </h2>
 
-              <form>
-                <div className="mt-4">
-                  <a href="#" className="inline-flex text-sm text-gray-500 group hover:text-gray-700">
-                    <span>What size should I buy?</span>
-                    <HiQuestionMarkCircle
-                      className="flex-shrink-0 w-5 h-5 ml-2 text-gray-400 group-hover:text-gray-500"
-                      aria-hidden="true"
-                    />
-                  </a>
-                </div>
-                <div className="mt-10">
-                  <button
-                    type="submit"
-                    className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white border border-transparent rounded-md bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-50"
-                  >
-                    Add to bag
-                  </button>
-                </div>
-              </form>
             </section>
           </div>
         </div>
