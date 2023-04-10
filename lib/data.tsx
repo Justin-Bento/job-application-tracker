@@ -127,3 +127,17 @@ export const Appbar_Navigation = [
   { name: "FAQs", href: '/FAQs' },
   { name: 'Contact', href: '/contact' },
 ]
+export const product = {
+  name: 'Microgreen Name Goes Here',
+  href: '#',
+  price: '$20.00',
+  description:
+    "Don't compromise on snack-carrying capacity with this lightweight and spacious bag. The drawstring top keeps all your favorite chips, crisps, fries, biscuits, crackers, and cookies secure.",
+  imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-04-featured-product-shot.jpg',
+  imageAlt: 'Model wearing light green backpack with black canvas straps and front zipper pouch.',
+  breadcrumbs: [
+    { id: 1, name: 'microgreens', href: '/microgreens' },
+    { id: 2, name: 'product-name', href: '/microgreens/product-name' },
+  ],
+}
+export const reviews = { average: 4, totalCount: 200 }
