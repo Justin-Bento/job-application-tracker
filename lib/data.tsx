@@ -1,25 +1,30 @@
 export const incentives = [
   {
-    name: 'Free Shipping',
-    description: "It's not actually free we just price it into the products. Someone's paying for it, and it's not us.",
-    imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-delivery-light.svg',
+    name: "Free Shipping",
+    description:
+      "It's not actually free we just price it into the products. Someone's paying for it, and it's not us.",
+    imageSrc:
+      "https://tailwindui.com/img/ecommerce/icons/icon-delivery-light.svg",
   },
   {
-    name: '24/7 Customer Support',
-    description: 'Our AI chat widget is powered by a naive series of if/else statements. Guaranteed to irritate.',
-    imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-chat-light.svg',
+    name: "24/7 Customer Support",
+    description:
+      "Our AI chat widget is powered by a naive series of if/else statements. Guaranteed to irritate.",
+    imageSrc: "https://tailwindui.com/img/ecommerce/icons/icon-chat-light.svg",
   },
   {
-    name: 'Fast Shopping Cart',
-    description: "Look how fast that cart is going. What does this mean for the actual experience? I don't know.",
-    imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-fast-checkout-light.svg',
+    name: "Fast Shopping Cart",
+    description:
+      "Look how fast that cart is going. What does this mean for the actual experience? I don't know.",
+    imageSrc:
+      "https://tailwindui.com/img/ecommerce/icons/icon-fast-checkout-light.svg",
   },
-]
+];
 
 export const Footer_Navigation = [
   {
-    name: 'Facebook',
-    href: '#',
+    name: "Facebook",
+    href: "#",
     icon: (props: any) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
@@ -31,8 +36,8 @@ export const Footer_Navigation = [
     ),
   },
   {
-    name: 'Instagram',
-    href: '#',
+    name: "Instagram",
+    href: "#",
     icon: (props: any) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
@@ -44,8 +49,8 @@ export const Footer_Navigation = [
     ),
   },
   {
-    name: 'Twitter',
-    href: '#',
+    name: "Twitter",
+    href: "#",
     icon: (props: any) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
@@ -53,8 +58,8 @@ export const Footer_Navigation = [
     ),
   },
   {
-    name: 'GitHub',
-    href: '#',
+    name: "GitHub",
+    href: "#",
     icon: (props: any) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
@@ -66,8 +71,8 @@ export const Footer_Navigation = [
     ),
   },
   {
-    name: 'YouTube',
-    href: '#',
+    name: "YouTube",
+    href: "#",
     icon: (props: any) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
@@ -78,7 +83,7 @@ export const Footer_Navigation = [
       </svg>
     ),
   },
-]
+];
 
 export const FAQs = [
   {
@@ -118,26 +123,260 @@ export const FAQs = [
       "Yes, microgreens are low in calories and can be a great addition to a healthy diet for those looking to lose weight.",
   },
   // More questions...
-]
+];
 
 export const Appbar_Navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
-  { name: 'Microgreens', href: '/microgreens' },
-  { name: "FAQs", href: '/FAQs' },
-  { name: 'Contact', href: '/contact' },
-]
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
+  { name: "Microgreens", href: "/microgreens" },
+  { name: "FAQs", href: "/FAQs" },
+  { name: "Contact", href: "/contact" },
+];
 export const product = {
-  name: 'Microgreen Name Goes Here',
-  href: '#',
-  price: '$20.00',
+  name: "Microgreen Name Goes Here",
+  href: "#",
+  price: "$20.00",
   description:
     "Don't compromise on snack-carrying capacity with this lightweight and spacious bag. The drawstring top keeps all your favorite chips, crisps, fries, biscuits, crackers, and cookies secure.",
-  imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-04-featured-product-shot.jpg',
-  imageAlt: 'Model wearing light green backpack with black canvas straps and front zipper pouch.',
+  imageSrc:
+    "https://tailwindui.com/img/ecommerce-images/product-page-04-featured-product-shot.jpg",
+  imageAlt:
+    "Model wearing light green backpack with black canvas straps and front zipper pouch.",
   breadcrumbs: [
-    { id: 1, name: 'microgreens', href: '/microgreens' },
-    { id: 2, name: 'product-name', href: '/microgreens/product-name' },
+    { id: 1, name: "microgreens", href: "/microgreens" },
+    { id: 2, name: "product-name", href: "/microgreens/product-name" },
   ],
-}
-export const reviews = { average: 4, totalCount: 200 }
+};
+export const reviews = { average: 4, totalCount: 200 };
+
+export const microgreens = [
+  {
+    id: 0,
+    Image: "cerled-cress.png",
+    Microgreen: "Red Garnet Amaranth",
+    Flavour: "Mild sweet earthy flavour",
+    Varieties: "There are no varieties for this product.",
+    Nutrients:
+      "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre.",
+    Colour: "Red / Magenta",
+    Price: "$15 / 1oz pack",
+  },
+  {
+    id: 1,
+    Image: "detroit-red-beet.png",
+    Microgreen: "Micro Arugula",
+    Flavour: "Strong pepper, mild buttery and cabbage-like flavour",
+    Varieties: "There are no varieties for this product.",
+    Nutrients:
+      "Vitamins A, B, C and E, Calcium, Iron, Magnesium, Niacin, Phosphorus, Potassium, Antioxidants, All Essential Amino Acids, Protein: 20-25%",
+    Colour: "Deep Green",
+    Price: "$15 / 1.5oz pack",
+  },
+  {
+    id: 2,
+    Image: "micro-arugula.png",
+    Microgreen: "Detroit Red Beet",
+    Flavour: "Sweet mix of root beets and spinach flavour",
+    Varieties: "There are no varieties for this product.",
+    Nutrients:
+      "Vitamins A, B, C, E, and K, the minerals calcium, iron, magnesium, manganese, potassium, zinc, as well as antioxidants.",
+    Colour: "Vibrant Red Stems wiht neon green leaves",
+    Price: "$15 / 1oz pack",
+  },
+  {
+    id: 3,
+    Image: "micro-brocolli.png",
+    Microgreen: "Micro Brocolli",
+    Flavour: "Fresh, mild broccoli or cabbage flavor",
+    Varieties: "There are no varieties for this product.",
+    Nutrients:
+      "Sulforaphane (cancer-fighting compound), vitamins C, A, E, and K, protein, calcium, potassium, iron, glucosinolates, carotenoids, chlorophyll, essential minerals, and phenolic compounds.",
+    Colour: "Thin white stem with shades of green on top",
+    Price: "$12 / 1.5oz pack",
+  },
+  {
+    id: 4,
+    Image: "micro-carrot.png",
+    Microgreen: "Red Acre Cabbage",
+    Flavour: "Strong broccoli flavour",
+    Varieties: "There are no varieties for this product.",
+    Nutrients:
+      "Vitamins C, K, and E, beta-carotenes, calcium, magnesium, potassium, phosphorus, folate, choline, sodium, and iron.",
+    Colour: "green leaves with violet to red highlights",
+    Price: "$12 / 1.5oz pack",
+  },
+  {
+    id: 5,
+    Image: "micro-cilantro.png",
+    Microgreen: "Micro Carrot",
+    Flavour: "Mild sweet carrot flavour",
+    Varieties: "There are no varieties for this product.",
+    Nutrients:
+      "Vitamins A, B complex, D, and E, calcium, iron, magnesium, potassium, and phosphorus.",
+    Colour: "Green",
+    Price: "$15 / 1.5oz pack",
+  },
+  {
+    id: 6,
+    Image: "micro-dill.png",
+    Microgreen: "Micro Cilantro",
+    Flavour: "Pungent citrusy flavour",
+    Varieties: "There are no varieties for this product.",
+    Nutrients:
+      "Vitamin A, C, E and vitamin K, as well as riboflavin, niacin, vitamin B6, folate, pantothenic acid, calcium, iron, magnesium, phosphorus, potassium, copper and manganese and fibre.",
+    Colour: "Green",
+    Price: "$15 / 1oz pack",
+  },
+  {
+    id: 7,
+    Image: "micro-radish.png",
+    Microgreen: "Curled Cress",
+    Flavour: "Peppery, Tangy, Mellows with Age",
+    Varieties: "There are no varieties for this product.",
+    Nutrients: "Vitamins B, C & K, Folic Acid & fibre.",
+    Colour: "Light Green",
+    Price: "$15 / 1.5oz pack",
+  },
+  {
+    id: 8,
+    Image: "micro-dill.png",
+    Microgreen: "Micro Dill",
+    Flavour: "Slightly lemony, sweet, and bitter flavour",
+    Varieties: "There are no varieties for this product.",
+    Nutrients:
+      "Folate (vitamin B11), vitamin B6 (pyridoxine), riboflavin (vitamin B-2), vitamin-C and A, calcium, iron and manganese.",
+    Colour: "Green",
+    Price: "$15 / 1.5oz pack",
+  },
+  {
+    id: 9,
+    Image: "popcorn-shoots.png",
+    Microgreen: "Popcorn Shoots",
+    Flavour: "Sweet corn flavour",
+    Varieties: "There are no varieties for this product.",
+    Nutrients: "Vitamins A, B, C, & E, Calcium, Magnesium and Chlorophyll.",
+    Colour: "Bright Yellow",
+    Price: "$16 / 2oz pack",
+  },
+  {
+    id: 10,
+    Image: "red-russian-kale.png",
+    Microgreen: "Red Russian Kale",
+    Flavour: "Mild, sweet and nutty flavour",
+    Varieties: "There are no varieties for this product.",
+    Nutrients:
+      "Vitamins A, B, C, E and K, Calcium, Iron, Magnesium, Phosphorus, Potassium, Zinc, Beta Carotene, Chlorophyll, Amino Acids, Antioxidants, Protein: 30-35%",
+    Colour: "Assorted red & pink stems with dark green leaves",
+    Price: "$15 / 1.5oz pack",
+  },
+  {
+    id: 11,
+    Image: "nasturtium.png",
+    Microgreen: "Nasturtium",
+    Flavour: "Spicy, similar to mustard and wasabi",
+    Varieties: "There are no varieties for this product.",
+    Nutrients:
+      "The leaves are high in vitamin C (supports a strong immune system), iron and other minerals and the flowers are plentiful in vitamins B1, B2, B3 and also contain manganese, iron, phosphorus and calcium.",
+    Colour: "Multi-color stems, Pink – yellow",
+    Price: "$25 / 1oz pack",
+  },
+  {
+    id: 12,
+    Image: "red-tatsoi-mustard.png",
+    Microgreen: "Red Tatsoi Mustard",
+    Flavour: "Mild flavour",
+    Varieties: "There are no varieties for this product.",
+    Nutrients: "Antioxidants, fiber, Vitamins A,C, E, and K.",
+    Colour: "Dark green spoon-shaped leaves",
+    Price: "$12 / 1.5oz pack",
+  },
+  {
+    id: 13,
+    Image: "pea-shoots.png",
+    Microgreen: "Pea Shoots",
+    Flavour: "Sweet, pea flavour. Crunchy and succulent",
+    Varieties: "There are no varieties for this product.",
+    Nutrients:
+      "38 minerals, Vitamins A, B, C, E, and K, Folic acid, thiamine, riboflavin, calcium, iron, magnesium, niacin, phosphorus, potassium, and chlorophyll, all essential Amino Acids, 26% Protein",
+    Colour: "Green",
+    Price: "$16 / 2oz pack",
+  },
+  {
+    id: 14,
+    Image: "micro-radish.png",
+    Microgreen: "Micro Radish",
+    Flavour: "Spicy & floral with a hint of sweetness. Crunch and succulent",
+    Varieties: "There are no varieties for this product.",
+    Nutrients:
+      "Vitamins A, B, C, E and K, Calcium, Iron, Magnesium, Phosphorus, Potassium, Zinc, Beta Carotene, Chlorophyll, Amino Acids, Antioxidants, Protein: 30-35%",
+    Colour: "Vibrant Pink Stem with Deep Green Top",
+    Price: "$15 / 1.5oz pack",
+  },
+  {
+    id: 15,
+    Image: "sunny-box.png",
+    Microgreen: "Mild Micro Mix",
+    Flavour: "Mild pepper flavour",
+    Varieties:
+      "Broccoli, kale, purple vienna kohlrabi, arugula, red acre cabbage",
+    Nutrients:
+      "Vitamins A and C, Calcium, Iron, Magnesium, Phosphorus, Potassium, Zinc, Amino Acids, thiamin, riboflavin, niacin, vitamin B6, pantothenic acid, and small traces of sodium, zinc and copper. Contains oxalic acid which can be harmful in high dosages, but it would require an enormous amount of sorrel to be consumed on a daily basis before it becomes threatening.",
+    Colour: "Green with Purple & Red Highlights",
+    Price: "$12 / 1.5oz pack",
+  },
+  {
+    id: 16,
+    Image: "rainbow-micro-mix.png",
+    Microgreen: "Rainbow Micro Mix",
+    Flavour: "Spicy & savory with hints of green freshness",
+    Varieties: "Colourful array of amaranth, mustard, arugula, and broccoli.",
+    Nutrients:
+      "Vitamins A, B, C, E, & K, folic acid, niacin, potassium, iron, phosphorus, pantothenic acid, calcium, magnesium, zinc, carotenes",
+    Colour: "Wonderful mixture of deep red and various green shades",
+    Price: "$15 / 1.5oz pack",
+  },
+  {
+    id: 17,
+    Image: "sunny-box.png",
+    Microgreen: "Spicy Micro Mix",
+    Flavour: "Spicy peppery flavour",
+    Varieties:
+      "Broccoli, kale, purple vienna kohlrabi, arugula, red acre cabbage, southern giant mustard",
+    Nutrients:
+      "Vitamins A, B-complex, C, and K, antioxidants, fiber, iron, potassium, copper, calcium, and phosphorus.",
+    Colour: "Green with Purple & Red Highlights",
+    Price: "$12 / 1.5oz pack",
+  },
+  {
+    id: 18,
+    Image: "red-viened-sorrel.png",
+    Microgreen: "Red Viened Sorrel",
+    Flavour: "Delightful Lemony Tang",
+    Varieties: "There are no varieties for this product.",
+    Nutrients: "Vitamins A & C, Manganese, Copper and Iron.",
+    Colour: "Bright Green",
+    Price: "$25 / 1oz pack",
+  },
+  {
+    id: 19,
+    Image: "sunfolower-shoot.png",
+    Microgreen: "Sunflower Shoots",
+    Flavour: "Crunchy, nutty, sunflower seed flavour",
+    Varieties: "There are no varieties for this product.",
+    Nutrients:
+      "Vitamins A, B complex, D, and E, calcium, iron, zinc, folate, magnesium, potassium, phosphorus, and 25% protein.",
+    Colour: "Green",
+    Price: "$16 / 2oz pack",
+  },
+  {
+    id: 20,
+    Image: "wheatmix.png",
+    Microgreen: "Wheatgrass",
+    Flavour: "Sugary sweet with mild and bittery aftertaste",
+    Varieties: "There are no varieties for this product.",
+    Nutrients:
+      "Vitamins A, B6, C, E, & K, Potassium, Thiamin, Riboflavin, Niacin, Pentothenic Acid, Iron, Zinc, Copper, Manganese and Selenium.",
+    Colour: "Green",
+    Price: "$12 / 1.5oz pack",
+  },
+];
