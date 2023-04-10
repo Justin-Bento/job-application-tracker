@@ -133,9 +133,9 @@ export const Appbar_Navigation = [
   { name: "Contact", href: "/contact" },
 ];
 export const product = {
-  name: "Microgreen Name Goes Here",
+  name: "Red Garnet Amaranth",
   href: "#",
-  price: "$20.00",
+  price: "$15 / 10 onz",
   description:
     "Don't compromise on snack-carrying capacity with this lightweight and spacious bag. The drawstring top keeps all your favorite chips, crisps, fries, biscuits, crackers, and cookies secure.",
   imageSrc:
