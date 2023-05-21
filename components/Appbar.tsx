@@ -4,6 +4,7 @@ import { HiMenu, HiX } from 'react-icons/hi';
 import Link from 'next/link';
 import { Appbar_Navigation } from "../lib/data";
 
+import Logo from "@/components/Logo";
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -14,7 +15,7 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img className="w-auto h-8" src="https://tailwindui.com/img/logos/mark.svg?color=green&shade=600" alt="" />
+            <Logo />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -41,11 +42,7 @@ export default function Example() {
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                className="w-auto h-8"
-                src="https://tailwindui.com/img/logos/mark.svg?color=green&shade=600"
-                alt=""
-              />
+              <Logo />
             </Link>
             <button
               type="button"
