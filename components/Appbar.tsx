@@ -15,7 +15,7 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <Logo />
+            <Logo classNames="w-20 h-12 fill-gray-900 hover:opacity-80 transition-all" />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -42,7 +42,7 @@ export default function Example() {
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <Logo />
+              <Logo width={48} height={48} classNames="w-10 h-10"/>
             </Link>
             <button
               type="button"

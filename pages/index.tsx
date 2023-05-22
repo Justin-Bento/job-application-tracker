@@ -4,6 +4,7 @@ import Footer from "../components/Footer"
 import Head from "next/head"
 import { incentives, FAQs } from "@/lib/data"
 import Link from "next/link"
+import Logo from "@/components/Logo";
 
 export default function index() {
   return (
@@ -34,7 +35,7 @@ function HeroSection() {
         <div className="my-8 space-y-6">
           <div className="justify-start hidden sm:flex sm:justify-center">
             <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-primary-950 dark:text-primary-50 ring-1 ring-primary-900/10 dark:ring-primary-100/30 hover:ring-primary-900/20 dark:hover:ring-primary-100/30">
-              Anim aute id magna aliqua ad ad non deserunt sunt.{' '}
+              Anim aute id magna aliqua ad ad non deserunt sunt.
               <a href="#" className="font-semibold text-primary-600 dark:text-primary-300 primary-950space-nowrap">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Read more <span aria-hidden="true">&rarr;</span>
@@ -77,7 +78,9 @@ function Incentives() {
             <div key={incentive.name} className="text-left sm:flex lg:block md:text-center">
               <div className="sm:flex-shrink-0">
                 <div className="flow-root">
-                  <img className="h-24 mx-auto w-28" src={incentive.imageSrc} alt="" />
+                  <div className="relative h-24 mx-auto w-28">
+                    <Image fill quality={40} src={incentive.imageSrc} alt="" className="object-cover object-center" />
+                  </div>
                 </div>
               </div>
               <div className="mt-3 sm:ml-3 sm:mt-0 lg:ml-0 lg:mt-3">
@@ -139,7 +142,9 @@ function Testimonials() {
     <>
       <section className="relative px-6 py-24 overflow-hidden text-left isolate sm:rounded-3xl sm:px-16 rounded-xl bg-primary-200 dark:bg-primary-900" aria-label="Section 05">
         <div className="relative max-w-2xl mx-auto lg:mx-0">
-          <img className="w-auto h-12" src="https://tailwindui.com/img/logos/workcation-logo-green-950.svg" alt="" />
+          <div className="relative w-auto h-12">
+            <Logo />
+          </div>
           <figure>
             <blockquote className="mt-6 font-bold title-large">
               <p>
@@ -185,8 +190,8 @@ function CallToAction_SocialMedia() {
     <>
       <section className="" aria-label="Section 06">
         <div className="px-6 py-16 mx-auto max-w-7xl sm:py-24 lg:px-8">
-          <h2 className="headline-large">Frequently asked questions</h2>
-          <p className="max-w-2xl mt-6 body-large">
+          <h2 className="mt-2 text-3xl font-bold tracking-tight capitalize text-primary-900 sm:text-4xl">Frequently asked questions</h2>
+          <p className="max-w-3xl mt-6 text-lg leading-8 text-primary-800">
             Have a different question and can’t find the answer you’re looking for? Reach out to our support team by
             <Link href="mailto:info@urbangreensanu.com" className="font-semibold text-primary-600 hover:text-primary-500">
               sending us an email
@@ -197,7 +202,7 @@ function CallToAction_SocialMedia() {
             <dl className="space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:gap-x-10">
               {FAQs.map((faq) => (
                 <div key={faq.id}>
-                  <dt className="font-bold capitalize title-medium">{faq.question}</dt>
+                  <dt className="text-lg font-bold leading-4 text-gray-900 capitalize">{faq.question}</dt>
                   <dd className="mt-2 body-large">{faq.answer}</dd>
                 </div>
               ))}
