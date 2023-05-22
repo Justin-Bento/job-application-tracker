@@ -45,18 +45,18 @@ function HeroSection() {
           <h1 className="font-bold display-medium md:text-center">Sustainable Microgreens, Unbeatable Flavor!</h1>
           <p className="text-lg body-large text-start sm:text-center lg:max-w-[70ch] lg:mx-auto">Our microgreens are packed with nutrients and flavor, making them the perfect addition to any meal. From salads to smoothies, sandwiches to sushi, the possibilities are endless. Plus, with our convenient delivery service, you can easily incorporate microgreens into your diet without leaving your home.</p>
           <div className="flex flex-col justify-start gap-4 md:flex-row md:justify-center">
-            <button
-              type="button"
+            <Link
+              href="/microgreens"
               className="px-3 py-2 text-sm font-semibold rounded-md text-primary-50 bg-primary-600 hover:bg-primary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
             >
               Preview Our Greens
-            </button>
-            <button
-              type="button"
+            </Link>
+            <Link
+              href="/about"
               className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary-600 ring-1 ring-inset ring-primary-300 hover:bg-primary-50"
             >
-              Button text
-            </button>
+              About Urgan Greens
+            </Link>
           </div>
         </div>
         <div className="overflow-hidden bg-transparent ">
