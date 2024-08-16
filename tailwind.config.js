@@ -27,7 +27,11 @@ module.exports = {
         },
         black: "#080808",
         white: "#f7faf6",
-        primary: "#3e6724",
+        primary: {
+          light: "#4f862a",
+          DEFAULT: "#3e6724",
+          dark: "#15260d"
+        },
         secondary: "#aed795",
         accent: "#799abb",
       },
