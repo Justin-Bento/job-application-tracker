@@ -11,7 +11,7 @@ export default function Example() {
 
   return (
     <header className="bg-white dark:bg-black shadow-sm border-b">
-      <nav className="flex items-center justify-between max-w-7xl mx-auto p-4 lg:px-8" aria-label="Global">
+      <nav className="flex items-center justify-between container mx-auto sm:px-6 lg:px-8 py-4" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
