@@ -140,7 +140,7 @@ function Product_Benifites() {
 function Testimonials() {
   return (
     <>
-      <section className="relative px-6 py-24 overflow-hidden text-left isolate sm:rounded-3xl sm:px-16 rounded-xl bg-primary-200 dark:bg-primary-900" aria-label="Section 05">
+      <section className="max-w-7xl mx-auto relative px-6 py-24 overflow-hidden text-left isolate sm:rounded-3xl sm:px-16 rounded-xl  bg-secondary" aria-label="Section 05">
         <div className="relative max-w-2xl mx-auto lg:mx-0">
           <div className="relative w-auto h-12">
           <Logo classNames="w-20 h-20 fill-gray-900 hover:opacity-80 transition-all" />
