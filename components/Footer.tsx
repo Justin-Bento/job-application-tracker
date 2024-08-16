@@ -2,7 +2,7 @@ import {Footer_Navigation} from "../lib/data";
 
 export default function Footer() {
   return (
-    <footer className="bg-primary-50 dark:bg-primary-900">
+    <footer className="bg-primary text-white">
       <div className="px-6 py-12 mx-auto max-w-7xl md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center space-x-6 md:order-2">
           {Footer_Navigation.map((item) => (
