@@ -10,8 +10,8 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="border-b dark:border-b dark:border-primary-800 shadow-primary-900/10 bg-primary-50 dark:bg-primary-950">
-      <nav className="flex items-center justify-between p-4 mx-auto max-w-7xl lg:px-8" aria-label="Global">
+    <header className="bg-white dark:bg-black shadow-sm border-b">
+      <nav className="flex items-center justify-between max-w-7xl mx-auto p-4 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
