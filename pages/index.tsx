@@ -15,7 +15,7 @@ export default function index() {
         <meta name="description" content="Discover the unbeatable flavor and nutritional benefits of incorporating sustainable microgreens into your lifestyle in Antigua & Barbuda" />
       </Head>
       <Appbar />
-      <main className="wrapper-sapce wrapper ">
+      <main className="bg-white dark:bg-black shadow-sm border-b">
         <HeroSection />
         <Incentives />
         <CallToAction_Products />
@@ -31,31 +31,31 @@ export default function index() {
 function HeroSection() {
   return (
     <>
-      <section className="">
-        <div className="my-8 space-y-6">
+      <section className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+        <div className="py-24 space-y-6">
           <div className="justify-start hidden sm:flex sm:justify-center">
-            <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-primary-950 dark:text-primary-50 ring-1 ring-primary-900/10 dark:ring-primary-100/30 hover:ring-primary-900/20 dark:hover:ring-primary-100/30">
+            <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-primary dark:text-primary-50 ring-1 ring-black/20">
               Anim aute id magna aliqua ad ad non deserunt sunt.
-              <a href="#" className="font-semibold text-primary-600 dark:text-primary-300 primary-950space-nowrap">
+              <a href="#" className="font-semibold ml-2">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Read more <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </div>
-          <h1 className="font-bold display-medium md:text-center">Sustainable Microgreens, Unbeatable Flavor!</h1>
-          <p className="text-lg body-large text-start sm:text-center lg:max-w-[70ch] lg:mx-auto">Our microgreens are packed with nutrients and flavor, making them the perfect addition to any meal. From salads to smoothies, sandwiches to sushi, the possibilities are endless. Plus, with our convenient delivery service, you can easily incorporate microgreens into your diet without leaving your home.</p>
+          <h1 className="text-5xl dark:text-white font-bold text-center">Sustainable Microgreens, Unbeatable Flavor!</h1>
+          <p className="text-balance text-lg leading-6 tracking-wide max-w-[75ch] mx-auto text-center">Our microgreens are packed with nutrients and flavor, making them the perfect addition to any meal. From salads to smoothies, sandwiches to sushi, the possibilities are endless. Plus, with our convenient delivery service, you can easily incorporate microgreens into your diet without leaving your home.</p>
           <div className="flex flex-col justify-start gap-4 md:flex-row md:justify-center">
             <Link
               href="/microgreens"
-              className="px-3 py-2 text-sm font-semibold rounded-md text-primary-50 bg-primary-600 hover:bg-primary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
+              className="px-3 py-2 text-sm font-semibold rounded-md text-white bg-primary hover:bg-primary/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
             >
               Preview Our Greens
             </Link>
             <Link
               href="/about"
-              className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary-600 ring-1 ring-inset ring-primary-300 hover:bg-primary-50"
+              className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary ring-1 ring-inset ring-primary hover:bg-primary/5"
             >
-              About Urgan Greens
+              About Urban Greens
             </Link>
           </div>
         </div>
@@ -72,7 +72,7 @@ function HeroSection() {
 function Incentives() {
   return (
     <>
-      <section className="" aria-label="Incentives to buy microgreens">
+      <section className="max-w-7xl mx-auto sm:px-6 lg:px-8" aria-label="Incentives to buy microgreens">
         <div className="grid max-w-2xl grid-cols-1 px-4 mx-auto gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3">
           {incentives.map((incentive) => (
             <div key={incentive.name} className="text-left sm:flex lg:block md:text-center">
@@ -188,7 +188,7 @@ function CallToAction_Products() {
 function CallToAction_SocialMedia() {
   return (
     <>
-      <section className="" aria-label="Section 06">
+      <section className="max-w-7xl mx-auto sm:px-6 lg:px-8" aria-label="Section 06">
         <div className="px-6 py-16 mx-auto max-w-7xl sm:py-24 lg:px-8">
           <h2 className="mt-2 text-3xl font-bold tracking-tight capitalize text-primary-900 sm:text-4xl">Frequently asked questions</h2>
           <p className="max-w-3xl mt-6 text-lg leading-8 text-primary-800">
