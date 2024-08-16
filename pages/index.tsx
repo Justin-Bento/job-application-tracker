@@ -139,111 +139,84 @@ export default function index() {
           </div>
         </section>
         {/* Section #3 - Product - Call To Action */}
-
-        <Product_Benifites />
-        <Testimonials />
-        <CallToAction_SocialMedia />
+        <section
+          className="max-w-7xl mx-auto lg:px-8 relative px-6 py-24 overflow-hidden text-center isolate sm:rounded-3xl sm:px-16 bg-secondary"
+          aria-label="Section 05"
+        >
+          <h5 className="font-bold headline-small">Make Microgreens Part Of Your Diet Today!</h5>
+          <p className="mt-4 text-lg body-large lg:max-w-prose lg:mx-auto ">
+            Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur
+            commodo do ea.
+          </p>
+          <div className="flex items-center justify-center mt-10 gap-x-6">
+            <a
+              href="#"
+              className="px-3 py-2 text-sm font-semibold rounded-md text-white bg-black hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
+            >
+              Order Today
+            </a>
+            <a
+              href="#"
+              className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary-600 ring-1 ring-inset ring-black hover:bg-black/5"
+            >
+              Learn more <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </section>
+        {/* Section #4 - Product - Benifits */}
+        <section
+          className="max-w-7xl mx-auto relative px-6 py-24 overflow-hidden text-left isolate sm:rounded-3xl sm:px-16 rounded-xl  bg-secondary"
+          aria-label="Section 05"
+        >
+          <div className="relative max-w-2xl mx-auto lg:mx-0">
+            <div className="relative w-auto h-12">
+              <Logo classNames="w-20 h-20 fill-gray-900 hover:opacity-80 transition-all" />
+            </div>
+            <figure>
+              <blockquote className="mt-6 font-bold title-large">
+                <p>
+                  “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
+                  molestiae. Numquam corrupti in laborum sed rerum et corporis.”
+                </p>
+              </blockquote>
+              <figcaption className="mt-6 body-large">
+                <div className="font-semibold">Judith Black</div>
+                <div className="mt-1">CEO of Workcation</div>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        {/* End Section #5 - Testimoinals */}
+        <section className="max-w-7xl mx-auto sm:px-6 lg:px-8" aria-label="Section 06">
+          <div className="px-6 py-16 mx-auto max-w-7xl sm:py-24 lg:px-8">
+            <h2 className="mt-2 text-3xl font-bold tracking-tight capitalize text-primary-900 sm:text-4xl">
+              Frequently asked questions
+            </h2>
+            <p className="max-w-3xl mt-6 text-lg leading-8 text-primary-800">
+              Have a different question and can’t find the answer you’re looking for? Reach out to our support team by
+              <Link
+                href="mailto:info@urbangreensanu.com"
+                className="font-semibold text-primary-600 hover:text-primary-500"
+              >
+                sending us an email
+              </Link>
+              and we’ll get back to you as soon as we can.
+            </p>
+            <div className="mt-20">
+              <dl className="space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:gap-x-10">
+                {FAQs.map((faq) => (
+                  <div key={faq.id}>
+                    <dt className="text-lg font-bold leading-4 text-gray-900 capitalize">{faq.question}</dt>
+                    <dd className="mt-2 body-large">{faq.answer}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </div>
+        </section>
+        {/*  */}
       </main>
       <Footer />
-    </>
-  );
-}
-
-function Incentives() {
-  return <></>;
-}
-function Product_Benifites() {
-  return <></>;
-}
-function Testimonials() {
-  return (
-    <>
-      <section
-        className="max-w-7xl mx-auto relative px-6 py-24 overflow-hidden text-left isolate sm:rounded-3xl sm:px-16 rounded-xl  bg-secondary"
-        aria-label="Section 05"
-      >
-        <div className="relative max-w-2xl mx-auto lg:mx-0">
-          <div className="relative w-auto h-12">
-            <Logo classNames="w-20 h-20 fill-gray-900 hover:opacity-80 transition-all" />
-          </div>
-          <figure>
-            <blockquote className="mt-6 font-bold title-large">
-              <p>
-                “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
-                molestiae. Numquam corrupti in laborum sed rerum et corporis.”
-              </p>
-            </blockquote>
-            <figcaption className="mt-6 body-large">
-              <div className="font-semibold">Judith Black</div>
-              <div className="mt-1">CEO of Workcation</div>
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-    </>
-  );
-}
-function CallToAction_Products() {
-  return (
-    <>
-      <section
-        className="max-w-7xl mx-auto lg:px-8 relative px-6 py-24 overflow-hidden text-center isolate sm:rounded-3xl sm:px-16 bg-secondary"
-        aria-label="Section 05"
-      >
-        <h5 className="font-bold headline-small">Make Microgreens Part Of Your Diet Today!</h5>
-        <p className="mt-4 text-lg body-large lg:max-w-prose lg:mx-auto ">
-          Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur
-          commodo do ea.
-        </p>
-        <div className="flex items-center justify-center mt-10 gap-x-6">
-          <a
-            href="#"
-            className="px-3 py-2 text-sm font-semibold rounded-md text-white bg-black hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
-          >
-            Order Today
-          </a>
-          <a
-            href="#"
-            className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary-600 ring-1 ring-inset ring-black hover:bg-black/5"
-          >
-            Learn more <span aria-hidden="true">→</span>
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
-
-function CallToAction_SocialMedia() {
-  return (
-    <>
-      <section className="max-w-7xl mx-auto sm:px-6 lg:px-8" aria-label="Section 06">
-        <div className="px-6 py-16 mx-auto max-w-7xl sm:py-24 lg:px-8">
-          <h2 className="mt-2 text-3xl font-bold tracking-tight capitalize text-primary-900 sm:text-4xl">
-            Frequently asked questions
-          </h2>
-          <p className="max-w-3xl mt-6 text-lg leading-8 text-primary-800">
-            Have a different question and can’t find the answer you’re looking for? Reach out to our support team by
-            <Link
-              href="mailto:info@urbangreensanu.com"
-              className="font-semibold text-primary-600 hover:text-primary-500"
-            >
-              sending us an email
-            </Link>
-            and we’ll get back to you as soon as we can.
-          </p>
-          <div className="mt-20">
-            <dl className="space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:gap-x-10">
-              {FAQs.map((faq) => (
-                <div key={faq.id}>
-                  <dt className="text-lg font-bold leading-4 text-gray-900 capitalize">{faq.question}</dt>
-                  <dd className="mt-2 body-large">{faq.answer}</dd>
-                </div>
-              ))}
-            </dl>
-          </div>
-        </div>
-      </section>
     </>
   );
 }
