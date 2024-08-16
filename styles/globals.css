@@ -19,12 +19,7 @@
   src: url("/fonts/PublicSans-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
-@layer components {
-  .wrapper {
-    @apply mx-auto container sm:px-6 lg:px-8;
-  }
-  /* End Of body Typography */
-}
+/* Default Container -> container mx-auto sm:px-6 lg:px-8 */
 
 #__next {
   min-height: 100%;
