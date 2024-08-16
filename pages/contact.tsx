@@ -1,6 +1,9 @@
 import Head from "next/head";
 import Appbar from "@/components/Appbar";
 import Footer from "@/components/Footer";
+import { useState } from "react";
+import { HiChevronDown } from "react-icons/hi";
+import { Switch } from "@headlessui/react";
 
 export default function Contact() {
   return (
@@ -111,7 +114,6 @@ export default function Contact() {
     </>
   )
 }
-<<<<<<< HEAD
 
 function classNames(...classes: any) {
   return classes.filter(Boolean).join(' ')
@@ -253,5 +255,3 @@ function ContactForm() {
   </form>
   )
 }
-=======
->>>>>>> 7cf9be3122570eb47fdcc0522b482588cb7a2711
