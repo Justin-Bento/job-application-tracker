@@ -106,7 +106,7 @@ function Product_Benifites() {
             </p>
             <button
               type="button"
-              className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary-600 ring-1 ring-inset ring-primary-300 hover:bg-primary-50"
+              className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary ring-1 ring-inset ring-primary hover:bg-primary/5"
             >
               Button text
             </button>
@@ -124,7 +124,7 @@ function Product_Benifites() {
             </p>
             <button
               type="button"
-              className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary-600 ring-1 ring-inset ring-primary-300 hover:bg-primary-50"
+              className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary ring-1 ring-inset ring-primary hover:bg-primary/5"
             >
               Button text
             </button>
