@@ -18,7 +18,7 @@ export default function index() {
         />
       </Head>
       <Appbar />
-      <main className="bg-white dark:bg-black shadow-sm border-b">
+      <main className="bg-white dark:bg-black shadow-sm border-b space-y-28">
         <section className="max-w-7xl mx-auto sm:px-6 lg:px-8">
           <div className="py-24 space-y-6">
             <div className="justify-start hidden sm:flex sm:justify-center">
