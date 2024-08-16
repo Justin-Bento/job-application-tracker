@@ -86,6 +86,31 @@ export default function index() {
           </div>
         </section>
         {/* Section #2 - Incentives */}
+        <section
+          className="max-w-7xl mx-auto lg:px-8 relative px-6 py-24 overflow-hidden text-center isolate sm:rounded-3xl sm:px-16 bg-secondary"
+          aria-label="Section 05"
+        >
+          <h5 className="font-bold headline-small">Make Microgreens Part Of Your Diet Today!</h5>
+          <p className="mt-4 text-lg body-large lg:max-w-prose lg:mx-auto ">
+            Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur
+            commodo do ea.
+          </p>
+          <div className="flex items-center justify-center mt-10 gap-x-6">
+            <a
+              href="#"
+              className="px-3 py-2 text-sm font-semibold rounded-md text-white bg-black hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
+            >
+              Order Today
+            </a>
+            <a
+              href="#"
+              className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary-600 ring-1 ring-inset ring-black hover:bg-black/5"
+            >
+              Learn more <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </section>
+        {/* Section #4 - Product - Benifits */}
         <section className="px-4 py-24 mx-auto max-w-7xl">
           <div className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
             <div>
@@ -139,31 +164,6 @@ export default function index() {
           </div>
         </section>
         {/* Section #3 - Product - Call To Action */}
-        <section
-          className="max-w-7xl mx-auto lg:px-8 relative px-6 py-24 overflow-hidden text-center isolate sm:rounded-3xl sm:px-16 bg-secondary"
-          aria-label="Section 05"
-        >
-          <h5 className="font-bold headline-small">Make Microgreens Part Of Your Diet Today!</h5>
-          <p className="mt-4 text-lg body-large lg:max-w-prose lg:mx-auto ">
-            Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur
-            commodo do ea.
-          </p>
-          <div className="flex items-center justify-center mt-10 gap-x-6">
-            <a
-              href="#"
-              className="px-3 py-2 text-sm font-semibold rounded-md text-white bg-black hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
-            >
-              Order Today
-            </a>
-            <a
-              href="#"
-              className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary-600 ring-1 ring-inset ring-black hover:bg-black/5"
-            >
-              Learn more <span aria-hidden="true">→</span>
-            </a>
-          </div>
-        </section>
-        {/* Section #4 - Product - Benifits */}
         <section
           className="max-w-7xl mx-auto relative px-6 py-24 overflow-hidden text-left isolate sm:rounded-3xl sm:px-16 rounded-xl  bg-secondary"
           aria-label="Section 05"
