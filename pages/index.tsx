@@ -66,7 +66,26 @@ export default function index() {
           </div>
         </section>
         {/* Section #1 - Hero */}
-        <Incentives />
+        <section className="max-w-7xl mx-auto sm:px-6 lg:px-8" aria-label="Incentives to buy microgreens">
+          <div className="grid max-w-2xl grid-cols-1 px-4 mx-auto gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3">
+            {incentives.map((incentive) => (
+              <div key={incentive.name} className="text-left sm:flex lg:block md:text-center">
+                <div className="sm:flex-shrink-0">
+                  <div className="flow-root">
+                    <div className="relative h-24 mx-auto w-28">
+                      <Image fill quality={40} src={incentive.imageSrc} alt="" className="object-cover object-center" />
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-3 sm:ml-3 sm:mt-0 lg:ml-0 lg:mt-3">
+                  <h3 className="title-large ">{incentive.name}</h3>
+                  <p className="mt-2 body-large">{incentive.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+        {/* Section #2 - Incentives */}
         <CallToAction_Products />
         <Product_Benifites />
         <Testimonials />
@@ -78,29 +97,7 @@ export default function index() {
 }
 
 function Incentives() {
-  return (
-    <>
-      <section className="max-w-7xl mx-auto sm:px-6 lg:px-8" aria-label="Incentives to buy microgreens">
-        <div className="grid max-w-2xl grid-cols-1 px-4 mx-auto gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3">
-          {incentives.map((incentive) => (
-            <div key={incentive.name} className="text-left sm:flex lg:block md:text-center">
-              <div className="sm:flex-shrink-0">
-                <div className="flow-root">
-                  <div className="relative h-24 mx-auto w-28">
-                    <Image fill quality={40} src={incentive.imageSrc} alt="" className="object-cover object-center" />
-                  </div>
-                </div>
-              </div>
-              <div className="mt-3 sm:ml-3 sm:mt-0 lg:ml-0 lg:mt-3">
-                <h3 className="title-large ">{incentive.name}</h3>
-                <p className="mt-2 body-large">{incentive.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-    </>
-  );
+  return <></>;
 }
 function Product_Benifites() {
   return (
