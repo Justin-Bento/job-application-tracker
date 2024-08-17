@@ -75,21 +75,21 @@ export default function index() {
           </section>
           {/* End of Section #2 */}
           <section className="bg-secondary relative overflow-hidden text-center isolate sm:rounded-3xl sm:px-16 py-24 px-6 lg:px-8">
-            <h5 className="font-bold headline-small">Make Microgreens Part Of Your Diet Today!</h5>
-            <p className="mt-4 text-lg body-large lg:max-w-prose lg:mx-auto ">
+            <h5 className="text-2xl lg:text-3xl font-bold text-balance">Make Microgreens Part Of Your Diet Today!</h5>
+            <p className="mt-4 text-lg body-large lg:max-w-prose lg:mx-auto text-balance">
               Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur
               commodo do ea.
             </p>
-            <div className="flex items-center justify-center mt-10 gap-x-6">
+            <div className="flex flex-col lg:flex-row gap-4 items-center justify-center mt-10 gap-x-6">
               <a
                 href="#"
-                className="px-3 py-2 text-sm font-semibold rounded-md text-white bg-black hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
+                className="w-full lg:w-auto px-3 py-2 text-sm font-semibold rounded-md text-white bg-black hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
               >
                 Order Today
               </a>
               <a
                 href="#"
-                className="px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary-600 ring-1 ring-inset ring-black hover:bg-black/5"
+                className="w-full lg:w-auto px-3 py-2 text-sm font-semibold bg-transparent rounded-md text-primary-600 ring-1 ring-inset ring-black hover:bg-black/5"
               >
                 Learn more <span aria-hidden="true">→</span>
               </a>
