@@ -150,12 +150,12 @@ export default function index() {
           </section>
           {/* End of Section #4 */}
           <section className="relative overflow-hidden text-left isolate sm:rounded-3xl px-6 py-24 sm:px-16 rounded-xl bg-secondary">
-            <div className="relative max-w-2xl mx-auto lg:mx-0">
+            <div className="relative max-w-2xl lg:max-w-4xl mx-auto lg:mx-0">
               <div className="relative w-auto h-12">
                 <Logo classNames="w-20 h-20 fill-gray-900 hover:opacity-80 transition-all" />
               </div>
               <figure>
-                <blockquote className="mt-6 font-bold title-large">
+                <blockquote className="mt-6 font-bold text-xl lg:text-2xl">
                   <p>
                     “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente
                     alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”
