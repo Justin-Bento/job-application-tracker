@@ -33,3 +33,13 @@ export default function microgreens() {
     </>
   );
 }
+
+const microgreens_plants = [
+  {
+    id: 1,
+    title: "Red Garnet Amaranth",
+    slug: "red-garnet-amaranth",
+    description:
+      "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
+  },
+];
