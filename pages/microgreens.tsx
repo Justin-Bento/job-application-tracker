@@ -49,7 +49,63 @@ export default function microgreens() {
 
 const microgreens_plants = [
   {
-    id: 1,
+    // Product Number #1 
+    title: "Red Garnet Amaranth",
+    slug: "red-garnet-amaranth",
+    description:
+      "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
+  },
+  {
+    // Product Number #2
+    title: "Red Garnet Amaranth",
+    slug: "red-garnet-amaranth",
+    description:
+      "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
+  },
+  {
+    // Product Number #3 
+    title: "Red Garnet Amaranth",
+    slug: "red-garnet-amaranth",
+    description:
+      "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
+  },
+  {
+    // Product Number #4 
+    title: "Red Garnet Amaranth",
+    slug: "red-garnet-amaranth",
+    description:
+      "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
+  },
+  {
+    // Product Number #5 
+    title: "Red Garnet Amaranth",
+    slug: "red-garnet-amaranth",
+    description:
+      "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
+  },
+  {
+    // Product Number #6 
+    title: "Red Garnet Amaranth",
+    slug: "red-garnet-amaranth",
+    description:
+      "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
+  },
+  {
+    // Product Number #7
+    title: "Red Garnet Amaranth",
+    slug: "red-garnet-amaranth",
+    description:
+      "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
+  },
+  {
+    // Product Number #8
+    title: "Red Garnet Amaranth",
+    slug: "red-garnet-amaranth",
+    description:
+      "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
+  },
+  {
+    // Product Number #9
     title: "Red Garnet Amaranth",
     slug: "red-garnet-amaranth",
     description:
