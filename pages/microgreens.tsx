@@ -63,43 +63,43 @@ const microgreens_plants = [
   },
   {
     // Product Number #3 
-    title: "Red Garnet Amaranth",
+    title: "Detroit Red Beet",
     description:
       "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
   },
   {
     // Product Number #4 
-    title: "Red Garnet Amaranth",
+    title: "Micro Brocolli",
     description:
       "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
   },
   {
     // Product Number #5 
-    title: "Red Garnet Amaranth",
+    title: "Red Acre Cabbage",
     description:
       "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
   },
   {
     // Product Number #6 
-    title: "Red Garnet Amaranth",
+    title: "Micro Carrot",
     description:
       "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
   },
   {
     // Product Number #7
-    title: "Red Garnet Amaranth",
+    title: "Micro Cilantro",
     description:
       "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
   },
   {
     // Product Number #8
-    title: "Red Garnet Amaranth",
+    title: "Curled Cress",
     description:
       "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
   },
   {
     // Product Number #9
-    title: "Red Garnet Amaranth",
+    title: "Micro Dill",
     description:
       "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre",
   },
