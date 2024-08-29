@@ -16,30 +16,32 @@ export default function microgreens() {
         />
       </Head>
       <Appbar />
-      <main className="bg-white dark:bg-black container mx-auto sm:px-6 lg:px-8 space-y-10 lg:py-20">
-        <section className="max-w-4xl">
-          <h1 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-            The People of the Kingdom
-          </h1>
-          <p className="leading-7">
-            The king, seeing how much happier his subjects were, realized the error of his ways and repealed the joke
-            tax.
-          </p>
-        </section>
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {microgreens_plants.map((plants, index) => {
-            return (
-              <>
-                <Card
-                  Headline={plants.title}
-                  title={plants.title}
-                  link={`/microgreens/${plants.slug}`}
-                  description={plants.description}
-                />
-              </>
-            );
-          })}
-        </section>
+      <main className="bg-white dark:bg-black">
+        <div className="container mx-auto sm:px-6 lg:px-8 space-y-10 lg:py-20">
+          <section className="max-w-4xl">
+            <h1 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+              The People of the Kingdom
+            </h1>
+            <p className="leading-7">
+              The king, seeing how much happier his subjects were, realized the error of his ways and repealed the joke
+              tax.
+            </p>
+          </section>
+          <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {microgreens_plants.map((plants) => {
+              return (
+                <>
+                  <Card
+                    Headline={plants.title}
+                    title={plants.title}
+                    link={`/microgreens/${plants.slug}`}
+                    description={plants.description}
+                  />
+                </>
+              );
+            })}
+          </section>
+        </div>
       </main>
       <Footer />
     </>
