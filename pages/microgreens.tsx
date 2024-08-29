@@ -3,6 +3,7 @@ import Head from "next/head";
 import Appbar from "@/components/Appbar";
 import Footer from "@/components/Footer";
 import Card from "@/components/Card";
+import { formatProductTitle } from "@/lib/url";
 
 export default function microgreens() {
   return (
@@ -33,7 +34,7 @@ export default function microgreens() {
                 <>
                   <Card
                     Headline={plants.title}
-                    link={`/microgreens/${plants.slug}`}
+                    link={`/microgreens/${formatProductTitle(plants.title)}`}
                     description={plants.description}
                   />
                 </>
