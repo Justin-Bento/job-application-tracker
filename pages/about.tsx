@@ -17,27 +17,27 @@ export default function about() {
       <main className="bg-white">
         <div className="container mx-auto sm:px-6 lg:px-8 py-4">
           <section className="">
-            <h1 className="headline-large">Headline 01</h1>
+            <h1 className="scroll-m-20 text-2xl font-semibold tracking-tight">Headline 01</h1>
           </section>
           {/* End Of Section 01  */}
           <section className="">
-            <h2 className="headline-large">Headline 02</h2>
+            <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">Headline 02</h2>
           </section>
           {/* End Of Section 01  */}
           <section className="">
-            <h3 className="headline-large">Headline 03</h3>
+            <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">Headline 03</h3>
           </section>
           {/* End Of Section 01  */}
           <section className="">
-            <h4 className="headline-large">Headline 04</h4>
+            <h4 className="scroll-m-20 text-2xl font-semibold tracking-tight">Headline 04</h4>
           </section>
           {/* End Of Section 01  */}
           <section className="">
-            <h5 className="headline-large">Headline 05</h5>
+            <h5 className="scroll-m-20 text-2xl font-semibold tracking-tight">Headline 05</h5>
           </section>
           {/* End Of Section 01  */}
           <section className="">
-            <h6 className="headline-large">Headline 01</h6>
+            <h6 className="scroll-m-20 text-2xl font-semibold tracking-tight">Headline 01</h6>
           </section>
           {/* End Of Section 01  */}
         </div>
