@@ -33,7 +33,6 @@ export default function microgreens() {
                 <>
                   <Card
                     Headline={plants.title}
-                    title={plants.title}
                     link={`/microgreens/${plants.slug}`}
                     description={plants.description}
                   />

@@ -3,7 +3,6 @@ import Link from 'next/link'
 
 interface CardProps {
   Headline?: string;
-  title: string;
   link: string;
   description: string;
 }
