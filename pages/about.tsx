@@ -15,7 +15,7 @@ export default function about() {
       </Head>
       <Appbar />
       <main className="bg-white">
-        <div className="container mx-auto sm:px-6 lg:px-8 py-4">
+        <div className="container mx-auto sm:px-6 lg:px-8 py-4 space-y-16 lg:space-y-32 lg:py-16">
           <section className="">
             <h1 className="scroll-m-20 text-2xl font-semibold tracking-tight">Headline 01</h1>
           </section>
