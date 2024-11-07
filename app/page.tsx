@@ -22,12 +22,13 @@ export default function page() {
           {Array.from({ length: 10 }, (_, index) => {
             return (
               <Link href={`/${index + 1}`} key={index} className="">
-                <div className="overflow-hidden rounded-lg border border-gray-200 mt-6">
+                <div className="group overflow-hidden rounded-lg border border-gray-200 mt-6 hover:bg-gray-100/50 transition-colors hover:border-black/25">
                   <div className="px-4 py-5 sm:p-6 space-y-2">
                     <h2 className="font-semibold capitalize">Card {index + 1}.</h2>
                     <p className="">
                       This card links to other routes within the application and that is my quick summary of this card.
                     </p>
+                    <p className="text-xs group-hover:underline">Read More &rarr;</p>
                   </div>
                 </div>
               </Link>
