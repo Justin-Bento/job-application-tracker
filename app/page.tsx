@@ -10,7 +10,7 @@ export default function page() {
       <main className="min-h-dvh">
         <section className="container mx-auto p-6">
           <h1 className="text-4xl font-bold tracking-[-0.05rem] capitalize">Welcome, Home page!</h1>
-          <Divider />
+          <Divider className="w-24 h-1" />
         </section>
       </main>
       <Footer />
