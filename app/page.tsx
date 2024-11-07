@@ -6,8 +6,10 @@ export default function page() {
   return (
     <>
       <Header />
-      <main className="min-h-dvh container mx-auto py-6">
-        <h1 className="">Welcome, Home page!</h1>
+      <main className="min-h-dvh">
+        <section className="container mx-auto p-6">
+          <h1 className="">Welcome, Home page!</h1>
+        </section>
       </main>
       <Footer />
     </>
