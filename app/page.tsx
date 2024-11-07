@@ -22,7 +22,7 @@ export default function page() {
             return (
               <div key={index} className="overflow-hidden rounded-lg border border-gray-200 mt-6">
                 <div className="px-4 py-5 sm:p-6 space-y-2">
-                  <h2 className="font-semibold capitalize">Title of this card goes here.</h2>
+                  <h2 className="font-semibold capitalize">Card {index + 1}.</h2>
                   <p className="">
                     This card links to other routes within the application and that is my quick summary of this card.
                   </p>
