@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import Divider from "@/components/Divider";
+import Header from "@/(frontend)/components/Header";
+import Footer from "@/(frontend)/components/Footer";
+import Divider from "@/(frontend)/components/Divider";
 import Link from "next/link";
 
 export default function page() {
