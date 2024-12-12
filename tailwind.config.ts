@@ -11,7 +11,19 @@ const config: Config = {
     colors: {
       white: colors.gray[50],
       black: colors.gray[950],
-      gray: colors.neutral,
+      gray: {
+        50: "#f8f9f9",
+        100: "#e8eaec",
+        200: "#d8dcde",
+        300: "#b0b8be",
+        400: "#919ca5",
+        500: "#848f99",
+        600: "#5c6970",
+        700: "#39434b",
+        800: "#293239",
+        900: "#1c2227",
+        950: "#151a1e",
+      },
       blue: {
         50: "#edf7ff",
         100: "#ddecf8",
