@@ -14,6 +14,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: "90ch",
+          },
+        },
+      },
     },
   },
   plugins: [
