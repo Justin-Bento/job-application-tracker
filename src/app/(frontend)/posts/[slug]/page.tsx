@@ -21,21 +21,17 @@ export default async function Page({
   }
 
   return (
-    <main className="container mx-auto grid grid-cols-1 gap-6 p-12">
-      {post?.mainImage ? (
-        <Image
-          className="w-full aspect-[16/7] object-fit object-center"
-          src={urlFor(post.mainImage)
-            .width(800)
-            .height(300)
-            .quality(80)
-            .auto("format")
-            .url()}
-          alt={post?.mainImage?.alt || ""}
-          width="800"
-          height="300"
-        />
-      ) : null}
+    <main className="container grid grid-cols-1 gap-6 p-12">
+      <div className="relative max-w-[100ch] aspect-video">
+        {post?.mainImage ? (
+          <Image
+            fill
+            className=""
+            src={urlFor(post.mainImage).quality(80).auto("format").url()}
+            alt={post?.mainImage?.alt || ""}
+          />
+        ) : null}
+      </div>
       <h1 className="text-4xl font-bold text-balance">{post?.title}</h1>
       {post?.body ? (
         <div className="prose">
