@@ -25,7 +25,7 @@ export default async function Page() {
         <hr />
       </section>
       <section className="">
-        <h2 className="text-4xl font-bold">Potential Hobbies</h2>
+        <h2 className="text-4xl font-bold">Hobbies</h2>
       </section>
     </main>
   );
