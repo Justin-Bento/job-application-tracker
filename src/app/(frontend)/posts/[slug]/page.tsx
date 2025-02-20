@@ -26,13 +26,13 @@ export default async function Page({
         <div className="relative max-w-[100ch] aspect-video">
           <Image
             fill
-            className=""
+            className="rounded-xl bg-cover bg-center"
             src={urlFor(post.mainImage).quality(80).auto("format").url()}
             alt={post?.mainImage?.alt || ""}
           />
         </div>
       ) : (
-        <Link href="/">&larr; Return to index</Link>
+        <div className="aspect-video w-full bg-gray-200 rounded-xl">&nbsp;</div>
       )}
       <h1 className="text-4xl font-bold text-balance">{post?.title}</h1>
       {post?.body ? (
