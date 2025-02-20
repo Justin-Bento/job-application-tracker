@@ -5,8 +5,8 @@ import { POSTS_QUERY } from "@/sanity/lib/quires";
 export default async function Page() {
   const { data: posts } = await sanityFetch({ query: POSTS_QUERY });
   return (
-    <>
-      <section className="container mx-auto grid grid-cols-1 gap-6 p-12">
+    <main className="container mx-auto grid grid-cols-1 gap-6 p-12 space-y-16">
+      <section className="space-y-4">
         <h1 className="text-4xl font-bold">Digital Recipie Book</h1>
         <ul className="grid grid-cols-1 divide-y divide-gray-300">
           {posts.map((post) => {
@@ -23,8 +23,10 @@ export default async function Page() {
           })}
         </ul>
         <hr />
-        <Link href="/posts">Posts index &rarr;</Link>
       </section>
-    </>
+      <section className="">
+        <h2 className="text-4xl font-bold">Potential Hobbies</h2>
+      </section>
+    </main>
   );
 }
