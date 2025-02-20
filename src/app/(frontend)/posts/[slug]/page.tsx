@@ -32,7 +32,7 @@ export default async function Page({
           />
         </div>
       ) : (
-        <p>No Image Yet</p>
+        <Link href="/">&larr; Return to index</Link>
       )}
       <h1 className="text-4xl font-bold text-balance">{post?.title}</h1>
       {post?.body ? (
