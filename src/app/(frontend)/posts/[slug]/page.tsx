@@ -22,16 +22,18 @@ export default async function Page({
 
   return (
     <main className="container grid grid-cols-1 gap-6 p-12">
-      <div className="relative max-w-[100ch] aspect-video">
-        {post?.mainImage ? (
+      {post?.mainImage ? (
+        <div className="relative max-w-[100ch] aspect-video">
           <Image
             fill
             className=""
             src={urlFor(post.mainImage).quality(80).auto("format").url()}
             alt={post?.mainImage?.alt || ""}
           />
-        ) : null}
-      </div>
+        </div>
+      ) : (
+        <p>No Image Yet</p>
+      )}
       <h1 className="text-4xl font-bold text-balance">{post?.title}</h1>
       {post?.body ? (
         <div className="prose">
