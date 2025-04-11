@@ -1,103 +1,159 @@
-import Image from "next/image";
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableFooter,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import { Card, CardContent } from "@/components/ui/card";
 
-export default function Home() {
+interface JobApplication {
+  id: string;
+  dateApplied: string;
+  jobTitle: string;
+  companyName: string;
+  companyLocation: string;
+  jobPostingURL: string;
+  applicationMethod: string;
+  applicationStatus:
+    | "Applied"
+    | "Interviewing"
+    | "Offer"
+    | "Rejected"
+    | "Ghosted";
+  lastFollowUp: string;
+  notes?: string;
+}
+
+const jobApplications: JobApplication[] = [
+  {
+    id: "1",
+    dateApplied: "2025-01-15",
+    jobTitle: "Frontend Developer",
+    companyName: "Ingenious Management Consulting Ltd.",
+    jobPostingURL: "https://company.com/job/123",
+    applicationMethod: "Company Website",
+    applicationStatus: "Rejected",
+    companyLocation: "Toronto, ON",
+    lastFollowUp: "2025-01-20",
+    notes: "No response after initial application",
+  },
+  {
+    id: "2",
+    dateApplied: "2025-01-18",
+    jobTitle: "Website Developer",
+    companyName: "SuperMoney",
+    jobPostingURL: "https://company.com/job/456",
+    applicationMethod: "LinkedIn",
+    applicationStatus: "Interviewing",
+    companyLocation: "Toronto, ON",
+    lastFollowUp: "2025-01-25",
+    notes: "Technical interview scheduled for Feb 1",
+  },
+  {
+    id: "3",
+    dateApplied: "2025-01-20",
+    jobTitle: "Software Engineer",
+    companyName: "TechCorp",
+    jobPostingURL: "https://company.com/job/789",
+    applicationMethod: "Referral",
+    applicationStatus: "Applied",
+    companyLocation: "Toronto, ON",
+    lastFollowUp: "2025-01-20",
+    notes: "Waiting for response",
+  },
+  {
+    id: "4",
+    dateApplied: "2025-01-22",
+    jobTitle: "Software Developer",
+    companyName: "Genesys",
+    jobPostingURL: "https://company.com/job/101",
+    applicationMethod: "Indeed",
+    applicationStatus: "Ghosted",
+    companyLocation: "Toronto, ON",
+    lastFollowUp: "2025-01-25",
+    notes: "No response after follow-up",
+  },
+];
+
+export default function JobTracker() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <div className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <section className="container mx-auto mt-12">
+      <Card className="shadow-none border-0">
+        <CardContent className="px-0">
+          <h1 className="text-3xl font-semibold">Job Applications 2025</h1>
+        </CardContent>
+      </Card>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </div>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      <Table>
+        <TableCaption>A list of your current job applications.</TableCaption>
+        <TableHeader>
+          <TableRow>
+            <TableHead>Date Applied</TableHead>
+            <TableHead>Job Title</TableHead>
+            <TableHead>Company</TableHead>
+            <TableHead>Location</TableHead>
+            <TableHead>Method</TableHead>
+            <TableHead>Status</TableHead>
+            <TableHead>Last Follow-Up</TableHead>
+            <TableHead>Notes</TableHead>
+          </TableRow>
+        </TableHeader>
+        <TableBody>
+          {jobApplications.map((application) => (
+            <TableRow key={application.id}>
+              <TableCell>{application.dateApplied}</TableCell>
+              <TableCell className="font-medium">
+                {application.jobTitle}
+              </TableCell>
+              <TableCell>{application.companyName}</TableCell>
+              <TableCell>{application.companyLocation}</TableCell>
+              <TableCell>
+                <a
+                  href={application.jobPostingURL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  View Job
+                </a>
+              </TableCell>
+              <TableCell>{application.applicationMethod}</TableCell>
+              <TableCell>
+                <span
+                  className={`px-2 py-1 rounded-md ${
+                    application.applicationStatus === "Applied"
+                      ? "bg-blue-100 text-blue-800"
+                      : application.applicationStatus === "Interviewing"
+                      ? "bg-purple-100 text-purple-800"
+                      : application.applicationStatus === "Offer"
+                      ? "bg-green-100 text-green-800"
+                      : application.applicationStatus === "Rejected"
+                      ? "bg-red-100 text-red-800"
+                      : "bg-gray-100 text-gray-800"
+                  }`}
+                >
+                  {application.applicationStatus}
+                </span>
+              </TableCell>
+              <TableCell>{application.lastFollowUp}</TableCell>
+              <TableCell className="max-w-xs truncate">
+                {application.notes}
+              </TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+        <TableFooter>
+          <TableRow>
+            <TableCell colSpan={8} className="text-center">
+              Total Applications: {jobApplications.length}
+            </TableCell>
+          </TableRow>
+        </TableFooter>
+      </Table>
+    </section>
   );
 }
