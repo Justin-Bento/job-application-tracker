@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "./ui/card";
 
 export default function NavigationTop() {
   return (
-    <footer>
-      <Card className="rounded-none border-0">
-        <CardContent className="w-screen container mx-auto px-0">
+    <header className="sticky top-0">
+      <Card className="rounded-none border-0 backdrop-blur-md bg-white/30">
+        <CardContent className="container mx-auto px-0">
           <Link href="/" className="hover:opacity-50">
             <Image
               className="dark:invert"
@@ -20,6 +20,6 @@ export default function NavigationTop() {
           </Link>
         </CardContent>
       </Card>
-    </footer>
+    </header>
   );
 }
