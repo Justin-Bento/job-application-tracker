@@ -3,6 +3,19 @@ import Link from "next/link";
 import React from "react";
 import { ExternalLink } from "lucide-react";
 
+interface JobPost {
+  post: {
+    index: number;
+    Title: string;
+    Company: string;
+    Location: string;
+    Response: string;
+    Updates: string;
+    Offers: string;
+    jobURL: string;
+  };
+  index: number;
+}
 export default async function Page() {
   const data = await fetch("http://localhost:3000/api");
   const posts = await data.json();
@@ -18,7 +31,7 @@ export default async function Page() {
       </section>
       <section className="mt-6">
         <ul className="space-y-6 grid grid-cols-1 xl:grid-cols-2 gap-6">
-          {posts.map((post: any, index: number) => (
+          {posts.map(({ post, index }: JobPost) => (
             <li key={index}>
               <Card className="shadow-none">
                 <CardContent className="space-y-4">
