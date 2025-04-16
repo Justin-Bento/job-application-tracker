@@ -35,7 +35,7 @@ export default async function Page() {
                     <li className="">{post.Updates}</li>
                     <li className="">{post.Offers || "No Offers"}</li>
                     <li className="">
-                      <Link href={post.jobURLq}>Link To Post</Link>
+                      <Link href={post.jobURL}>Link To Post</Link>
                     </li>
                   </ul>
                 </CardContent>
