@@ -10,7 +10,7 @@ export default async function Page() {
     <main className="container mx-auto my-16">
       <section className="space-y-2">
         <h1 className="text-4xl font-semibold leading-snug capitalize">
-          Jobs I've Applied to in 2025.
+          Jobs I&#39;ve Applied to in 2025.
         </h1>
         <p className="max-w-4xl text-xl text-balance">
           Sent out {posts.length} applications.
