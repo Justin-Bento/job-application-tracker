@@ -66,3 +66,15 @@
 //     // </main>
 //   );
 // }
+
+import React from "react";
+
+export default function page() {
+  return (
+    <main className="">
+      <h1 className="text-4xl font-semibold leading-snug capitalize">
+        Hello, Next.js page
+      </h1>
+    </main>
+  );
+}
