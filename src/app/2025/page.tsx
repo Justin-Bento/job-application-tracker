@@ -17,7 +17,7 @@ export default async function Page() {
         </p>
       </section>
       <section className="mt-6">
-        <ul className="space-y-6">
+        <ul className="space-y-6 grid grid-cols-1 lg:grid-cols-2 gap-6">
           {posts.map((post: any, index: number) => (
             <li key={index}>
               <Card className="shadow-none">
