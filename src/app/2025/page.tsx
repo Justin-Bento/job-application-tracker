@@ -29,10 +29,10 @@ export default async function Page() {
                   </p>
 
                   <ul className="flex items-center gap-4 divide-x-2 [&>li]:pr-4 [&>li]:text-sm [&>li]:text-muted-foreground [&>li]:capitalize">
-                    <li className="">item 1</li>
-                    <li className="">item 1</li>
-                    <li className="">item 1</li>
-                    <li className="">item 1</li>
+                    <li className="">{post.Location}</li>
+                    <li className="">{post.Response}</li>
+                    <li className="">{post.Updates}</li>
+                    <li className="">{post.Offers || "No Offers"}</li>
                   </ul>
                 </CardContent>
               </Card>
