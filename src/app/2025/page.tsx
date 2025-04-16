@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import React from "react";
+import { ExternalLink } from "lucide-react";
 
 export default async function Page() {
   const data = await fetch("http://localhost:3000/api");
@@ -37,7 +38,8 @@ export default async function Page() {
                     {post.jobURL == "" ? (
                       <li>No Link To Post</li>
                     ) : (
-                      <li className="">
+                      <li className="flex items-center gap-1 hover:underline">
+                        <ExternalLink className="size-3.5" />
                         <Link href={post.jobURL}>Link To Post</Link>
                       </li>
                     )}
