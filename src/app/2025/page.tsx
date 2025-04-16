@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import Link from "next/link";
 import React from "react";
 
 export default async function Page() {
@@ -17,7 +18,7 @@ export default async function Page() {
       <section className="mt-6">
         <ul className="space-y-6">
           {posts.map((post: any, index: number) => (
-            <li key={post.id}>
+            <li key={index}>
               <Card className="shadow-none">
                 <CardContent className="space-y-4">
                   <p className="text-xs text-muted-foreground">
@@ -33,6 +34,9 @@ export default async function Page() {
                     <li className="">{post.Response}</li>
                     <li className="">{post.Updates}</li>
                     <li className="">{post.Offers || "No Offers"}</li>
+                    <li className="">
+                      <Link href={post.jobURLq}>Link To Post</Link>
+                    </li>
                   </ul>
                 </CardContent>
               </Card>
