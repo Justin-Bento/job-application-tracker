@@ -34,9 +34,13 @@ export default async function Page() {
                     <li className="">{post.Response}</li>
                     <li className="">{post.Updates}</li>
                     <li className="">{post.Offers || "No Offers"}</li>
-                    <li className="">
-                      <Link href={post.jobURL}>Link To Post</Link>
-                    </li>
+                    {post.jobURL == "" ? (
+                      <li>No Link To Post</li>
+                    ) : (
+                      <li className="">
+                        <Link href={post.jobURL}>Link To Post</Link>
+                      </li>
+                    )}
                   </ul>
                 </CardContent>
               </Card>
