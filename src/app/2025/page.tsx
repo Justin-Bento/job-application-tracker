@@ -1,7 +1,12 @@
-import Link from "next/link";
 import React from "react";
+import {
+  JobCard,
+  JobCardStatus,
+  JobCardRole,
+  JobCardApplications,
+} from "@/components/JobCard";
 import { ExternalLink } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
+import Link from "next/link";
 
 interface JobPost {
   index: number;
@@ -32,33 +37,29 @@ export default async function Page() {
         <ul className="space-y-6 grid grid-cols-1 xl:grid-cols-2 gap-6">
           {posts.toReversed().map((post: JobPost, index: number) => (
             <li key={index}>
-              <Card className="shadow-none">
-                <CardContent className="space-y-4">
-                  <ul className="flex items-center gap-4 divide-x-2 [&>li]:pr-4 [&>li]:text-xs [&>li]:text-muted-foreground">
-                    <li className="">Application #{posts.length - index}</li>
-                    <li className="">DD/MM/YYY</li>
-                  </ul>
-                  <p className="text-lg">
-                    <strong>{post.Title}</strong>,&nbsp;
-                    <span className="capitalize">{post.Company}</span>
-                  </p>
-
-                  <ul className="flex items-center gap-4 divide-x-2 [&>li]:pr-4 [&>li]:text-sm [&>li]:text-muted-foreground [&>li]:capitalize">
-                    <li>{post.Location}</li>
-                    <li>{post.Response}</li>
-                    <li>{post.Updates}</li>
-                    <li>{post.Offers || "No Offers"}</li>
-                    {post.jobURL == "" ? (
-                      <li>No Link To Post</li>
-                    ) : (
-                      <li className="flex items-center gap-1 hover:underline">
-                        <ExternalLink className="size-3.5" />
-                        <Link href={post.jobURL}>Link To Post</Link>
-                      </li>
-                    )}
-                  </ul>
-                </CardContent>
-              </Card>
+              <JobCard>
+                <JobCardApplications>
+                  <li>Application #{posts.length - index}</li>
+                  <li>DD/MM/YYY</li>
+                </JobCardApplications>
+                <JobCardRole>
+                  {post.Title}, {post.Company}
+                </JobCardRole>
+                <JobCardStatus>
+                  <li>{post.Location}</li>
+                  <li>{post.Response}</li>
+                  <li>{post.Updates}</li>
+                  <li>{post.Offers || "No Offers"}</li>
+                  {post.jobURL == "" ? (
+                    <li>No Link To Post</li>
+                  ) : (
+                    <li className="flex items-center gap-1 hover:underline">
+                      <ExternalLink className="size-3.5" />
+                      <Link href={post.jobURL}>Link To Post</Link>
+                    </li>
+                  )}
+                </JobCardStatus>
+              </JobCard>
             </li>
           ))}
         </ul>
