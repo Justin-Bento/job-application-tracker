@@ -1,10 +1,10 @@
 import React from "react";
 import {
-  JobCard,
-  JobCardStatus,
-  JobCardRole,
-  JobCardApplications,
-} from "@/components/JobCard";
+  ApplicationTracker,
+  ApplicationTrackerStatus,
+  ApplicationTrackerRole,
+  ApplicationTrackerApplications,
+} from "@/components/ApplicationTracker";
 import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 
@@ -37,15 +37,15 @@ export default async function Page() {
         <ul className="space-y-6 grid grid-cols-1 xl:grid-cols-2 gap-6">
           {posts.toReversed().map((post: JobPost, index: number) => (
             <li key={index}>
-              <JobCard>
-                <JobCardApplications>
+              <ApplicationTracker>
+                <ApplicationTrackerApplications>
                   <li>Application #{posts.length - index}</li>
                   <li>DD/MM/YYY</li>
-                </JobCardApplications>
-                <JobCardRole>
+                </ApplicationTrackerApplications>
+                <ApplicationTrackerRole>
                   {post.Title}, {post.Company}
-                </JobCardRole>
-                <JobCardStatus>
+                </ApplicationTrackerRole>
+                <ApplicationTrackerStatus>
                   <li>{post.Location}</li>
                   <li>{post.Response}</li>
                   <li>{post.Updates}</li>
@@ -58,8 +58,8 @@ export default async function Page() {
                       <Link href={post.jobURL}>Link To Post</Link>
                     </li>
                   )}
-                </JobCardStatus>
-              </JobCard>
+                </ApplicationTrackerStatus>
+              </ApplicationTracker>
             </li>
           ))}
         </ul>

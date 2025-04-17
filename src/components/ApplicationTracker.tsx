@@ -1,6 +1,9 @@
 import { cn } from "@/lib/utils";
 
-function JobCard({ className, children }: React.ComponentProps<"div">) {
+function ApplicationTracker({
+  className,
+  children,
+}: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="card"
@@ -16,7 +19,7 @@ function JobCard({ className, children }: React.ComponentProps<"div">) {
   );
 }
 
-function JobCardApplications({
+function ApplicationTrackerApplications({
   className,
   ...props
 }: React.ComponentProps<"ul">) {
@@ -32,7 +35,10 @@ function JobCardApplications({
   );
 }
 
-function JobCardRole({ className, ...props }: React.ComponentProps<"div">) {
+function ApplicationTrackerRole({
+  className,
+  ...props
+}: React.ComponentProps<"div">) {
   return (
     <h2
       data-slot="job-card-title"
@@ -41,7 +47,10 @@ function JobCardRole({ className, ...props }: React.ComponentProps<"div">) {
     />
   );
 }
-function JobCardStatus({ className, ...props }: React.ComponentProps<"ul">) {
+function ApplicationTrackerStatus({
+  className,
+  ...props
+}: React.ComponentProps<"ul">) {
   return (
     <ul
       data-slot="job-card-title"
@@ -54,4 +63,9 @@ function JobCardStatus({ className, ...props }: React.ComponentProps<"ul">) {
   );
 }
 
-export { JobCard, JobCardApplications, JobCardRole, JobCardStatus };
+export {
+  ApplicationTracker,
+  ApplicationTrackerApplications,
+  ApplicationTrackerRole,
+  ApplicationTrackerStatus,
+};
