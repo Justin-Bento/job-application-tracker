@@ -43,10 +43,10 @@ export default async function Page() {
                   </p>
 
                   <ul className="flex items-center gap-4 divide-x-2 [&>li]:pr-4 [&>li]:text-sm [&>li]:text-muted-foreground [&>li]:capitalize">
-                    <li className="">{post.Location}</li>
-                    <li className="">{post.Response}</li>
-                    <li className="">{post.Updates}</li>
-                    <li className="">{post.Offers || "No Offers"}</li>
+                    <li>{post.Location}</li>
+                    <li>{post.Response}</li>
+                    <li>{post.Updates}</li>
+                    <li>{post.Offers || "No Offers"}</li>
                     {post.jobURL == "" ? (
                       <li>No Link To Post</li>
                     ) : (
