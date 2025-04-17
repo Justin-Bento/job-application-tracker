@@ -34,9 +34,10 @@ export default async function Page() {
             <li key={index}>
               <Card className="shadow-none">
                 <CardContent className="space-y-4">
-                  <p className="text-xs text-muted-foreground">
-                    Application #{posts.length - index}
-                  </p>
+                  <ul className="flex items-center gap-4 divide-x-2 [&>li]:pr-4 [&>li]:text-xs [&>li]:text-muted-foreground">
+                    <li className="">Application #{posts.length - index}</li>
+                    <li className="">DD/MM/YYY</li>
+                  </ul>
                   <p className="text-lg">
                     <strong>{post.Title}</strong>,&nbsp;
                     <span className="capitalize">{post.Company}</span>
