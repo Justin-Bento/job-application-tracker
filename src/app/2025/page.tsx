@@ -30,12 +30,12 @@ export default async function Page() {
       </section>
       <section className="mt-6">
         <ul className="space-y-6 grid grid-cols-1 xl:grid-cols-2 gap-6">
-          {posts.map((post: JobPost, index: number) => (
+          {posts.toReversed().map((post: JobPost, index: number) => (
             <li key={index}>
               <Card className="shadow-none">
                 <CardContent className="space-y-4">
                   <p className="text-xs text-muted-foreground">
-                    Application #{index + 1}
+                    Application #{posts.length - index}
                   </p>
                   <p className="text-lg">
                     <strong>{post.Title}</strong>,&nbsp;
