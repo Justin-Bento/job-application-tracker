@@ -1,11 +1,18 @@
 import { cn } from "@/lib/utils";
-import { Card, CardContent } from "./ui/card";
 
-function JobCard({ className, children }: ComponentProps<"div">) {
+function JobCard({ className, children }: React.ComponentProps<"div">) {
   return (
-    <Card data-slot="job-card" className={cn("shadow-none", className)}>
-      <CardContent className="p-6">{children}</CardContent>
-    </Card>
+    <div
+      data-slot="card"
+      className={cn(
+        "bg-card text-card-foreground flex flex-col gap-6 rounded-xl border shadow-none",
+        className
+      )}
+    >
+      <div data-slot="card-content" className="p-10 space-y-4">
+        {children}
+      </div>
+    </div>
   );
 }
 
