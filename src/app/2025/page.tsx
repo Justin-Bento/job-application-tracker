@@ -4,17 +4,14 @@ import { ExternalLink } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 interface JobPost {
-  post: {
-    index: number;
-    Title: string;
-    Company: string;
-    Location: string;
-    Response: string;
-    Updates: string;
-    Offers: string;
-    jobURL: string;
-  };
   index: number;
+  Title: string;
+  Company: string;
+  Location: string;
+  Response: string;
+  Updates: string;
+  Offers: string;
+  jobURL: string;
 }
 export default async function Page() {
   const data = await fetch(
@@ -33,7 +30,7 @@ export default async function Page() {
       </section>
       <section className="mt-6">
         <ul className="space-y-6 grid grid-cols-1 xl:grid-cols-2 gap-6">
-          {posts.map(({ post, index }: JobPost) => (
+          {posts.map((post: JobPost, index: number) => (
             <li key={index}>
               <Card className="shadow-none">
                 <CardContent className="space-y-4">
