@@ -10,12 +10,12 @@ import Link from "next/link";
 
 interface JobPost {
   index: number;
-  Title: string;
-  Company: string;
-  Location: string;
-  Response: string;
-  Updates: string;
-  Offers: string;
+  title: string;
+  company: string;
+  location: string;
+  response: string;
+  updates: string;
+  offers: string;
   jobURL: string;
 }
 export default async function Page() {
