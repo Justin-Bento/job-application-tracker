@@ -47,13 +47,13 @@ export default async function Page() {
                   <li>DD/MM/YYY</li>
                 </ApplicationTrackerApplications>
                 <ApplicationTrackerRole>
-                  {post.Title}, {post.Company}
+                  {post.title}, {post.company}
                 </ApplicationTrackerRole>
                 <ApplicationTrackerStatus>
-                  <li>{post.Location}</li>
-                  <li>{post.Response}</li>
-                  <li>{post.Updates}</li>
-                  <li>{post.Offers || "No Offers"}</li>
+                  <li>{post.location}</li>
+                  <li>{post.response}</li>
+                  <li>{post.updates}</li>
+                  <li>{post.offers || "No Offers"}</li>
                   {post.jobURL == "" ? (
                     <li>No Link To Post</li>
                   ) : (
