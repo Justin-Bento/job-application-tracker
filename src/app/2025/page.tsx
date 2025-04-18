@@ -26,11 +26,15 @@ export default async function Page() {
   return (
     <main className="container mx-auto my-16">
       <section className="space-y-2">
-        <h1 className="text-4xl font-semibold leading-snug capitalize">
-          Jobs I&#39;ve Applied to in 2025.
-        </h1>
-        <p className="max-w-4xl text-xl text-balance">
-          Sent out {posts.length} applications.
+        <p className="text-base/7 font-semibold text-teal-600">
+          Applied to #{posts.length} Jobs.
+        </p>
+        <h2 className="mt-2 text-5xl font-semibold tracking-tight text-foreground">
+          Job Search Metrics 2025: Application Tally.
+        </h2>
+        <p className="mb-8 mt-4 text-lg text-balance text-muted-foreground sm:text-xl/7">
+          Includes relevant details such as job postings, required
+          qualifications, and application methods used.
         </p>
       </section>
       <section className="mt-6">
