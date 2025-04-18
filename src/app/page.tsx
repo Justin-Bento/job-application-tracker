@@ -1,10 +1,11 @@
 import Link from "next/link";
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
+import Wrapper from "@/components/Wrapper";
 
 export default function page() {
   return (
-    <main className="mx-auto container px-4 sm:px-6 mt-16">
+    <Wrapper className="mt-16">
       <section className="">
         <p className="text-sm text-muted-foreground">
           Simple. Organized. Stress-Free
@@ -49,6 +50,6 @@ export default function page() {
           </li>
         </ul>
       </section>
-    </main>
+    </Wrapper>
   );
 }

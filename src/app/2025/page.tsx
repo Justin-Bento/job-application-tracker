@@ -1,5 +1,6 @@
 import React from "react";
 import ApplicationTracker from "@/components/ApplicationTracker";
+import Wrapper from "@/components/Wrapper";
 import {
   Pagination,
   PaginationContent,
@@ -27,7 +28,7 @@ export default async function Page() {
   );
   const posts = await data.json();
   return (
-    <main className="container mx-auto my-16">
+    <Wrapper className="my-16">
       <section className="space-y-2">
         <p className="text-base/7 font-semibold text-teal-600">
           Applied to #{posts.length} Jobs.
@@ -86,6 +87,6 @@ export default async function Page() {
           </PaginationItem>
         </PaginationContent>
       </Pagination>
-    </main>
+    </Wrapper>
   );
 }
