@@ -1,13 +1,11 @@
-import React from "react";
+type ExampleProps = {
+  children?: React.ReactNode;
+  className?: string; // Optional className
+};
 
-export default function Example(
-  className: string,
-  { children }: { children?: React.ReactNode }
-) {
+export default function Wrapper({ children, className = "" }: ExampleProps) {
   return (
-    <div
-      className={`mx-auto max-w-7xl xl:container px-4 sm:px-6 lg:px-8 ${className}`}
-    >
+    <div className={`mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ${className}`}>
       {children}
     </div>
   );
