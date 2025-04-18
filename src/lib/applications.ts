@@ -1484,4 +1484,14 @@ export const jobsDB = [
     offers: "Empty",
     dates: "4/16/2025",
   },
+  {
+    title: "Software Engineer - Toronto",
+    company: "SuperMoney",
+    location: "Toronto, ON",
+    jobURL: "https://wellfound.com/jobs/56109-software-engineer-toronto",
+    response: "Completed",
+    updates: "Rejected by Welfound",
+    offers: "Empty",
+    dates: "4/16/2025",
+  },
 ];
