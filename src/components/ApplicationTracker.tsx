@@ -33,7 +33,7 @@ export default function ApplicationTracker({
           <li>{dateApplied}</li>
         </ul>
         <h2 className="text-lg font-medium tracking-tight text-foreground">
-          {title}, {company}
+          {title}, <span className="font-normal">{company}</span>
         </h2>
         <ul className="flex items-center gap-4 divide-x-2 [&>li]:pr-4 [&>li]:text-xs [&>li]:text-muted-foreground">
           <li>{location}</li>
