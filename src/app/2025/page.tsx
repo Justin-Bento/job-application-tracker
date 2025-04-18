@@ -1,7 +1,5 @@
 import React from "react";
 import ApplicationTracker from "@/components/ApplicationTracker";
-import { ExternalLink } from "lucide-react";
-import Link from "next/link";
 import {
   Pagination,
   PaginationContent,
