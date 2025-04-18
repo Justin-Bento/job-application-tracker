@@ -1494,4 +1494,25 @@ export const jobsDB = [
     offers: "Empty",
     dates: "4/16/2025",
   },
+  {
+    title: "Frontend Developer",
+    company: "Budget Mentor",
+    location: "Toronto, ON",
+    jobURL:
+      "https://wellfound.com/jobs/3255351-frontend-developer-storybook-tailwind-ui-40-hr-hourly-role",
+    response: "Pending",
+    updates: "Waiting for Response",
+    offers: "Pending",
+    dates: "4/17/2025",
+  },
+  {
+    title: "Software Engineer - Frontend",
+    company: "Olive",
+    location: "Toronto, ON",
+    jobURL: "https://wellfound.com/jobs/3255342-software-engineer-frontend",
+    response: "Applied",
+    updates: "Waiting for Response",
+    offers: "Pending.",
+    dates: "4/17/2025",
+  },
 ];
