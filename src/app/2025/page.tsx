@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  ApplicationTracker,
-  ApplicationTrackerStatus,
-  ApplicationTrackerRole,
-  ApplicationTrackerApplications,
-} from "@/components/ApplicationTracker";
+import ApplicationTracker from "@/components/ApplicationTracker";
 import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import {
@@ -54,29 +49,17 @@ export default async function Page() {
             .slice(0, 20)
             .map((post: JobPost, index: number) => (
               <li key={index}>
-                <ApplicationTracker>
-                  <ApplicationTrackerApplications>
-                    <li>Application #{posts.length - index}</li>
-                    <li>{post.dates || "DD/MM/YYY"}</li>
-                  </ApplicationTrackerApplications>
-                  <ApplicationTrackerRole>
-                    {post.title}, {post.company}
-                  </ApplicationTrackerRole>
-                  <ApplicationTrackerStatus>
-                    <li>{post.location}</li>
-                    <li>{post.response}</li>
-                    <li>{post.updates}</li>
-                    <li>{post.offers || "No Offers"}</li>
-                    {post.jobURL == "" ? (
-                      <li>No Link To Post</li>
-                    ) : (
-                      <li className="flex items-center gap-1 hover:underline">
-                        <ExternalLink className="size-3.5" />
-                        <Link href={post.jobURL}>Link To Post</Link>
-                      </li>
-                    )}
-                  </ApplicationTrackerStatus>
-                </ApplicationTracker>
+                <ApplicationTracker
+                  applications={posts.length - index}
+                  dateApplied={post.dates}
+                  title={post.title}
+                  company={post.company}
+                  location={post.location}
+                  response={post.response}
+                  updates={post.updates}
+                  offers={post.offers}
+                  jobURL={post.jobURL}
+                />
               </li>
             ))}
         </ul>

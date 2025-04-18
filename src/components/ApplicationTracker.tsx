@@ -1,74 +1,55 @@
-import { cn } from "@/lib/utils";
+import { ExternalLink } from "lucide-react";
+import Link from "next/link";
+import React from "react";
 
-function ApplicationTracker({
-  className,
-  children,
-}: React.ComponentProps<"div">) {
+interface JobPost {
+  title: string;
+  company: string;
+  location: string;
+  response: string;
+  updates: string;
+  offers: string;
+  jobURL: string;
+  applications: number;
+  dateApplied: string;
+}
+
+export default function ApplicationTracker({
+  applications,
+  dateApplied,
+  title,
+  company,
+  location,
+  response,
+  updates,
+  offers,
+  jobURL,
+}: JobPost) {
   return (
-    <div
-      data-slot="card"
-      className={cn(
-        "bg-card text-card-foreground flex flex-col gap-6 rounded-xl border shadow-none",
-        className
-      )}
-    >
-      <div data-slot="card-content" className="p-10 space-y-4">
-        {children}
+    <div className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 border-foreground/20">
+      <div className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6">
+        <ul className="flex items-center gap-4 divide-x-2 [&>li]:pr-4 [&>li]:text-xs [&>li]:text-muted-foreground">
+          <li>{applications}</li>
+          <li>{dateApplied}</li>
+        </ul>
+        <h2 className="text-lg font-medium tracking-tight text-foreground">
+          {title}, {company}
+        </h2>
+        <ul className="flex items-center gap-4 divide-x-2 [&>li]:pr-4 [&>li]:text-xs [&>li]:text-muted-foreground">
+          <li>{location}</li>
+          <li>{response}</li>
+          <li>{updates}</li>
+          <li>{offers || "No Offers"}</li>
+          {jobURL == "" ? (
+            <li>No Link To Post</li>
+          ) : (
+            <li className="flex items-center gap-1 hover:underline">
+              <ExternalLink className="size-3.5" />
+              <Link href={jobURL}>Link To Post</Link>
+            </li>
+          )}
+        </ul>
       </div>
     </div>
   );
 }
-
-function ApplicationTrackerApplications({
-  className,
-  ...props
-}: React.ComponentProps<"ul">) {
-  return (
-    <ul
-      data-slot="job-card-title"
-      className={cn(
-        "flex items-center gap-4 divide-x-2 [&>li]:pr-4 [&>li]:text-xs [&>li]:text-muted-foreground",
-        className
-      )}
-      {...props}
-    />
-  );
-}
-
-function ApplicationTrackerRole({
-  className,
-  ...props
-}: React.ComponentProps<"div">) {
-  return (
-    <h2
-      data-slot="job-card-title"
-      className={cn(
-        "text-lg font-medium tracking-tight text-foreground",
-        className
-      )}
-      {...props}
-    />
-  );
-}
-function ApplicationTrackerStatus({
-  className,
-  ...props
-}: React.ComponentProps<"ul">) {
-  return (
-    <ul
-      data-slot="job-card-title"
-      className={cn(
-        "flex items-center gap-4 divide-x-2 [&>li]:pr-4 [&>li]:text-sm/6 [&>li]:text-muted-foreground",
-        className
-      )}
-      {...props}
-    />
-  );
-}
-
-export {
-  ApplicationTracker,
-  ApplicationTrackerApplications,
-  ApplicationTrackerRole,
-  ApplicationTrackerStatus,
-};
