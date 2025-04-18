@@ -1474,4 +1474,14 @@ export const jobsDB = [
     offers: "",
     dates: "4/11/2025",
   },
+  {
+    title: "Software Engineer - Front End",
+    company: "Veeva Systems",
+    location: "Toronto, ON",
+    jobURL: "",
+    response: "Completed",
+    updates: "Rejected by Email",
+    offers: "Empty",
+    dates: "4/16/2025",
+  },
 ];
