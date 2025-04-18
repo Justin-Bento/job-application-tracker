@@ -42,7 +42,10 @@ function ApplicationTrackerRole({
   return (
     <h2
       data-slot="job-card-title"
-      className={cn("leading-none font-semibold", className)}
+      className={cn(
+        "text-lg font-medium tracking-tight text-foreground",
+        className
+      )}
       {...props}
     />
   );
@@ -55,7 +58,7 @@ function ApplicationTrackerStatus({
     <ul
       data-slot="job-card-title"
       className={cn(
-        "flex items-center gap-4 divide-x-2 [&>li]:pr-4 [&>li]:text-xs [&>li]:text-muted-foreground",
+        "flex items-center gap-4 divide-x-2 [&>li]:pr-4 [&>li]:text-sm/6 [&>li]:text-muted-foreground",
         className
       )}
       {...props}
