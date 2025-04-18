@@ -5,7 +5,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -14,7 +14,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -23,7 +23,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -32,7 +32,7 @@ export const jobsDB = [
     location: "Markham, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "Email",
+    updates: "Email",
     Offers: "",
   },
   {
@@ -41,7 +41,7 @@ export const jobsDB = [
     location: "Berlin, Germany",
     jobURL: "",
     response: "Rejected",
-    Updates: "Email",
+    updates: "Email",
     Offers: "",
   },
   {
@@ -50,7 +50,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "Email",
+    updates: "Email",
     Offers: "",
   },
   {
@@ -59,7 +59,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "Email",
+    updates: "Email",
     Offers: "",
   },
   {
@@ -68,7 +68,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "Email",
+    updates: "Email",
     Offers: "",
   },
   {
@@ -77,7 +77,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "Email",
+    updates: "Email",
     Offers: "",
   },
   {
@@ -86,7 +86,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "Email",
+    updates: "Email",
     Offers: "",
   },
   {
@@ -95,7 +95,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -104,7 +104,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -113,7 +113,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -122,7 +122,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -131,7 +131,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -140,7 +140,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -149,7 +149,7 @@ export const jobsDB = [
     location: "Montreal, QC",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -158,7 +158,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -167,7 +167,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -176,7 +176,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "Email",
+    updates: "Email",
     Offers: "",
   },
   {
@@ -185,7 +185,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -194,7 +194,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -204,7 +204,7 @@ export const jobsDB = [
     jobURL:
       "https://contact2.mshri.on.ca/hr/DEFAULT.ASP?page=jobDetail&job=1970",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -214,7 +214,7 @@ export const jobsDB = [
     jobURL:
       "https://humber.taleo.net/careersection/hbr_ex/jobdetail.ftl?job=29880",
     response: "Rejected",
-    Updates: "Email",
+    updates: "Email",
     Offers: "",
   },
   {
@@ -224,7 +224,7 @@ export const jobsDB = [
     jobURL:
       "https://careers.paralucent.com/o/react-front-end-developer-pl570/c/new?source=LinkedIn",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -234,7 +234,7 @@ export const jobsDB = [
     jobURL:
       "https://www.careers-page.com/lyfedesign/job/L4YVV495?utm_medium=free_job_board&utm_source=linkedin",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -244,7 +244,7 @@ export const jobsDB = [
     jobURL:
       "https://ats.rippling.com/brainrider/jobs/8023f2c1-6dec-4ba4-8c80-d8f5ae3a9f62?jobSite=LinkedIn",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -253,7 +253,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://103.careerplug.com/jobs/2468197/apps/new",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -263,7 +263,7 @@ export const jobsDB = [
     jobURL:
       "https://boards.greenhouse.io/robinhood/jobs/6023679?t=gh_src%3D&gh_jid=6023679&gh_src=ed898e781us",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -272,7 +272,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/3948821657",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -281,7 +281,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/3937799344",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -290,7 +290,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/3949546149",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -299,7 +299,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/3948084598/",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -308,7 +308,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/3944015421/",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -317,7 +317,7 @@ export const jobsDB = [
     location: "Etobiko, ON",
     jobURL: "Null",
     response: "Started",
-    Updates: "Email",
+    updates: "Email",
     Offers: "Tue, Jun 18",
   },
   {
@@ -327,7 +327,7 @@ export const jobsDB = [
     jobURL:
       "https://ats.rippling.com/loop-careers/jobs/a021cca1-fa0b-4f6e-82c1-c6fa6c9e03f1",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -336,7 +336,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "https://jobs.lever.co/scribd/634c9fc9-b8ba-48c8-90e0-f763d7726c6f",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -345,7 +345,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "https://linusmediagroup.com/ft-junior-backend-developer",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -355,7 +355,7 @@ export const jobsDB = [
     jobURL:
       "https://mootiva.catsone.com/careers/113611-General/jobs/16479130-Frontend-Developer/",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -365,7 +365,7 @@ export const jobsDB = [
     jobURL:
       "https://jobs.lever.co/policyme/b6b41cf8-fd9f-48d8-864c-671b53fc7042",
     response: "Rejected",
-    Updates: "Email Rejection",
+    updates: "Email Rejection",
     Offers: "",
   },
   {
@@ -374,7 +374,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "https://www.linkedin.com/jobs/view/4055170807",
     response: "Rejected",
-    Updates: "Email Rejection",
+    updates: "Email Rejection",
     Offers: "",
   },
   {
@@ -383,7 +383,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "https://www.linkedin.com/jobs/view/4062329608",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -393,7 +393,7 @@ export const jobsDB = [
     jobURL:
       "Check out this job at Pine:  https://www.linkedin.com/jobs/view/4075118562",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -402,7 +402,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -411,7 +411,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -420,7 +420,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -429,7 +429,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -438,7 +438,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "https://www.linkedin.com/jobs/view/4081024883",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -447,7 +447,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "https://www.xanadu.ai/",
     response: "Rejected",
-    Updates: "Email Rejection",
+    updates: "Email Rejection",
     Offers: "",
   },
   {
@@ -456,7 +456,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "https://www.linkedin.com/jobs/view/4081851892",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -465,7 +465,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "https://www.linkedin.com/jobs/view/4078617598",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -474,7 +474,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "https://mailchannels.bamboohr.com/careers/10",
     response: "Rejected",
-    Updates: "Email Rejection",
+    updates: "Email Rejection",
     Offers: "",
   },
   {
@@ -483,7 +483,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "Check out this job at Cova Software:",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -493,7 +493,7 @@ export const jobsDB = [
     jobURL:
       "https://jobs.lever.co/intelliware/759b57c3-a5c3-4698-af78-66b3591bb936?applicant_guid=0dfb4cc8-16a4-4920-952b-05d443568ce4&lever-origin=applied&lever-source%5B%5D=JobTarget%2CJobTarget%20Organic%20Sites%20Bundle&utm_source=JobTarget&utm_medium=JobTarget%20Organic%20Sites%20Bundle&utm_campaign=Junior%20Software%20Developer%20-%20Full%20Stack%20(759b57c3-a5c3-4698-af78-66b3591bb936)&_jtochash=egAwG7fmD7QDpsaX2idzME&_jtocprof=RJZnLmmV0YBGyNP09QB4rscMtV8FhJpD",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -502,7 +502,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "https://www.swoonstaffing.ca/",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -511,7 +511,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -520,7 +520,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -530,7 +530,7 @@ export const jobsDB = [
     jobURL:
       "https://www.simplyhired.ca/job/Mm44U-EU-qG6z9tOGOGn1aXw0jp0neJVVwHmAi7Y7XNJAGBStqMCWA",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -540,7 +540,7 @@ export const jobsDB = [
     jobURL:
       "https://jobs.lever.co/zensurance/8c826995-0f86-4926-a2fe-223bcf8cf0ab",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -549,7 +549,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -558,7 +558,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -567,7 +567,7 @@ export const jobsDB = [
     location: "Markham, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4085981709",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -577,7 +577,7 @@ export const jobsDB = [
     jobURL:
       "https://www.simplyhired.ca/job/PVTk3PDkFhT1W9qLJaYnZZm6BnHWvVAv63Jy9Hi1gD_sj6E2k70V5Q",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -586,7 +586,7 @@ export const jobsDB = [
     location: "Toronto ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -596,7 +596,7 @@ export const jobsDB = [
     jobURL:
       "https://www.simplyhired.ca/job/CF5Yg6AN77wo2avV86QhMRpyYhJ209eRGrn22gmYBPamG18cZUFzVA",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -605,7 +605,7 @@ export const jobsDB = [
     location: "Mississauga, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4084896079",
     response: "Applied",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -614,7 +614,7 @@ export const jobsDB = [
     location: "Markham, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4083287007",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -623,7 +623,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4092125803",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -632,7 +632,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4093659151",
     response: "",
-    Updates: "",
+    updates: "",
     Offers: "",
   },
   {
@@ -642,7 +642,7 @@ export const jobsDB = [
     jobURL:
       "https://discord.com/channels/486935104384532500/1309105109954723860",
     response: "",
-    Updates: "",
+    updates: "",
     Offers: "",
   },
   {
@@ -651,7 +651,7 @@ export const jobsDB = [
     location: "Remote",
     jobURL: "https://www.careers-page.com/thehivecareers/job/L848563V",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -661,7 +661,7 @@ export const jobsDB = [
     jobURL:
       "https://addyai.notion.site/Full-Stack-Engineer-Remote-8e60887860d5408fbb6d31a9096a90a6",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -670,7 +670,7 @@ export const jobsDB = [
     location: "Remote",
     jobURL: "",
     response: "",
-    Updates: "",
+    updates: "",
     Offers: "",
   },
   {
@@ -679,7 +679,7 @@ export const jobsDB = [
     location: "Remote",
     jobURL: "https://www.linkedin.com/jobs/view/4100053313",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -689,7 +689,7 @@ export const jobsDB = [
     jobURL:
       "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Front-End-Engineer--Remote-_R21315",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -699,7 +699,7 @@ export const jobsDB = [
     jobURL:
       "https://www.proofserve.com/careers/4520928005?gh_jid=4520928005&gh_src=2d1983cb5us#application",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -709,7 +709,7 @@ export const jobsDB = [
     jobURL:
       "https://careers.loblaw.ca/front-end-developer-ii-10-month-contract/job/PAF-LCL-1528B462-BB92-4699-8B7D-B653F2B15836_7580_1737393927_0",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -718,7 +718,7 @@ export const jobsDB = [
     location: "Remote",
     jobURL: "https://www.linkedin.com/jobs/view/4140140428",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -727,7 +727,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4131919468",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -736,7 +736,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -745,7 +745,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://job-boards.greenhouse.io/vts/jobs/4497398005",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -754,7 +754,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://job-boards.greenhouse.io/vts/jobs/4497398005",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -763,7 +763,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4153178120",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -773,7 +773,7 @@ export const jobsDB = [
     jobURL:
       "https://jobs.lever.co/relayfi/c9e1dc17-ea52-4859-b4f2-2bf91a9a76c2",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -782,7 +782,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://careers-publicisgroupe.icims.com/jobs/95363/",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -792,7 +792,7 @@ export const jobsDB = [
     jobURL:
       "https://jobs.lever.co/includedhealth/71927e92-88ec-4481-8d12-00a2bcd9c41f",
     response: "Applied",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -801,7 +801,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Applied",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -810,7 +810,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://jobs.lever.co/wmg/ecaadabc-2983-4b65-b86d-0326016de11a",
     response: "Applied",
-    Updates: "Email Rejection",
+    updates: "Email Rejection",
     Offers: "",
   },
   {
@@ -819,7 +819,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Applied",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -828,7 +828,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.proofserve.com/careers/4520928005#application",
     response: "Applied",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -838,7 +838,7 @@ export const jobsDB = [
     jobURL:
       "https://stripe.com/jobs/listing/full-stack-engineer-onboarding/6649844?gh_src=73vnei",
     response: "Rejected",
-    Updates: "Email Rejection",
+    updates: "Email Rejection",
     Offers: "",
   },
   {
@@ -847,7 +847,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4176767311",
     response: "Applied",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -857,7 +857,7 @@ export const jobsDB = [
     jobURL:
       "https://job-boards.greenhouse.io/faire/jobs/7895148002?gh_jid=7895148002&gh_src=b84852fd2us",
     response: "Applied",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -866,7 +866,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4176752170",
     response: "Applied",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -875,7 +875,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://buildops.com/careers/job-application/?gh_jid=5356104004",
     response: "Applied",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -885,7 +885,7 @@ export const jobsDB = [
     jobURL:
       "https://job-boards.greenhouse.io/shift4/jobs/4657563007?gh_src=d53465cf7us",
     response: "Applied",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -895,7 +895,7 @@ export const jobsDB = [
     jobURL:
       "https://www.amazon.jobs/en/jobs/2912525/front-end-engineer-finauto",
     response: "Applied",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -904,7 +904,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4150855833",
     response: "Applied",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -913,7 +913,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://job-boards.greenhouse.io/tailscale/jobs/4521895005",
     response: "Rejected",
-    Updates: "Email Rejection",
+    updates: "Email Rejection",
     Offers: "",
   },
   {
@@ -923,7 +923,7 @@ export const jobsDB = [
     jobURL:
       "https://jobs.ashbyhq.com/assembledhq/b1e813b8-cead-458a-9a55-090ad371b372",
     response: "Rejected",
-    Updates: "Email Rejection",
+    updates: "Email Rejection",
     Offers: "",
   },
   {
@@ -932,7 +932,7 @@ export const jobsDB = [
     location: "Remote",
     jobURL: "https://jobs.lever.co/toku/7c2a558c-f3ce-4232-9330-93f9eae29417",
     response: "Rejected",
-    Updates: "Email Rejection",
+    updates: "Email Rejection",
     Offers: "",
   },
   {
@@ -941,7 +941,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4180906905",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -951,7 +951,7 @@ export const jobsDB = [
     jobURL:
       "https://jobs.rbc.com/ca/en/job/R-0000103871/Software-Developer-NodeJS",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -960,7 +960,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://jobs.rbc.com/ca/en/job/R-0000115550/UI-UX-Designer",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -970,7 +970,7 @@ export const jobsDB = [
     jobURL:
       "https://careers.lululemon.com/en_US/careers/JobDetail/Junior-Technical-Developer/47146",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -980,7 +980,7 @@ export const jobsDB = [
     jobURL:
       "https://goodlifefitness.wd3.myworkdayjobs.com/en-US/Careers/job/Club-Attendant---Toronto-Yonge-Eglinton-Centre_JR106715",
     response: "Rejected",
-    Updates: "Waiting",
+    updates: "Waiting",
     Offers: "",
   },
   {
@@ -990,7 +990,7 @@ export const jobsDB = [
     jobURL:
       "https://job-boards.greenhouse.io/robinhood/jobs/6583442?t=gh_src=&gh_jid=6583442&gh_src=ed898e781us",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -1000,7 +1000,7 @@ export const jobsDB = [
     jobURL:
       "https://job-boards.greenhouse.io/shift4/jobs/4657563007?gh_src=d53465cf7us",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -1009,7 +1009,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://jobs.dayforcehcm.com/en-US/greatgulf/GG/jobs/2747",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -1018,7 +1018,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4182670502",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -1028,7 +1028,7 @@ export const jobsDB = [
     jobURL:
       "https://jobs.ashbyhq.com/landbase/38294de8-dffc-4fbc-b56f-f6958c70348c?utm_source=K4qvG9z4EN",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -1037,7 +1037,7 @@ export const jobsDB = [
     location: "",
     jobURL: "",
     response: "",
-    Updates: "",
+    updates: "",
     Offers: "",
   },
   {
@@ -1046,7 +1046,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://boards.greenhouse.io/bitgo/jobs/7876628002",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -1055,7 +1055,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -1064,7 +1064,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "Email Rejection",
+    updates: "Email Rejection",
     Offers: "",
   },
   {
@@ -1073,7 +1073,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -1082,7 +1082,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4178781295",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -1091,7 +1091,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4184591256",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -1100,7 +1100,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4172505947",
     response: "Rejected",
-    Updates: "Email",
+    updates: "Email",
     Offers: "",
   },
   {
@@ -1110,7 +1110,7 @@ export const jobsDB = [
     jobURL:
       "https://jobs.ashbyhq.com/chainlink-labs/859edddc-0449-44a1-874f-778681ebc698?src=LinkedIn",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -1119,7 +1119,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4166591686",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -1129,7 +1129,7 @@ export const jobsDB = [
     jobURL:
       "https://ats.rippling.com/en-CA/einc/jobs/f7752254-1013-4e69-9472-cda4559417e6",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -1139,7 +1139,7 @@ export const jobsDB = [
     jobURL:
       "https://ats.rippling.com/en-CA/einc/jobs/f7752254-1013-4e69-9472-cda4559417e6",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -1148,7 +1148,7 @@ export const jobsDB = [
     location: "",
     jobURL: "",
     response: "",
-    Updates: "",
+    updates: "",
     Offers: "",
   },
   {
@@ -1158,7 +1158,7 @@ export const jobsDB = [
     jobURL:
       "https://ats.rippling.com/en-CA/einc/jobs/f7752254-1013-4e69-9472-cda4559417e6",
     response: "Rejected",
-    Updates: "Nothing",
+    updates: "Nothing",
     Offers: "",
   },
   {
@@ -1167,7 +1167,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -1176,7 +1176,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -1185,7 +1185,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -1195,7 +1195,7 @@ export const jobsDB = [
     jobURL:
       "https://agencyanalytics.pinpointhq.com/en/postings/6f60b45e-d78f-4416-a86c-7f7be12f9800",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -1204,7 +1204,7 @@ export const jobsDB = [
     location: "",
     jobURL: "",
     response: "",
-    Updates: "",
+    updates: "",
     Offers: "",
   },
   {
@@ -1213,7 +1213,7 @@ export const jobsDB = [
     location: "",
     jobURL: "",
     response: "",
-    Updates: "",
+    updates: "",
     Offers: "",
   },
   {
@@ -1223,7 +1223,7 @@ export const jobsDB = [
     jobURL:
       "https://jobs.lever.co/janeapp/5a425bc6-b9f7-41c3-89aa-dcee5b74a794/already-received?ms=1743160209682",
     response: "Applied",
-    Updates: "Waiting",
+    updates: "Waiting",
     Offers: "",
   },
   {
@@ -1233,7 +1233,7 @@ export const jobsDB = [
     jobURL:
       "https://jobs.ashbyhq.com/homebase/dc067dae-0635-4657-838d-192a3a880cc0?utm_source=unique_code%2C+e.g.+utm_source%3DLinkedInPaid",
     response: "Rejected",
-    Updates: "Email Rejection",
+    updates: "Email Rejection",
     Offers: "",
   },
   {
@@ -1243,7 +1243,7 @@ export const jobsDB = [
     jobURL:
       "https://ca.indeed.com/viewjob?jk=ca94b76c19cb2535&from=shareddesktop_copy",
     response: "Talking Stages",
-    Updates: "Messsage",
+    updates: "Messsage",
     Offers: "",
   },
   {
@@ -1252,7 +1252,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Applied",
-    Updates: "Waiting",
+    updates: "Waiting",
     Offers: "",
   },
   {
@@ -1261,7 +1261,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "",
     response: "Applied",
-    Updates: "Waiting",
+    updates: "Waiting",
     Offers: "",
   },
   {
@@ -1271,7 +1271,7 @@ export const jobsDB = [
     jobURL:
       "https://dd0000000eplaeae.my.salesforce-sites.com/tech/ts2__JobDetails?jobId=a0xOK000000KjXFYA0&tSource=a16d0000000HT4uAAG",
     response: "Applied",
-    Updates: "Waiting",
+    updates: "Waiting",
     Offers: "",
   },
   {
@@ -1281,7 +1281,7 @@ export const jobsDB = [
     jobURL:
       "https://career17.sapsf.com/portalcareer?_s.crb=RNaRSnDmX8XsfuP1GxeKq8U5PKTgci57opbjrWBDiOI%253d",
     response: "Applied",
-    Updates: "Waiting",
+    updates: "Waiting",
     Offers: "",
   },
   {
@@ -1291,7 +1291,7 @@ export const jobsDB = [
     jobURL:
       "https://usource.ripplehire.com/candidate/?token=8YxWjpwDhdL62DFYUIcQ&lang=en&source=USTLINKEDIN&ref=USTLINKEDIN#detail/job/36076",
     response: "Rejected",
-    Updates: "Email Rejection",
+    updates: "Email Rejection",
     Offers: "",
   },
   {
@@ -1300,7 +1300,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4206086247",
     response: "Applied",
-    Updates: "Waiting",
+    updates: "Waiting",
     Offers: "",
   },
   {
@@ -1310,7 +1310,7 @@ export const jobsDB = [
     jobURL:
       "https://alcumus.pinpointhq.com/postings/1d975d5b-25fd-4e29-a462-9db5447ddbf3",
     response: "Applied",
-    Updates: "Waiting",
+    updates: "Waiting",
     Offers: "",
   },
   {
@@ -1320,7 +1320,7 @@ export const jobsDB = [
     jobURL:
       "https://jobs.ashbyhq.com/Jerry/496766ef-be88-4f83-a375-3baade7f3933/application?utm_source=6Vdva5VPyD",
     response: "Rejected",
-    Updates: "No response",
+    updates: "No response",
     Offers: "",
   },
   {
@@ -1329,7 +1329,7 @@ export const jobsDB = [
     location: "Toronto, ON",
     jobURL: "https://opensourceintegrators.bamboohr.com/careers/57",
     response: "Applied",
-    Updates: "Waiting",
+    updates: "Waiting",
     Offers: "",
   },
 ];
