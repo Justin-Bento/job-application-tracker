@@ -2,7 +2,7 @@ export const jobsDB = [
   {
     title: "Frontend Developer",
     company: "Ingenious Management Consulting Ltd.",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -11,7 +11,7 @@ export const jobsDB = [
   {
     title: "Website Developer",
     company: "SuperMoney",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -20,7 +20,7 @@ export const jobsDB = [
   {
     title: "Software Engineer",
     company: "",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -29,7 +29,7 @@ export const jobsDB = [
   {
     title: "Software Developer",
     company: "Genesys",
-    Location: "Markham, ON",
+    location: "Markham, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "Email",
@@ -38,7 +38,7 @@ export const jobsDB = [
   {
     title: "Internal Tools",
     company: "Sound Cloud",
-    Location: "Berlin, Germany",
+    location: "Berlin, Germany",
     jobURL: "",
     Response: "Rejected",
     Updates: "Email",
@@ -47,7 +47,7 @@ export const jobsDB = [
   {
     title: "Software Developer 2",
     company: "Iniut",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "Email",
@@ -56,7 +56,7 @@ export const jobsDB = [
   {
     title: "Software Developer",
     company: "Genesys",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "Email",
@@ -65,7 +65,7 @@ export const jobsDB = [
   {
     title: "Frontend Enginner",
     company: "GitLab",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "Email",
@@ -74,7 +74,7 @@ export const jobsDB = [
   {
     title: "Software Developer 2",
     company: "Affirm",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "Email",
@@ -83,7 +83,7 @@ export const jobsDB = [
   {
     title: "Software Developer",
     company: "Konrad",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "Email",
@@ -92,7 +92,7 @@ export const jobsDB = [
   {
     title: "Software Developer I",
     company: "varicent",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -101,7 +101,7 @@ export const jobsDB = [
   {
     title: "Frontend Developer",
     company: "",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -110,7 +110,7 @@ export const jobsDB = [
   {
     title: "Frontend Developer",
     company: "The Home Depot",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -119,7 +119,7 @@ export const jobsDB = [
   {
     title: "Software Developer",
     company: "Epsilon Solutions Ltd.",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -128,7 +128,7 @@ export const jobsDB = [
   {
     title: "Front End Enginner",
     company: "DataVisor",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -137,7 +137,7 @@ export const jobsDB = [
   {
     title: "Front-End Developer",
     company: "Build with Assembly",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -146,7 +146,7 @@ export const jobsDB = [
   {
     title: "Front-End Developer",
     company: "Evolving Web",
-    Location: "Montreal, QC",
+    location: "Montreal, QC",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -155,7 +155,7 @@ export const jobsDB = [
   {
     title: "Front-End Developer",
     company: "wisedocs",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -164,7 +164,7 @@ export const jobsDB = [
   {
     title: "Web Applications Developer",
     company: "Toronto Metroplotian School",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -173,7 +173,7 @@ export const jobsDB = [
   {
     title: "Software Development Engineer",
     company: "orum",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "Email",
@@ -182,7 +182,7 @@ export const jobsDB = [
   {
     title: "Frontend Engineer",
     company: "JerryAI",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -191,7 +191,7 @@ export const jobsDB = [
   {
     title: "Frontend Developer",
     company: "VRIZE",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -200,7 +200,7 @@ export const jobsDB = [
   {
     title: "Programmer I (Web Developer)",
     company: "Siana Health",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://contact2.mshri.on.ca/hr/DEFAULT.ASP?page=jobDetail&job=1970",
     Response: "Rejected",
@@ -210,7 +210,7 @@ export const jobsDB = [
   {
     title: "Digital Learning Build Coordinator",
     company: "Humber College",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://humber.taleo.net/careersection/hbr_ex/jobdetail.ftl?job=29880",
     Response: "Rejected",
@@ -220,7 +220,7 @@ export const jobsDB = [
   {
     title: "React Front End Developer (PL570)",
     company: "Paralucent",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://careers.paralucent.com/o/react-front-end-developer-pl570/c/new?source=LinkedIn",
     Response: "Rejected",
@@ -230,7 +230,7 @@ export const jobsDB = [
   {
     title: "Website Developer",
     company: "LyfeDesign",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://www.careers-page.com/lyfedesign/job/L4YVV495?utm_medium=free_job_board&utm_source=linkedin",
     Response: "Rejected",
@@ -240,7 +240,7 @@ export const jobsDB = [
   {
     title: "Web CMS Developer Specialist",
     company: "Brainrider",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://ats.rippling.com/brainrider/jobs/8023f2c1-6dec-4ba4-8c80-d8f5ae3a9f62?jobSite=LinkedIn",
     Response: "Rejected",
@@ -250,7 +250,7 @@ export const jobsDB = [
   {
     title: "Front-end developer",
     company: "Triunity",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://103.careerplug.com/jobs/2468197/apps/new",
     Response: "Rejected",
     Updates: "No Response",
@@ -259,7 +259,7 @@ export const jobsDB = [
   {
     title: "Web Developer, Web Platform",
     company: "Robinhood",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://boards.greenhouse.io/robinhood/jobs/6023679?t=gh_src%3D&gh_jid=6023679&gh_src=ed898e781us",
     Response: "Rejected",
@@ -269,7 +269,7 @@ export const jobsDB = [
   {
     title: "ReactJS Developer",
     company: "Webisoft",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/3948821657",
     Response: "Rejected",
     Updates: "No Response",
@@ -278,7 +278,7 @@ export const jobsDB = [
   {
     title: "Software Developer II (Frontend)",
     company: "Koho",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/3937799344",
     Response: "Rejected",
     Updates: "No Response",
@@ -287,7 +287,7 @@ export const jobsDB = [
   {
     title: "Software Engineer - React - Web",
     company: "Kraken Digital Asset Exchange",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/3949546149",
     Response: "Rejected",
     Updates: "No Response",
@@ -296,7 +296,7 @@ export const jobsDB = [
   {
     title: "Full Stack Software Engineer",
     company: "Warner Music Group",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/3948084598/",
     Response: "Rejected",
     Updates: "No Response",
@@ -305,7 +305,7 @@ export const jobsDB = [
   {
     title: "Software Engineer II",
     company: "Zonda",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/3944015421/",
     Response: "Rejected",
     Updates: "No Response",
@@ -314,7 +314,7 @@ export const jobsDB = [
   {
     title: "Website Developer (Extension)",
     company: "Humber College",
-    Location: "Etobiko, ON",
+    location: "Etobiko, ON",
     jobURL: "Null",
     Response: "Started",
     Updates: "Email",
@@ -323,7 +323,7 @@ export const jobsDB = [
   {
     title: "Full Stack Software Engineer",
     company: "Loop Financial",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL:
       "https://ats.rippling.com/loop-careers/jobs/a021cca1-fa0b-4f6e-82c1-c6fa6c9e03f1",
     Response: "Rejected",
@@ -333,7 +333,7 @@ export const jobsDB = [
   {
     title: "Frontend Software Engineer II",
     company: "Scribd",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "https://jobs.lever.co/scribd/634c9fc9-b8ba-48c8-90e0-f763d7726c6f",
     Response: "Rejected",
     Updates: "No Response",
@@ -342,7 +342,7 @@ export const jobsDB = [
   {
     title: "Jr. Back-End Developer",
     company: "linusmediagroup",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "https://linusmediagroup.com/ft-junior-backend-developer",
     Response: "Rejected",
     Updates: "No Response",
@@ -351,7 +351,7 @@ export const jobsDB = [
   {
     title: "Frontend Developer",
     company: "Mootiva",
-    Location: "Lisboa, Lisboa",
+    location: "Lisboa, Lisboa",
     jobURL:
       "https://mootiva.catsone.com/careers/113611-General/jobs/16479130-Frontend-Developer/",
     Response: "Rejected",
@@ -361,7 +361,7 @@ export const jobsDB = [
   {
     title: "Junior Software Engineer",
     company: "PolicyMe logo",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL:
       "https://jobs.lever.co/policyme/b6b41cf8-fd9f-48d8-864c-671b53fc7042",
     Response: "Rejected",
@@ -371,7 +371,7 @@ export const jobsDB = [
   {
     title: "Junior Developer",
     company: "Expansion",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "https://www.linkedin.com/jobs/view/4055170807",
     Response: "Rejected",
     Updates: "Email Rejection",
@@ -380,7 +380,7 @@ export const jobsDB = [
   {
     title: "UI Designer",
     company: "",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "https://www.linkedin.com/jobs/view/4062329608",
     Response: "Rejected",
     Updates: "No Response",
@@ -389,7 +389,7 @@ export const jobsDB = [
   {
     title: "Front End Developer",
     company: "Pine - Viewed Application",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL:
       "Check out this job at Pine:  https://www.linkedin.com/jobs/view/4075118562",
     Response: "Rejected",
@@ -399,7 +399,7 @@ export const jobsDB = [
   {
     title: "Front send Developer",
     company: "Lumenalta",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -408,7 +408,7 @@ export const jobsDB = [
   {
     title: "Front End Developer",
     company: "Sterb Canada Inc.",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -417,7 +417,7 @@ export const jobsDB = [
   {
     title: "Junior Front End Developer",
     company: "Apex Mobile Media",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -426,7 +426,7 @@ export const jobsDB = [
   {
     title: "UX Designer (Hybrid)",
     company: "Canada Goose",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -435,7 +435,7 @@ export const jobsDB = [
   {
     title: "Frontend Engineer",
     company: "impact.com",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "https://www.linkedin.com/jobs/view/4081024883",
     Response: "Rejected",
     Updates: "No Response",
@@ -444,7 +444,7 @@ export const jobsDB = [
   {
     title: "UX/UI Designer (Hybrid)",
     company: "xanadu",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "https://www.xanadu.ai/",
     Response: "Rejected",
     Updates: "Email Rejection",
@@ -453,7 +453,7 @@ export const jobsDB = [
   {
     title: "Frontend Developer (React)",
     company: "Levr.ai",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "https://www.linkedin.com/jobs/view/4081851892",
     Response: "Rejected",
     Updates: "No Response",
@@ -462,7 +462,7 @@ export const jobsDB = [
   {
     title: "Front End Developer",
     company: "DAC",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "https://www.linkedin.com/jobs/view/4078617598",
     Response: "Rejected",
     Updates: "No Response",
@@ -471,7 +471,7 @@ export const jobsDB = [
   {
     title: "Front End Developer",
     company: "MailChannels",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "https://mailchannels.bamboohr.com/careers/10",
     Response: "Rejected",
     Updates: "Email Rejection",
@@ -480,7 +480,7 @@ export const jobsDB = [
   {
     title: "UI/UX Designer",
     company: "Cova Software",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "Check out this job at Cova Software:",
     Response: "Rejected",
     Updates: "No Response",
@@ -489,7 +489,7 @@ export const jobsDB = [
   {
     title: "Junior Software Developer - Full Stack",
     company: "Electric Mind",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL:
       "https://jobs.lever.co/intelliware/759b57c3-a5c3-4698-af78-66b3591bb936?applicant_guid=0dfb4cc8-16a4-4920-952b-05d443568ce4&lever-origin=applied&lever-source%5B%5D=JobTarget%2CJobTarget%20Organic%20Sites%20Bundle&utm_source=JobTarget&utm_medium=JobTarget%20Organic%20Sites%20Bundle&utm_campaign=Junior%20Software%20Developer%20-%20Full%20Stack%20(759b57c3-a5c3-4698-af78-66b3591bb936)&_jtochash=egAwG7fmD7QDpsaX2idzME&_jtocprof=RJZnLmmV0YBGyNP09QB4rscMtV8FhJpD",
     Response: "Rejected",
@@ -499,7 +499,7 @@ export const jobsDB = [
   {
     title: "UI/UX Designer",
     company: "Swoon",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "https://www.swoonstaffing.ca/",
     Response: "Rejected",
     Updates: "No Response",
@@ -508,7 +508,7 @@ export const jobsDB = [
   {
     title: "Software Engineer",
     company: "Rose Rocket",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -517,7 +517,7 @@ export const jobsDB = [
   {
     title: "Web UI/UX Developer",
     company: "Inorbital",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -526,7 +526,7 @@ export const jobsDB = [
   {
     title: "Junior Front-end Developer",
     company: "Toolbx US Inc",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL:
       "https://www.simplyhired.ca/job/Mm44U-EU-qG6z9tOGOGn1aXw0jp0neJVVwHmAi7Y7XNJAGBStqMCWA",
     Response: "Rejected",
@@ -536,7 +536,7 @@ export const jobsDB = [
   {
     title: "Software Developer",
     company: "Zensurance",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL:
       "https://jobs.lever.co/zensurance/8c826995-0f86-4926-a2fe-223bcf8cf0ab",
     Response: "Rejected",
@@ -546,7 +546,7 @@ export const jobsDB = [
   {
     title: "Sr. Frontend Developer",
     company: "Wisedocs",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -555,7 +555,7 @@ export const jobsDB = [
   {
     title: "UI/UX Developer",
     company: "Sunrise Group Inc",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -564,7 +564,7 @@ export const jobsDB = [
   {
     title: "Frontend Developer",
     company: "TDS Personnel",
-    Location: "Markham, ON",
+    location: "Markham, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4085981709",
     Response: "Rejected",
     Updates: "Nothing",
@@ -573,7 +573,7 @@ export const jobsDB = [
   {
     title: "Web Developer",
     company: "Knix",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL:
       "https://www.simplyhired.ca/job/PVTk3PDkFhT1W9qLJaYnZZm6BnHWvVAv63Jy9Hi1gD_sj6E2k70V5Q",
     Response: "Rejected",
@@ -583,7 +583,7 @@ export const jobsDB = [
   {
     title: "Web Developer",
     company: "Agency Analytics",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -592,7 +592,7 @@ export const jobsDB = [
   {
     title: "Software Developer",
     company: "EQ Bank | Equitable Bank",
-    Location: "Toronto ON",
+    location: "Toronto ON",
     jobURL:
       "https://www.simplyhired.ca/job/CF5Yg6AN77wo2avV86QhMRpyYhJ209eRGrn22gmYBPamG18cZUFzVA",
     Response: "Rejected",
@@ -602,7 +602,7 @@ export const jobsDB = [
   {
     title: "Front End Developer",
     company: "KUBRA",
-    Location: "Mississauga, ON",
+    location: "Mississauga, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4084896079",
     Response: "Applied",
     Updates: "No Response",
@@ -611,7 +611,7 @@ export const jobsDB = [
   {
     title: "UX/UI Developer",
     company: "Jonas Club Software",
-    Location: "Markham, ON",
+    location: "Markham, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4083287007",
     Response: "Rejected",
     Updates: "No Response",
@@ -620,7 +620,7 @@ export const jobsDB = [
   {
     title: "Junior Software Developer",
     company: "Rewind",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4092125803",
     Response: "Rejected",
     Updates: "No Response",
@@ -629,7 +629,7 @@ export const jobsDB = [
   {
     title: "Junior Front end Developer",
     company: "Amazech Solutions",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4093659151",
     Response: "",
     Updates: "",
@@ -637,8 +637,8 @@ export const jobsDB = [
   },
   {
     title: "UI/UX Designer",
-    company: "Location Discord",
-    Location: "Remote",
+    company: "location Discord",
+    location: "Remote",
     jobURL:
       "https://discord.com/channels/486935104384532500/1309105109954723860",
     Response: "",
@@ -648,7 +648,7 @@ export const jobsDB = [
   {
     title: "Technical Writer",
     company: "Caribbean",
-    Location: "Remote",
+    location: "Remote",
     jobURL: "https://www.careers-page.com/thehivecareers/job/L848563V",
     Response: "Rejected",
     Updates: "No Response",
@@ -657,7 +657,7 @@ export const jobsDB = [
   {
     title: "Full-Stack Engineer (Remote)",
     company: "Addy AI",
-    Location: "Remote",
+    location: "Remote",
     jobURL:
       "https://addyai.notion.site/Full-Stack-Engineer-Remote-8e60887860d5408fbb6d31a9096a90a6",
     Response: "Rejected",
@@ -667,7 +667,7 @@ export const jobsDB = [
   {
     title: "Junior Full Stack Developer",
     company: "Boosty Labs",
-    Location: "Remote",
+    location: "Remote",
     jobURL: "",
     Response: "",
     Updates: "",
@@ -676,7 +676,7 @@ export const jobsDB = [
   {
     title: "Frontend Software Developer – HTML / CSS / JavaScript",
     company: "Moneris",
-    Location: "Remote",
+    location: "Remote",
     jobURL: "https://www.linkedin.com/jobs/view/4100053313",
     Response: "Rejected",
     Updates: "No Response",
@@ -685,7 +685,7 @@ export const jobsDB = [
   {
     title: "Front-End Engineer (Remote)",
     company: "Canada - Remote ON",
-    Location: "Remote",
+    location: "Remote",
     jobURL:
       "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Front-End-Engineer--Remote-_R21315",
     Response: "Rejected",
@@ -695,7 +695,7 @@ export const jobsDB = [
   {
     title: "Software Engineer, Frontend",
     company: "Proof",
-    Location: "Remote",
+    location: "Remote",
     jobURL:
       "https://www.proofserve.com/careers/4520928005?gh_jid=4520928005&gh_src=2d1983cb5us#application",
     Response: "Rejected",
@@ -705,7 +705,7 @@ export const jobsDB = [
   {
     title: "Front End Developer",
     company: "loblaw",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://careers.loblaw.ca/front-end-developer-ii-10-month-contract/job/PAF-LCL-1528B462-BB92-4699-8B7D-B653F2B15836_7580_1737393927_0",
     Response: "Rejected",
@@ -715,7 +715,7 @@ export const jobsDB = [
   {
     title: "Frontend Developer",
     company: "eLocal",
-    Location: "Remote",
+    location: "Remote",
     jobURL: "https://www.linkedin.com/jobs/view/4140140428",
     Response: "Rejected",
     Updates: "No Response",
@@ -724,7 +724,7 @@ export const jobsDB = [
   {
     title: "React UI Developer",
     company: "Techedin",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4131919468",
     Response: "Rejected",
     Updates: "No Response",
@@ -733,7 +733,7 @@ export const jobsDB = [
   {
     title: "Web Developer",
     company: "connexall",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -742,7 +742,7 @@ export const jobsDB = [
   {
     title: "Software Engineer",
     company: "VTS",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://job-boards.greenhouse.io/vts/jobs/4497398005",
     Response: "Rejected",
     Updates: "No Response",
@@ -751,7 +751,7 @@ export const jobsDB = [
   {
     title: "Front-End Web Developer",
     company: "pinnacle",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://job-boards.greenhouse.io/vts/jobs/4497398005",
     Response: "Rejected",
     Updates: "No Response",
@@ -760,7 +760,7 @@ export const jobsDB = [
   {
     title: "Front End Developers-Health",
     company: "Zortech Solutions",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4153178120",
     Response: "Rejected",
     Updates: "No Response",
@@ -769,7 +769,7 @@ export const jobsDB = [
   {
     title: "Software Engineer",
     company: "Relay",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://jobs.lever.co/relayfi/c9e1dc17-ea52-4859-b4f2-2bf91a9a76c2",
     Response: "Rejected",
@@ -779,7 +779,7 @@ export const jobsDB = [
   {
     title: "Front-End Developer (AEM)",
     company: "Saatchi & Saatchi",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://careers-publicisgroupe.icims.com/jobs/95363/",
     Response: "Rejected",
     Updates: "No Response",
@@ -788,7 +788,7 @@ export const jobsDB = [
   {
     title: "Software Engineer I",
     company: "Retain",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://jobs.lever.co/includedhealth/71927e92-88ec-4481-8d12-00a2bcd9c41f",
     Response: "Applied",
@@ -798,7 +798,7 @@ export const jobsDB = [
   {
     title: "Front End Developer",
     company: "G-P",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Applied",
     Updates: "No Response",
@@ -807,7 +807,7 @@ export const jobsDB = [
   {
     title: "Frontend Software Engineer",
     company: "Warner Music Group",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://jobs.lever.co/wmg/ecaadabc-2983-4b65-b86d-0326016de11a",
     Response: "Applied",
     Updates: "Email Rejection",
@@ -816,7 +816,7 @@ export const jobsDB = [
   {
     title: "Senior Front-End Developer",
     company: "Wisedocs AI",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Applied",
     Updates: "No Response",
@@ -825,7 +825,7 @@ export const jobsDB = [
   {
     title: "Software Engineer, Frontend",
     company: "Proof",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.proofserve.com/careers/4520928005#application",
     Response: "Applied",
     Updates: "No Response",
@@ -834,7 +834,7 @@ export const jobsDB = [
   {
     title: "Full Stack Engineer, Onboarding",
     company: "Stripe",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://stripe.com/jobs/listing/full-stack-engineer-onboarding/6649844?gh_src=73vnei",
     Response: "Rejected",
@@ -844,7 +844,7 @@ export const jobsDB = [
   {
     title: "Senior Frontend Developer",
     company: "Kaizen Technologies",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4176767311",
     Response: "Applied",
     Updates: "No Response",
@@ -853,7 +853,7 @@ export const jobsDB = [
   {
     title: "Front-end Engineer",
     company: "Faire WholeSale",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://job-boards.greenhouse.io/faire/jobs/7895148002?gh_jid=7895148002&gh_src=b84852fd2us",
     Response: "Applied",
@@ -863,7 +863,7 @@ export const jobsDB = [
   {
     title: "UX / UI Designer",
     company: "Webster Team Development",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4176752170",
     Response: "Applied",
     Updates: "No Response",
@@ -872,7 +872,7 @@ export const jobsDB = [
   {
     title: "Frontend Engineer",
     company: "BuildOPS",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://buildops.com/careers/job-application/?gh_jid=5356104004",
     Response: "Applied",
     Updates: "No Response",
@@ -881,7 +881,7 @@ export const jobsDB = [
   {
     title: "Front End Web Developer",
     company: "Shift4",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://job-boards.greenhouse.io/shift4/jobs/4657563007?gh_src=d53465cf7us",
     Response: "Applied",
@@ -891,7 +891,7 @@ export const jobsDB = [
   {
     title: "Front End Engineer, FinAuto",
     company: "Amazon",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://www.amazon.jobs/en/jobs/2912525/front-end-engineer-finauto",
     Response: "Applied",
@@ -901,7 +901,7 @@ export const jobsDB = [
   {
     title: "UX Designer",
     company: "Sago Mini",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4150855833",
     Response: "Applied",
     Updates: "No Response",
@@ -910,7 +910,7 @@ export const jobsDB = [
   {
     title: "Frontend Engineer",
     company: "Tailscale",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://job-boards.greenhouse.io/tailscale/jobs/4521895005",
     Response: "Rejected",
     Updates: "Email Rejection",
@@ -919,7 +919,7 @@ export const jobsDB = [
   {
     title: "UX Engineer",
     company: "Assembled",
-    Location: "Remote",
+    location: "Remote",
     jobURL:
       "https://jobs.ashbyhq.com/assembledhq/b1e813b8-cead-458a-9a55-090ad371b372",
     Response: "Rejected",
@@ -929,7 +929,7 @@ export const jobsDB = [
   {
     title: "Front-End Developer (UI Design System)",
     company: "Toku",
-    Location: "Remote",
+    location: "Remote",
     jobURL: "https://jobs.lever.co/toku/7c2a558c-f3ce-4232-9330-93f9eae29417",
     Response: "Rejected",
     Updates: "Email Rejection",
@@ -938,7 +938,7 @@ export const jobsDB = [
   {
     title: "Web Developer",
     company: "Tree Top Staffing LLC",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4180906905",
     Response: "Rejected",
     Updates: "No Response",
@@ -947,7 +947,7 @@ export const jobsDB = [
   {
     title: "Software Developer",
     company: "RBC",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://jobs.rbc.com/ca/en/job/R-0000103871/Software-Developer-NodeJS",
     Response: "Rejected",
@@ -957,7 +957,7 @@ export const jobsDB = [
   {
     title: "UI/UX Designer",
     company: "RBC",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://jobs.rbc.com/ca/en/job/R-0000115550/UI-UX-Designer",
     Response: "Rejected",
     Updates: "No Response",
@@ -966,7 +966,7 @@ export const jobsDB = [
   {
     title: "Junior Technical Developer",
     company: "",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://careers.lululemon.com/en_US/careers/JobDetail/Junior-Technical-Developer/47146",
     Response: "Rejected",
@@ -976,7 +976,7 @@ export const jobsDB = [
   {
     title: "Club Attendant",
     company: "Good Life Fitness",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://goodlifefitness.wd3.myworkdayjobs.com/en-US/Careers/job/Club-Attendant---Toronto-Yonge-Eglinton-Centre_JR106715",
     Response: "Rejected",
@@ -986,7 +986,7 @@ export const jobsDB = [
   {
     title: "Web Developer, Onboarding Experiences",
     company: "Robbinhood",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://job-boards.greenhouse.io/robinhood/jobs/6583442?t=gh_src=&gh_jid=6583442&gh_src=ed898e781us",
     Response: "Rejected",
@@ -996,7 +996,7 @@ export const jobsDB = [
   {
     title: "Front End Web Developer",
     company: "shift4",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://job-boards.greenhouse.io/shift4/jobs/4657563007?gh_src=d53465cf7us",
     Response: "Rejected",
@@ -1006,7 +1006,7 @@ export const jobsDB = [
   {
     title: "Front End Developer",
     company: "Great Gulf Canada",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://jobs.dayforcehcm.com/en-US/greatgulf/GG/jobs/2747",
     Response: "Rejected",
     Updates: "Nothing",
@@ -1015,7 +1015,7 @@ export const jobsDB = [
   {
     title: "Jr. Digital Designer",
     company: "Insight Global",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4182670502",
     Response: "Rejected",
     Updates: "Nothing",
@@ -1024,7 +1024,7 @@ export const jobsDB = [
   {
     title: "Frontend Developer",
     company: "landbase",
-    Location: "Mountain View, Toronto, Warsaw",
+    location: "Mountain View, Toronto, Warsaw",
     jobURL:
       "https://jobs.ashbyhq.com/landbase/38294de8-dffc-4fbc-b56f-f6958c70348c?utm_source=K4qvG9z4EN",
     Response: "Rejected",
@@ -1034,7 +1034,7 @@ export const jobsDB = [
   {
     title: "Frontend Developer",
     company: "Great Gulf Canada",
-    Location: "",
+    location: "",
     jobURL: "",
     Response: "",
     Updates: "",
@@ -1043,7 +1043,7 @@ export const jobsDB = [
   {
     title: "Frontend Engineer",
     company: "BitGO",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://boards.greenhouse.io/bitgo/jobs/7876628002",
     Response: "Rejected",
     Updates: "Nothing",
@@ -1052,7 +1052,7 @@ export const jobsDB = [
   {
     title: "Intermediate Fullstack Developer (Ruby & React)",
     company: "FullScript",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "Nothing",
@@ -1061,7 +1061,7 @@ export const jobsDB = [
   {
     title: "Laundry Utility Person",
     company: "Chelsea Hotel - Toronto",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "Email Rejection",
@@ -1070,7 +1070,7 @@ export const jobsDB = [
   {
     title: "Web Developer",
     company: "Content and Communications",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "Nothing",
@@ -1079,7 +1079,7 @@ export const jobsDB = [
   {
     title: "React Developer",
     company: "Persistent Systems",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4178781295",
     Response: "Rejected",
     Updates: "Nothing",
@@ -1088,7 +1088,7 @@ export const jobsDB = [
   {
     title: "Front-End UX Developer (React, Next.js)",
     company: "Openscreen",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4184591256",
     Response: "Rejected",
     Updates: "No Response",
@@ -1097,7 +1097,7 @@ export const jobsDB = [
   {
     title: "Website Developer",
     company: "Vena Solutions",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4172505947",
     Response: "Rejected",
     Updates: "Email",
@@ -1106,7 +1106,7 @@ export const jobsDB = [
   {
     title: "Frontend Engineer, UX",
     company: "Chainlink Labs",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://jobs.ashbyhq.com/chainlink-labs/859edddc-0449-44a1-874f-778681ebc698?src=LinkedIn",
     Response: "Rejected",
@@ -1116,7 +1116,7 @@ export const jobsDB = [
   {
     title: "Software Engineer I, Retain",
     company: "Included Health",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4166591686",
     Response: "Rejected",
     Updates: "Nothing",
@@ -1125,7 +1125,7 @@ export const jobsDB = [
   {
     title: "Web Developer",
     company: "EDealer",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://ats.rippling.com/en-CA/einc/jobs/f7752254-1013-4e69-9472-cda4559417e6",
     Response: "Rejected",
@@ -1135,7 +1135,7 @@ export const jobsDB = [
   {
     title: "Frontend Engineer - Onboarding",
     company: "BitGO",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://ats.rippling.com/en-CA/einc/jobs/f7752254-1013-4e69-9472-cda4559417e6",
     Response: "Rejected",
@@ -1145,7 +1145,7 @@ export const jobsDB = [
   {
     title: "Software Developer - Full Stack",
     company: "",
-    Location: "",
+    location: "",
     jobURL: "",
     Response: "",
     Updates: "",
@@ -1154,7 +1154,7 @@ export const jobsDB = [
   {
     title: "UI Developer",
     company: "Tata Consultancy Services",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://ats.rippling.com/en-CA/einc/jobs/f7752254-1013-4e69-9472-cda4559417e6",
     Response: "Rejected",
@@ -1164,7 +1164,7 @@ export const jobsDB = [
   {
     title: "Triage Engineer",
     company: "Overflow",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -1173,7 +1173,7 @@ export const jobsDB = [
   {
     title: "Software Engineer - Inventory position",
     company: "StackAdapt",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -1182,7 +1182,7 @@ export const jobsDB = [
   {
     title: "Software Engineer",
     company: "Cohere",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Rejected",
     Updates: "No Response",
@@ -1191,7 +1191,7 @@ export const jobsDB = [
   {
     title: "Front End Developer",
     company: "AgencyAnalytics",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://agencyanalytics.pinpointhq.com/en/postings/6f60b45e-d78f-4416-a86c-7f7be12f9800",
     Response: "Rejected",
@@ -1201,7 +1201,7 @@ export const jobsDB = [
   {
     title: "UX/UI Designer (North York, ON)",
     company: "",
-    Location: "",
+    location: "",
     jobURL: "",
     Response: "",
     Updates: "",
@@ -1210,7 +1210,7 @@ export const jobsDB = [
   {
     title: "Frontend Engineer",
     company: "",
-    Location: "",
+    location: "",
     jobURL: "",
     Response: "",
     Updates: "",
@@ -1219,7 +1219,7 @@ export const jobsDB = [
   {
     title: "Intermediate Front End Software Developer - Patient Communication",
     company: "Jane App",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://jobs.lever.co/janeapp/5a425bc6-b9f7-41c3-89aa-dcee5b74a794/already-received?ms=1743160209682",
     Response: "Applied",
@@ -1229,7 +1229,7 @@ export const jobsDB = [
   {
     title: "Front End Engineer (Hybrid)",
     company: "Homebase",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://jobs.ashbyhq.com/homebase/dc067dae-0635-4657-838d-192a3a880cc0?utm_source=unique_code%2C+e.g.+utm_source%3DLinkedInPaid",
     Response: "Rejected",
@@ -1239,7 +1239,7 @@ export const jobsDB = [
   {
     title: "Technical Developer",
     company: "Encore Catering",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://ca.indeed.com/viewjob?jk=ca94b76c19cb2535&from=shareddesktop_copy",
     Response: "Talking Stages",
@@ -1249,7 +1249,7 @@ export const jobsDB = [
   {
     title: "Front End Engineer II, Campaign Management",
     company: "Amazon",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Applied",
     Updates: "Waiting",
@@ -1258,7 +1258,7 @@ export const jobsDB = [
   {
     title: "UI/UX Designer",
     company: "",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "",
     Response: "Applied",
     Updates: "Waiting",
@@ -1267,7 +1267,7 @@ export const jobsDB = [
   {
     title: "Technical Writer - Transit",
     company: "Cadre",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://dd0000000eplaeae.my.salesforce-sites.com/tech/ts2__JobDetails?jobId=a0xOK000000KjXFYA0&tSource=a16d0000000HT4uAAG",
     Response: "Applied",
@@ -1277,7 +1277,7 @@ export const jobsDB = [
   {
     title: "Technical Writer",
     company: "Toronto Transit Commission (TTC)",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://career17.sapsf.com/portalcareer?_s.crb=RNaRSnDmX8XsfuP1GxeKq8U5PKTgci57opbjrWBDiOI%253d",
     Response: "Applied",
@@ -1287,7 +1287,7 @@ export const jobsDB = [
   {
     title: "Frontend Developer",
     company: "UST",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://usource.ripplehire.com/candidate/?token=8YxWjpwDhdL62DFYUIcQ&lang=en&source=USTLINKEDIN&ref=USTLINKEDIN#detail/job/36076",
     Response: "Rejected",
@@ -1297,7 +1297,7 @@ export const jobsDB = [
   {
     title: "Website Developer",
     company: "Absorb Software",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://www.linkedin.com/jobs/view/4206086247",
     Response: "Applied",
     Updates: "Waiting",
@@ -1306,7 +1306,7 @@ export const jobsDB = [
   {
     title: "UI/UX Designer",
     company: "Alcumus",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://alcumus.pinpointhq.com/postings/1d975d5b-25fd-4e29-a462-9db5447ddbf3",
     Response: "Applied",
@@ -1316,7 +1316,7 @@ export const jobsDB = [
   {
     title: "Software Engineer",
     company: "Jerry AI",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL:
       "https://jobs.ashbyhq.com/Jerry/496766ef-be88-4f83-a375-3baade7f3933/application?utm_source=6Vdva5VPyD",
     Response: "Rejected",
@@ -1326,7 +1326,7 @@ export const jobsDB = [
   {
     title: "Junior Tech Developer",
     company: "Open Source Integrators (OSI)",
-    Location: "Toronto, ON",
+    location: "Toronto, ON",
     jobURL: "https://opensourceintegrators.bamboohr.com/careers/57",
     Response: "Applied",
     Updates: "Waiting",
