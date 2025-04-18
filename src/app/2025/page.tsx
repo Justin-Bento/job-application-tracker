@@ -15,6 +15,7 @@ interface JobPost {
   location: string;
   response: string;
   updates: string;
+  dates: string;
   offers: string;
   jobURL: string;
 }
@@ -44,7 +45,7 @@ export default async function Page() {
               <ApplicationTracker>
                 <ApplicationTrackerApplications>
                   <li>Application #{posts.length - index}</li>
-                  <li>DD/MM/YYY</li>
+                  <li>{post.dates || "DD/MM/YYY"}</li>
                 </ApplicationTrackerApplications>
                 <ApplicationTrackerRole>
                   {post.title}, {post.company}

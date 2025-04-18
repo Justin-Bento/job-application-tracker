@@ -7,6 +7,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Website Developer",
@@ -16,6 +17,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Engineer",
@@ -25,6 +27,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Developer",
@@ -34,6 +37,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Internal Tools",
@@ -43,6 +47,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Developer 2",
@@ -52,6 +57,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Developer",
@@ -61,6 +67,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Enginner",
@@ -70,6 +77,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Developer 2",
@@ -79,6 +87,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Developer",
@@ -88,6 +97,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Developer I",
@@ -97,6 +107,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Developer",
@@ -106,6 +117,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Developer",
@@ -115,6 +127,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Developer",
@@ -124,6 +137,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Enginner",
@@ -133,6 +147,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front-End Developer",
@@ -142,6 +157,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front-End Developer",
@@ -151,6 +167,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front-End Developer",
@@ -160,6 +177,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Web Applications Developer",
@@ -169,6 +187,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Development Engineer",
@@ -178,6 +197,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Engineer",
@@ -187,6 +207,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Developer",
@@ -196,6 +217,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Programmer I (Web Developer)",
@@ -206,6 +228,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Digital Learning Build Coordinator",
@@ -216,6 +239,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "React Front End Developer (PL570)",
@@ -226,6 +250,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Website Developer",
@@ -236,6 +261,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Web CMS Developer Specialist",
@@ -246,6 +272,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front-end developer",
@@ -255,6 +282,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Web Developer, Web Platform",
@@ -265,6 +293,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "ReactJS Developer",
@@ -274,6 +303,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Developer II (Frontend)",
@@ -283,6 +313,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Engineer - React - Web",
@@ -292,6 +323,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Full Stack Software Engineer",
@@ -301,6 +333,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Engineer II",
@@ -310,6 +343,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Website Developer (Extension)",
@@ -329,6 +363,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Software Engineer II",
@@ -338,6 +373,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Jr. Back-End Developer",
@@ -347,6 +383,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Developer",
@@ -357,6 +394,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Junior Software Engineer",
@@ -367,6 +405,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email Rejection",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Junior Developer",
@@ -376,6 +415,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email Rejection",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UI Designer",
@@ -385,6 +425,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Developer",
@@ -395,6 +436,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front send Developer",
@@ -404,6 +446,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Developer",
@@ -413,6 +456,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Junior Front End Developer",
@@ -422,6 +466,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UX Designer (Hybrid)",
@@ -431,6 +476,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Engineer",
@@ -440,6 +486,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UX/UI Designer (Hybrid)",
@@ -449,6 +496,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email Rejection",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Developer (React)",
@@ -458,6 +506,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Developer",
@@ -467,6 +516,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Developer",
@@ -476,6 +526,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email Rejection",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UI/UX Designer",
@@ -485,6 +536,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Junior Software Developer - Full Stack",
@@ -495,6 +547,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UI/UX Designer",
@@ -504,6 +557,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Engineer",
@@ -513,6 +567,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Web UI/UX Developer",
@@ -522,6 +577,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Junior Front-end Developer",
@@ -532,6 +588,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Developer",
@@ -542,6 +599,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Sr. Frontend Developer",
@@ -551,6 +609,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UI/UX Developer",
@@ -560,6 +619,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Developer",
@@ -569,6 +629,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Web Developer",
@@ -579,6 +640,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Web Developer",
@@ -588,6 +650,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Developer",
@@ -598,6 +661,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Developer",
@@ -607,6 +671,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UX/UI Developer",
@@ -616,6 +681,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Junior Software Developer",
@@ -625,6 +691,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Junior Front end Developer",
@@ -634,6 +701,7 @@ export const jobsDB = [
     response: "",
     updates: "",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UI/UX Designer",
@@ -644,6 +712,7 @@ export const jobsDB = [
     response: "",
     updates: "",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Technical Writer",
@@ -653,6 +722,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Full-Stack Engineer (Remote)",
@@ -663,6 +733,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Junior Full Stack Developer",
@@ -672,6 +743,7 @@ export const jobsDB = [
     response: "",
     updates: "",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Software Developer – HTML / CSS / JavaScript",
@@ -681,6 +753,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front-End Engineer (Remote)",
@@ -691,6 +764,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Engineer, Frontend",
@@ -701,6 +775,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Developer",
@@ -711,6 +786,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Developer",
@@ -720,6 +796,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "React UI Developer",
@@ -729,6 +806,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Web Developer",
@@ -738,6 +816,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Engineer",
@@ -747,6 +826,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front-End Web Developer",
@@ -756,6 +836,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Developers-Health",
@@ -765,6 +846,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Engineer",
@@ -775,6 +857,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front-End Developer (AEM)",
@@ -784,6 +867,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Engineer I",
@@ -794,6 +878,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Developer",
@@ -803,6 +888,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Software Engineer",
@@ -812,6 +898,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "Email Rejection",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Senior Front-End Developer",
@@ -821,6 +908,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Engineer, Frontend",
@@ -830,6 +918,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Full Stack Engineer, Onboarding",
@@ -840,6 +929,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email Rejection",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Senior Frontend Developer",
@@ -849,6 +939,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front-end Engineer",
@@ -859,6 +950,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UX / UI Designer",
@@ -868,6 +960,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Engineer",
@@ -877,6 +970,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Web Developer",
@@ -887,6 +981,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Engineer, FinAuto",
@@ -897,6 +992,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UX Designer",
@@ -906,6 +1002,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Engineer",
@@ -915,6 +1012,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email Rejection",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UX Engineer",
@@ -925,6 +1023,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email Rejection",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front-End Developer (UI Design System)",
@@ -934,6 +1033,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email Rejection",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Web Developer",
@@ -943,6 +1043,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Developer",
@@ -953,6 +1054,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UI/UX Designer",
@@ -962,6 +1064,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Junior Technical Developer",
@@ -972,6 +1075,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Club Attendant",
@@ -982,6 +1086,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Waiting",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Web Developer, Onboarding Experiences",
@@ -992,6 +1097,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Web Developer",
@@ -1002,6 +1108,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Developer",
@@ -1011,6 +1118,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Jr. Digital Designer",
@@ -1020,6 +1128,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Developer",
@@ -1030,6 +1139,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Developer",
@@ -1039,6 +1149,7 @@ export const jobsDB = [
     response: "",
     updates: "",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Engineer",
@@ -1048,6 +1159,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Intermediate Fullstack Developer (Ruby & React)",
@@ -1057,6 +1169,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Laundry Utility Person",
@@ -1066,6 +1179,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email Rejection",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Web Developer",
@@ -1075,6 +1189,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "React Developer",
@@ -1084,6 +1199,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front-End UX Developer (React, Next.js)",
@@ -1093,6 +1209,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Website Developer",
@@ -1102,6 +1219,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Engineer, UX",
@@ -1112,6 +1230,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Engineer I, Retain",
@@ -1121,6 +1240,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Web Developer",
@@ -1131,6 +1251,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Engineer - Onboarding",
@@ -1141,6 +1262,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Developer - Full Stack",
@@ -1150,6 +1272,7 @@ export const jobsDB = [
     response: "",
     updates: "",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UI Developer",
@@ -1160,6 +1283,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Nothing",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Triage Engineer",
@@ -1169,6 +1293,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Engineer - Inventory position",
@@ -1178,6 +1303,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Engineer",
@@ -1187,6 +1313,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Developer",
@@ -1197,6 +1324,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UX/UI Designer (North York, ON)",
@@ -1206,6 +1334,7 @@ export const jobsDB = [
     response: "",
     updates: "",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Engineer",
@@ -1215,6 +1344,7 @@ export const jobsDB = [
     response: "",
     updates: "",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Intermediate Front End Software Developer - Patient Communication",
@@ -1225,6 +1355,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "Waiting",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Engineer (Hybrid)",
@@ -1235,6 +1366,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email Rejection",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Technical Developer",
@@ -1245,6 +1377,7 @@ export const jobsDB = [
     response: "Talking Stages",
     updates: "Messsage",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Front End Engineer II, Campaign Management",
@@ -1254,6 +1387,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "Waiting",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UI/UX Designer",
@@ -1263,6 +1397,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "Waiting",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Technical Writer - Transit",
@@ -1273,6 +1408,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "Waiting",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Technical Writer",
@@ -1283,6 +1419,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "Waiting",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Frontend Developer",
@@ -1293,6 +1430,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "Email Rejection",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Website Developer",
@@ -1302,6 +1440,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "Waiting",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "UI/UX Designer",
@@ -1312,6 +1451,7 @@ export const jobsDB = [
     response: "Applied",
     updates: "Waiting",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Software Engineer",
@@ -1322,6 +1462,7 @@ export const jobsDB = [
     response: "Rejected",
     updates: "No response",
     offers: "",
+    dates: "4/11/2025",
   },
   {
     title: "Junior Tech Developer",
@@ -1331,5 +1472,6 @@ export const jobsDB = [
     response: "Applied",
     updates: "Waiting",
     offers: "",
+    dates: "4/11/2025",
   },
 ];
