@@ -35,7 +35,7 @@ export default function ApplicationTracker({
         <h2 className="text-lg font-medium tracking-tight text-foreground">
           {title}, <span className="font-normal">{company}</span>
         </h2>
-        <ul className="flex items-center gap-4 divide-x-2 [&>li]:pr-4 [&>li]:text-xs [&>li]:text-muted-foreground">
+        <ul className="flex flex-col lg:flex-row lg:items-center divide-y lg:divide-y-0 lg:divide-x divide-gray-200 [&>li]:px-4 [&>li]:py-2 [&>li]:text-xs [&>li]:text-muted-foreground">
           <li>{location}</li>
           <li>{response}</li>
           <li>{updates}</li>
