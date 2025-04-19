@@ -5,7 +5,7 @@ import Wrapper from "@/components/Wrapper";
 
 export default function page() {
   return (
-    <Wrapper className="mt-16">
+    <Wrapper className="mt-16 space-y-16">
       <section className="">
         <p className="text-sm text-muted-foreground">
           Simple. Organized. Stress-Free
@@ -23,17 +23,17 @@ export default function page() {
           <li>Stay on top of deadlines (follow-ups, responses).</li>
         </ul>
       </section>
-      <section className="mt-12">
+      <section className="mt-16">
         <h2 className="text-2xl font-semibold text-pretty text-gray-900 mb-8">
           Your Applications, Sorted by Year:
         </h2>
-        <ul className="space-y-12">
+        <ul className="space-y-8">
           <li className="">
             <Card className="relative isolate overflow-hidden shadow-none">
               <CardContent>
                 <Link href="/2025" className="text-foreground">
                   2025 Job Applications.
-                  <span className=" inset-0 absolute hover:bg-teal-200/40" />
+                  <span className="inset-0 absolute hover:bg-teal-200/40" />
                 </Link>
               </CardContent>
             </Card>
@@ -43,7 +43,7 @@ export default function page() {
               <CardContent>
                 <Link href="/2024" className="text-foreground">
                   2024 Job Applications.
-                  <span className=" inset-0 absolute hover:bg-teal-200/40" />
+                  <span className="inset-0 absolute hover:bg-teal-200/40" />
                 </Link>
               </CardContent>
             </Card>
