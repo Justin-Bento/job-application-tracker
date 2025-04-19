@@ -1,18 +1,7 @@
 import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import React from "react";
-
-interface JobPost {
-  title: string;
-  company: string;
-  location: string;
-  response: string;
-  updates: string;
-  offers: string;
-  jobURL: string;
-  applications: number;
-  dateApplied: string;
-}
+import { JobPost } from "../../types.model";
 
 export default function ApplicationTracker({
   applications,
