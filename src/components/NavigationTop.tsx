@@ -8,8 +8,8 @@ export default function NavigationTop() {
   return (
     <header className="sticky top-0">
       <Card className="rounded-none border-0 backdrop-blur-md bg-white/30">
-        <CardContent className="container mx-auto px-0">
-          <Wrapper className="pys-2">
+        <CardContent className="px-0">
+          <Wrapper className="py-2">
             <Link href="/" className="hover:opacity-50">
               <Image
                 className="dark:invert"
