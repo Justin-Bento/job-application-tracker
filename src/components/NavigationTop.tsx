@@ -9,7 +9,7 @@ export default function NavigationTop() {
     <header className="sticky top-0">
       <Card className="rounded-none border-0 backdrop-blur-md bg-white/30">
         <CardContent className="px-0">
-          <Wrapper className="py-2">
+          <Wrapper className="py-2 flex items-center justify-between">
             <Link href="/" className="hover:opacity-50">
               <Image
                 className="dark:invert"
