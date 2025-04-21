@@ -60,6 +60,31 @@ export default function page() {
               </div>
             </CardFooter>
           </Card>
+          <Card className="@container/card">
+            <CardHeader className="relative">
+              <CardDescription>Rejected Applications: Q1 2025</CardDescription>
+              <CardTitle className="@[250px]/card:text-3xl text-2xl font-semibold tabular-nums">
+                #147
+              </CardTitle>
+              <div className="absolute right-4 top-4">
+                <Badge
+                  variant="outline"
+                  className="flex gap-1 rounded-lg text-xs"
+                >
+                  <TrendingDownIcon className="size-3" />
+                  85%
+                </Badge>
+              </div>
+            </CardHeader>
+            <CardFooter className="flex-col items-start gap-1 text-sm">
+              <div className="line-clamp-1 flex gap-2 font-medium">
+                No offers this quater <TrendingDownIcon className="size-4" />
+              </div>
+              <div className="text-muted-foreground">
+                Acquisition needs attention
+              </div>
+            </CardFooter>
+          </Card>
         </div>
       </section>
     </Wrapper>
