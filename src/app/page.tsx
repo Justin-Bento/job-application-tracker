@@ -14,7 +14,7 @@ import Link from "next/link";
 
 export default function page() {
   return (
-    <Wrapper className="mt-16 space-y-16">
+    <Wrapper className="my-16 space-y-16">
       <section className="">
         <p className="text-sm text-muted-foreground">
           Simple. Organized. Stress-Free
