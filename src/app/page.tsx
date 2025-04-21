@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Card,
+  CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
@@ -9,6 +10,7 @@ import {
 import Wrapper from "@/components/Wrapper";
 import { TrendingDownIcon, TrendingUpIcon } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import Link from "next/link";
 
 export default function page() {
   return (
@@ -136,6 +138,28 @@ export default function page() {
                 Meets growth projections with improvements needed.
               </div>
             </CardFooter>
+          </Card>
+          <Card className="col-span-2 relative isolate overflow-hidden shadow-none">
+            <CardContent>
+              <Link
+                href="/2025"
+                className="text-foreground text-lg font-semibold"
+              >
+                2025 Job Applications.
+                <span className="inset-0 absolute hover:bg-teal-200/40" />
+              </Link>
+            </CardContent>
+          </Card>
+          <Card className="col-span-2 relative isolate overflow-hidden shadow-none">
+            <CardContent>
+              <Link
+                href="/2024"
+                className="text-foreground text-lg font-semibold"
+              >
+                2024 Job Applications.
+                <span className="inset-0 absolute hover:bg-teal-200/40" />
+              </Link>
+            </CardContent>
           </Card>
         </div>
       </section>
