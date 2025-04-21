@@ -109,8 +109,8 @@ export default function page() {
                 <TrendingUpIcon className="size-4" />
               </div>
               <div className="text-muted-foreground">
-                Engagement exceed targets from last year but it's still below
-                avarage.
+                Engagement exceed targets from last year but it&#39;s still
+                below avarage.
               </div>
             </CardFooter>
           </Card>
