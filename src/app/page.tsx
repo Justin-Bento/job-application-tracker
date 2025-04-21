@@ -90,8 +90,8 @@ export default function page() {
           <Card className="@container/card">
             <CardHeader className="relative">
               <CardDescription>Interview Rate</CardDescription>
-              <CardTitle className="@[250px]/card:text-3xl text-2xl font-semibold tabular-nums">
-                #002
+              <CardTitle className="@[250px]/card:text-3xl text-2xl font-semibold tabular-nums capitalize">
+                2/147 interviews
               </CardTitle>
               <div className="absolute right-4 top-4">
                 <Badge
@@ -99,7 +99,7 @@ export default function page() {
                   className="flex gap-1 rounded-lg text-xs"
                 >
                   <TrendingUpIcon className="size-3" />
-                  +12.5%
+                  +0.013%
                 </Badge>
               </div>
             </CardHeader>
@@ -117,7 +117,7 @@ export default function page() {
           <Card className="@container/card">
             <CardHeader className="relative">
               <CardDescription>Response Rate</CardDescription>
-              <CardTitle className="@[250px]/card:text-3xl text-2xl font-semibold tabular-nums">
+              <CardTitle className="@[250px]/card:text-3xl text-2xl font-semibold tabular-nums capitalize">
                 23/147 applications
               </CardTitle>
               <div className="absolute right-4 top-4">
@@ -126,7 +126,7 @@ export default function page() {
                   className="flex gap-1 rounded-lg text-xs"
                 >
                   <TrendingUpIcon className="size-3" />
-                  +15%
+                  +0.15%
                 </Badge>
               </div>
             </CardHeader>
