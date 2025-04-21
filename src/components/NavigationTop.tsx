@@ -20,6 +20,14 @@ export default function NavigationTop() {
                 priority
               />
             </Link>
+            <ul className="flex items-center gap-4 [&>li]:hover:underline [&>li]:text-muted-foreground">
+              <li className="">
+                <Link href="/2025">2025</Link>
+              </li>
+              <li className="">
+                <Link href="/2024">2024</Link>
+              </li>
+            </ul>
           </Wrapper>
         </CardContent>
       </Card>
