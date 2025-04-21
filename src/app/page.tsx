@@ -1,7 +1,14 @@
-import Link from "next/link";
 import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
+import {
+  Card,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import Wrapper from "@/components/Wrapper";
+import { TrendingDownIcon, TrendingUpIcon } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 
 export default function page() {
   return (
@@ -27,28 +34,33 @@ export default function page() {
         <h2 className="text-2xl font-semibold text-pretty text-gray-900 mb-8">
           Your Applications, Sorted by Year:
         </h2>
-        <ul className="space-y-8">
-          <li className="">
-            <Card className="relative isolate overflow-hidden shadow-none">
-              <CardContent>
-                <Link href="/2025" className="text-foreground">
-                  2025 Job Applications.
-                  <span className="inset-0 absolute hover:bg-teal-200/40" />
-                </Link>
-              </CardContent>
-            </Card>
-          </li>
-          <li className="">
-            <Card className="relative isolate overflow-hidden shadow-none">
-              <CardContent>
-                <Link href="/2024" className="text-foreground">
-                  2024 Job Applications.
-                  <span className="inset-0 absolute hover:bg-teal-200/40" />
-                </Link>
-              </CardContent>
-            </Card>
-          </li>
-        </ul>
+        <div className="grid grid-cols-2 gap-4">
+          <Card className="@container/card">
+            <CardHeader className="relative">
+              <CardDescription>Total Applications 2025</CardDescription>
+              <CardTitle className="@[250px]/card:text-3xl text-2xl font-semibold tabular-nums">
+                #147
+              </CardTitle>
+              <div className="absolute right-4 top-4">
+                <Badge
+                  variant="outline"
+                  className="flex gap-1 rounded-lg text-xs"
+                >
+                  <TrendingUpIcon className="size-3" />
+                  +12.5%
+                </Badge>
+              </div>
+            </CardHeader>
+            <CardFooter className="flex-col items-start gap-1 text-sm">
+              <div className="line-clamp-1 flex gap-2 font-medium">
+                Trending up this month <TrendingUpIcon className="size-4" />
+              </div>
+              <div className="text-muted-foreground">
+                Resume applications sent out the start of 2025
+              </div>
+            </CardFooter>
+          </Card>
+        </div>
       </section>
     </Wrapper>
   );
