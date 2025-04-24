@@ -1515,4 +1515,15 @@ export const jobsDB = [
     offers: "Pending.",
     dates: "4/17/2025",
   },
+  {
+    title: "Frontend Engineer",
+    company: "Artisan",
+    location: "Toronto, ON",
+    jobURL:
+      "https://jobs.ashbyhq.com/artisan/c874125a-7cbb-4b4a-bbf9-7e1ff50ceddf?utm_source=A5NllqbpwQ",
+    response: "Applied",
+    updates: "Waiting for Response",
+    offers: "Pending.",
+    dates: "4/17/2025",
+  },
 ];
