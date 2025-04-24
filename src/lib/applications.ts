@@ -1526,4 +1526,15 @@ export const jobsDB = [
     offers: "Pending.",
     dates: "4/17/2025",
   },
+  {
+    title: "Software Engineer",
+    company: "Top Hat",
+    location: "Toronto, ON",
+    jobURL:
+      "https://tophat.com/company/work-with-us/?ashby_jid=938d7bbc-7284-4fd5-b154-29e424698c99",
+    response: "Applied",
+    updates: "Waiting for Response",
+    offers: "Pending.",
+    dates: "4/17/2025",
+  },
 ];
