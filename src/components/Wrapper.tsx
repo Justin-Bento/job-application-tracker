@@ -27,6 +27,7 @@ export default function Wrapper({
   className,
   layout,
   height,
+  ...props
 }: WrapperProps) {
   return (
     <div className={WrapperVariants({ layout, height, className })} {...props}>
