@@ -9,7 +9,7 @@ const WrapperVariants = cva("", {
   variants: {
     layout: {
       fullWidthMobile: "mx-auto max-w-7xl sm:px-6 lg:px-8",
-      constrained: "container mx-auto px-4 sm:px-6 lg:px-8",
+      constrained: "max-w-7xl 2xl:container mx-auto px-4 sm:px-6 lg:px-8",
     },
     height: {
       none: "",
