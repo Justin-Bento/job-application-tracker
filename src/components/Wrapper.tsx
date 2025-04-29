@@ -12,8 +12,13 @@ const WrapperVariants = cva("", {
       constrained: "container mx-auto px-4 sm:px-6 lg:px-8",
     },
     height: {
+      none: "",
       fullHeight: "min-h-dvh",
     },
+  },
+  defaultVariants: {
+    layout: "constrained", // Default to constrained container
+    height: "none",
   },
 });
 
