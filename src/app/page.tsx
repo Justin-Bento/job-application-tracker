@@ -31,42 +31,42 @@ export default function page() {
         </h2>
         <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           <li className="col-span-2 sm:col-span-1">
-            <Card>
+            <Card className="shadow-none">
               <CardContent>
                 <p className="">Hello World </p>
               </CardContent>
             </Card>
           </li>
           <li className="col-span-2 sm:col-span-1">
-            <Card>
+            <Card className="shadow-none">
               <CardContent>
                 <p className="">Hello World </p>
               </CardContent>
             </Card>
           </li>
           <li className="col-span-2 sm:col-span-1">
-            <Card>
+            <Card className="shadow-none">
               <CardContent>
                 <p className="">Hello World </p>
               </CardContent>
             </Card>
           </li>
           <li className="col-span-2 sm:col-span-1">
-            <Card>
+            <Card className="shadow-none">
               <CardContent>
                 <p className="">Hello World </p>
               </CardContent>
             </Card>
           </li>
           <li className="col-span-2">
-            <Card>
+            <Card className="shadow-none">
               <CardContent>
                 <p className="">Hello World </p>
               </CardContent>
             </Card>
           </li>
           <li className="col-span-2">
-            <Card>
+            <Card className="shadow-none">
               <CardContent>
                 <p className="">Hello World </p>
               </CardContent>
