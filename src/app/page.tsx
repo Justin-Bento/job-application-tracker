@@ -20,7 +20,7 @@ export default function page() {
           Simple. Organized. Stress-Free
         </p>
         <h1 className="text-4xl font-semibold text-pretty text-gray-900">
-          Never Lose Track of Your Job Applications Again!
+          Never Lose Track of Your Job Applications!
         </h1>
         <p className="mt-2 text-lg/8 text-muted-foreground">
           Looking for a job? Don&#39;t let applications slip through the cracks!
