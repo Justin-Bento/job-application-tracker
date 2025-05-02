@@ -124,9 +124,29 @@ export default function page() {
           </li>
           <li className="col-span-2 sm:col-span-1">
             <Card className="shadow-none">
-              <CardContent>
-                <p className="">Hello World </p>
-              </CardContent>
+              <CardHeader className="relative">
+                <CardDescription>Response Rate</CardDescription>
+                <CardTitle className="@[250px]/card:text-3xl text-2xl font-semibold tabular-nums capitalize">
+                  23/147 applications
+                </CardTitle>
+                <div className="absolute right-4 top-4">
+                  <Badge
+                    variant="outline"
+                    className="flex gap-1 rounded-lg text-xs"
+                  >
+                    <TrendingUpIcon className="size-3" />
+                    +0.15%
+                  </Badge>
+                </div>
+              </CardHeader>
+              <CardFooter className="flex-col items-start gap-1 text-sm">
+                <div className="line-clamp-1 flex gap-2 font-medium">
+                  Steady performance <TrendingUpIcon className="size-4" />
+                </div>
+                <div className="text-muted-foreground">
+                  Meets growth projections with improvements needed.
+                </div>
+              </CardFooter>
             </Card>
           </li>
           <li className="col-span-2 text-xl font-semibold">Job Applications</li>
