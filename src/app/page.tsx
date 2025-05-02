@@ -3,7 +3,14 @@ import Wrapper from "@/components/Wrapper";
 import { TrendingDownIcon, TrendingUpIcon } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
-import { Card, CardContent } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 export default function page() {
   return (
@@ -32,9 +39,29 @@ export default function page() {
         <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           <li className="col-span-2 sm:col-span-1">
             <Card className="shadow-none">
-              <CardContent>
-                <p className="">Hello World </p>
-              </CardContent>
+              <CardHeader className="relative">
+                <CardDescription>Total Applications 2025</CardDescription>
+                <CardTitle className="@[250px]/card:text-3xl text-2xl font-semibold tabular-nums">
+                  #147
+                </CardTitle>
+                <div className="absolute right-4 top-4">
+                  <Badge
+                    variant="outline"
+                    className="flex gap-1 rounded-lg text-xs"
+                  >
+                    <TrendingUpIcon className="size-3" />
+                    +12.5%
+                  </Badge>
+                </div>
+              </CardHeader>
+              <CardFooter className="flex-col items-start gap-1 text-sm">
+                <div className="line-clamp-1 flex gap-2 font-medium">
+                  Trending up this month <TrendingUpIcon className="size-4" />
+                </div>
+                <div className="text-muted-foreground">
+                  Resume applications sent out the start of 2025
+                </div>
+              </CardFooter>
             </Card>
           </li>
           <li className="col-span-2 sm:col-span-1">
