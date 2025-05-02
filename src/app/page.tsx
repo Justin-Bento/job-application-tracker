@@ -58,11 +58,12 @@ export default function page() {
               </CardContent>
             </Card>
           </li>
+          <li className="col-span-2 text-xl font-semibold">Job Applications</li>
           <li className="col-span-2">
             <Card className="relative isolate shadow-none overflow-hidden">
               <CardContent>
                 <Link href="/2025" className="hover:underline">
-                  Job Applications for 2025
+                  Applications for 2025
                   <span className="absolute inset-0 hover:bg-gray-400/10"></span>
                 </Link>
               </CardContent>
@@ -72,7 +73,7 @@ export default function page() {
             <Card className="relative isolate shadow-none overflow-hidden">
               <CardContent>
                 <Link href="/2024" className="hover:underline">
-                  Job Applications for 2024
+                  Applications for 2024
                   <span className="absolute inset-0 hover:bg-gray-400/10"></span>
                 </Link>
               </CardContent>
