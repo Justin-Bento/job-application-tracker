@@ -27,7 +27,7 @@ export default function page() {
       </section>
       <section className="mt-16">
         <h2 className="text-2xl font-semibold text-pretty text-gray-900 mb-8">
-          Your Applications, Sorted by Year:
+          Your Applications, Statistics Year Summary:
         </h2>
         <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           <li className="col-span-2 sm:col-span-1">
@@ -59,16 +59,22 @@ export default function page() {
             </Card>
           </li>
           <li className="col-span-2">
-            <Card className="shadow-none">
+            <Card className="relative isolate shadow-none overflow-hidden">
               <CardContent>
-                <p className="">Hello World </p>
+                <Link href="/2025" className="hover:underline">
+                  Job Applications for 2025
+                  <span className="absolute inset-0 hover:bg-gray-400/10"></span>
+                </Link>
               </CardContent>
             </Card>
           </li>
           <li className="col-span-2">
-            <Card className="shadow-none">
+            <Card className="relative isolate shadow-none overflow-hidden">
               <CardContent>
-                <p className="">Hello World </p>
+                <Link href="/2024" className="hover:underline">
+                  Job Applications for 2024
+                  <span className="absolute inset-0 hover:bg-gray-400/10"></span>
+                </Link>
               </CardContent>
             </Card>
           </li>
