@@ -3,6 +3,7 @@ import Wrapper from "@/components/Wrapper";
 import { TrendingDownIcon, TrendingUpIcon } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
+import { Card, CardContent } from "@/components/ui/card";
 
 export default function page() {
   return (
@@ -28,6 +29,50 @@ export default function page() {
         <h2 className="text-2xl font-semibold text-pretty text-gray-900 mb-8">
           Your Applications, Sorted by Year:
         </h2>
+        <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+          <li className="col-span-2 sm:col-span-1">
+            <Card>
+              <CardContent>
+                <p className="">Hello World </p>
+              </CardContent>
+            </Card>
+          </li>
+          <li className="col-span-2 sm:col-span-1">
+            <Card>
+              <CardContent>
+                <p className="">Hello World </p>
+              </CardContent>
+            </Card>
+          </li>
+          <li className="col-span-2 sm:col-span-1">
+            <Card>
+              <CardContent>
+                <p className="">Hello World </p>
+              </CardContent>
+            </Card>
+          </li>
+          <li className="col-span-2 sm:col-span-1">
+            <Card>
+              <CardContent>
+                <p className="">Hello World </p>
+              </CardContent>
+            </Card>
+          </li>
+          <li className="col-span-2">
+            <Card>
+              <CardContent>
+                <p className="">Hello World </p>
+              </CardContent>
+            </Card>
+          </li>
+          <li className="col-span-2">
+            <Card>
+              <CardContent>
+                <p className="">Hello World </p>
+              </CardContent>
+            </Card>
+          </li>
+        </ul>
       </section>
     </Wrapper>
   );
