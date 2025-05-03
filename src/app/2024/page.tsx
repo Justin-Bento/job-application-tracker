@@ -1,4 +1,5 @@
 import Wrapper from "@/components/Wrapper";
+import Link from "next/link";
 import React from "react";
 
 export default function page() {
@@ -15,6 +16,9 @@ export default function page() {
         <p className="order-1 text-base/7 font-semibold text-teal-600">
           Applied to # of Jobs.
         </p>
+        <Link href="/" className="order-4 text-sm underline">
+          Go back home page.
+        </Link>
       </div>
     </Wrapper>
   );
