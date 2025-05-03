@@ -14,7 +14,9 @@ export default function page() {
           repellendus in veritatis fugiat. Facere aspernatur asperiores, sed
           beatae excepturi consectetur.
         </p>
-        <p className="order-1">Lorem ipsum dolor sit amet.</p>
+        <p className="order-1 text-base/7 font-semibold text-teal-600">
+          Lorem ipsum dolor sit amet.
+        </p>
       </div>
     </Wrapper>
   );
