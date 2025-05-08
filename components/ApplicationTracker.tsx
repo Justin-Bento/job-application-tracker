@@ -33,10 +33,12 @@ export default function ApplicationTracker({
         <li>Application #{applications}</li>
       </ul>
 
-      <h2 className="scroll-m-20 text-xl font-semibold">
+      <h2 className="flex flex-col scroll-m-20 text-lg font-semibold">
         {title || "Job Title"},
+        <span className="text-sm font-normal">
+          {company || "Company Goes Here"}
+        </span>
       </h2>
-      <span className="text-md">{company || "Company Goes Here"}</span>
       <ul className="[&>li]:text-muted-foreground [&>li]:text-xs [&>li]:list-disc ml-6">
         <li>{location}</li>
         <li>{response}</li>
