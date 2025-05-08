@@ -33,11 +33,11 @@ export default async function ProtectedPage() {
           className="space-y-16"
         >
           <section className="mx-auto max-w-2xl lg:mx-0 space-y-4">
-            <p className="text-sm/7 capitalize font-semibold text-indigo-600">
+            <p className="text-sm/7 capitalize font-semibold text-teal-600">
               Get the help you need
             </p>
             <h2 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl">
-              Support center
+              Job Applications For 2025
             </h2>
             <p className="text-lg/relaxed tracking-wide text-muted-foreground">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
