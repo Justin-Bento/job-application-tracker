@@ -44,14 +44,16 @@ export default function ApplicationTracker({
         <li>{response}</li>
         <li>{updates}</li>
         <li>{offers || "No Offers"}</li>
-        {jobURL == null ? (
-          <li>No Link To Post</li>
-        ) : (
-          <li className="flex items-center gap-1.5 hover:underline">
-            <Link href={jobURL}>Link To Post</Link>
-            <ExternalLink className="size-2.5" />
-          </li>
-        )}
+        <li>
+          {jobURL == null ? (
+            <>No Link To Post</>
+          ) : (
+            <>
+              <Link href={jobURL}>Link To Post</Link>
+              <ExternalLink className="size-2.5" />
+            </>
+          )}
+        </li>
       </ul>
     </Card>
   );
