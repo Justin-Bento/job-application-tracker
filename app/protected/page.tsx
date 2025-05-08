@@ -28,7 +28,7 @@ export default async function ProtectedPage() {
       <main className="">
         <Wrapper width="constrained" height="fullHeight" spacing="large">
           <h1 className="">Private Page</h1>
-          <ul>
+          <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2">
             {jobApplications?.map((job) => (
               <li key={job.id}>
                 <ApplicationTracker
