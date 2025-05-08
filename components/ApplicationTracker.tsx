@@ -28,17 +28,21 @@ export default function ApplicationTracker({
 }: JobPost) {
   return (
     <Card className="p-6 shadow-none space-y-2">
-      <ul className="flex items-center gap-2 [&>li]:text-xs [&>li]:text-muted-foreground">
-        <li>{dateApplied || "YYYY/MM/DD"},</li>
-        <li>Application #{applications}</li>
-      </ul>
+      <span className="flex flex-col-reverse">
+        <h2 className="flex flex-col scroll-m-20 text-lg font-semibold">
+          {title || "Job Title"},
+          <span className="text-sm font-normal">
+            {company || "Company Goes Here"}
+          </span>
+        </h2>
+        <p className="text-xs text-muted-foreground">
+          Application #{applications}
+        </p>
+      </span>
+      <p className="text-xs text-muted-foreground">
+        Applied: {dateApplied || "YYYY/MM/DD"},
+      </p>
 
-      <h2 className="flex flex-col scroll-m-20 text-lg font-semibold">
-        {title || "Job Title"},
-        <span className="text-sm font-normal">
-          {company || "Company Goes Here"}
-        </span>
-      </h2>
       <ul className="[&>li]:text-muted-foreground [&>li]:text-xs [&>li]:list-disc ml-6">
         <li>{location}</li>
         <li>{response}</li>
