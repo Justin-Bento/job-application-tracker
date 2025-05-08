@@ -32,8 +32,8 @@ export default async function ProtectedPage() {
             {jobApplications?.map((job) => (
               <li key={job.id}>
                 <ApplicationTracker
-                  applications={job.length - job.id}
-                  dateApplied={job.dates}
+                  applications={job.id}
+                  dateApplied={job.dateApplied}
                   title={job.title}
                   company={job.company}
                   location={job.location}
