@@ -7,7 +7,7 @@ type WrapperProps = React.HTMLAttributes<HTMLDivElement> &
 
 const WrapperVariants = cva("", {
   variants: {
-    layout: {
+    width: {
       fullWidthMobile: "mx-auto max-w-7xl sm:px-6 lg:px-8",
       constrained: "max-w-7xl 2xl:container mx-auto px-4 sm:px-6 lg:px-8",
     },
@@ -15,22 +15,31 @@ const WrapperVariants = cva("", {
       none: "",
       fullHeight: "min-h-dvh",
     },
+    spacing: {
+      empty: "",
+      large: "my-24",
+    },
   },
   defaultVariants: {
-    layout: "constrained", // Default to constrained container
+    width: "constrained", // Default to constrained container
     height: "none",
+    spacing: "empty",
   },
 });
 
 export default function Wrapper({
   children,
   className,
-  layout,
+  width,
+  spacing,
   height,
   ...props
 }: WrapperProps) {
   return (
-    <div className={WrapperVariants({ layout, height, className })} {...props}>
+    <div
+      className={WrapperVariants({ width, height, spacing, className })}
+      {...props}
+    >
       {children}
     </div>
   );
