@@ -26,8 +26,26 @@ export default async function ProtectedPage() {
   return (
     <>
       <main className="">
-        <Wrapper width="constrained" height="fullHeight" spacing="large">
-          <h1 className="">Private Page</h1>
+        <Wrapper
+          width="constrained"
+          height="fullHeight"
+          spacing="large"
+          className="space-y-16"
+        >
+          <section className="mx-auto max-w-2xl lg:mx-0 space-y-4">
+            <p className="text-sm/7 capitalize font-semibold text-indigo-600">
+              Get the help you need
+            </p>
+            <h2 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl">
+              Support center
+            </h2>
+            <p className="text-lg/relaxed tracking-wide text-muted-foreground">
+              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
+              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
+              fugiat.
+            </p>
+          </section>
+
           <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2">
             {jobApplications?.map((job) => (
               <li key={job.id}>
