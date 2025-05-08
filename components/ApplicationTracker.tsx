@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, CardDescription } from "./ui/card";
 import Link from "next/link";
-import { ExternalLink } from "lucide-react";
 
 interface JobPost {
   title: string;
@@ -54,7 +53,6 @@ export default function ApplicationTracker({
           ) : (
             <>
               <Link href={jobURL}>Link To Post</Link>
-              <ExternalLink className="size-2.5" />
             </>
           )}
         </li>
