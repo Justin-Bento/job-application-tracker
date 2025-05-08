@@ -1,4 +1,5 @@
 import FetchDataSteps from "@/components/tutorial/fetch-data-steps";
+import Wrapper from "@/components/Wrapper";
 import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
 
@@ -16,7 +17,9 @@ export default async function ProtectedPage() {
   return (
     <>
       <main className="">
-        <h1 className="">Private Page</h1>
+        <Wrapper width="constrained" height="fullHeight" spacing="large">
+          <h1 className="">Private Page</h1>
+        </Wrapper>
       </main>
     </>
   );
