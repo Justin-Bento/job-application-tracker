@@ -29,7 +29,7 @@ export default function ApplicationTracker({
   return (
     <Card className="p-6 shadow-none space-y-2">
       <ul className="flex items-center gap-2 [&>li]:text-xs [&>li]:text-muted-foreground">
-        <li>{dateApplied},</li>
+        <li>{dateApplied || "YYYY/MM/DD"},</li>
         <li>Application #{applications}</li>
       </ul>
 
