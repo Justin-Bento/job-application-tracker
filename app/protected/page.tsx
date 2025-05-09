@@ -11,7 +11,7 @@ export default async function ProtectedPage() {
   } = await supabase.auth.getUser();
 
   if (!user) {
-    return redirect("/sign-in");
+    return redirect("/");
   }
 
   let { data: jobApplications, error } = await supabase
@@ -20,7 +20,7 @@ export default async function ProtectedPage() {
 
   if (error) {
     console.error("Error fetching jobs:", error);
-    return <div>Failed to load job applications.</div>;
+    return await supabase.auth.signOut();
   }
   console.log(jobApplications);
   return (
