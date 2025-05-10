@@ -13,6 +13,12 @@ import { createClient } from "@/utils/supabase/server";
 import { PlusIcon } from "lucide-react";
 import { redirect } from "next/navigation";
 
+interface PageProps {
+  searchParams?: {
+    page?: string;
+  };
+}
+
 export default async function ProtectedPage({
   searchParams,
 }: {
