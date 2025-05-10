@@ -4,6 +4,7 @@ import { Card } from "./ui/card";
 import Wrapper from "./Wrapper";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import AuthButton from "./header-auth";
 
 export default function Header() {
   return (
@@ -15,12 +16,7 @@ export default function Header() {
             <span className="border-l rotate-45 h-4" />
             <SupabaseLogo />
           </div>
-          <Button className=" relative isolate">
-            <Link href="/sign-in">
-              Sign In
-              <span className="absolute inset-0"></span>
-            </Link>
-          </Button>
+          <AuthButton />
         </Wrapper>
       </Card>
     </header>
