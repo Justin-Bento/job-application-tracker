@@ -1,4 +1,5 @@
 import ApplicationTracker from "@/components/ApplicationTracker";
+import { Button } from "@/components/ui/button";
 import Wrapper from "@/components/Wrapper";
 import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
@@ -45,7 +46,9 @@ export default async function ProtectedPage() {
               fugiat.
             </p>
           </section>
-
+          <form>
+            <Button>Create New Job</Button>
+          </form>
           <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2">
             {jobApplications?.map((job) => (
               <li key={job.id}>
