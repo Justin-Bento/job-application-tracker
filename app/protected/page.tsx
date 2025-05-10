@@ -39,7 +39,7 @@ export default async function ProtectedPage() {
           cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.
         </p>
       </section>
-      <form>
+      <form className="mt-4 mb-12">
         <Button className="flex flex-row-reverse items-center gap-4">
           <PlusIcon className="size-5" />
           Create New Job
