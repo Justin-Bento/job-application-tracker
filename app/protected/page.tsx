@@ -19,11 +19,7 @@ interface PageProps {
   };
 }
 
-export default async function ProtectedPage({
-  searchParams,
-}: {
-  searchParams: { page?: string };
-}) {
+export default async function ProtectedPage({ searchParams = {} }: PageProps) {
   const supabase = await createClient();
   const {
     data: { user },
