@@ -19,6 +19,8 @@ const WrapperVariants = cva("", {
       empty: "",
       extraSmall: "my-6",
       large: "my-24",
+      paddingExtraSmall: "py-6",
+      paddingLarge: "py-24",
     },
   },
   defaultVariants: {
