@@ -1,6 +1,4 @@
-import AuthButton from "@/components/header-auth";
-import { Card } from "@/components/ui/card";
-import Wrapper from "@/components/Wrapper";
+import Header from "@/components/Header";
 
 export default function ProtectedLayout({
   children,
@@ -12,13 +10,7 @@ export default function ProtectedLayout({
       <body>
         {/* Layout UI */}
         {/* Place children where you want to render a page or nested layout */}
-        <header>
-          <Card>
-            <Wrapper spacing="extraSmall">
-              <AuthButton />
-            </Wrapper>
-          </Card>
-        </header>
+        <Header />
         {children}
       </body>
     </html>
