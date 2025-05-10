@@ -7,7 +7,7 @@ import { SubmitButton } from "./submit-button";
 export default function Header() {
   return (
     <header>
-      <Card className="py-0 rounded-none">
+      <Card className="py-0 rounded-none border-x-0">
         <Wrapper className="p-2 flex items-center justify-between">
           <div className="flex gap-8 items-center">
             <NextLogo />
