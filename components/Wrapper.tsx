@@ -17,6 +17,7 @@ const WrapperVariants = cva("", {
     },
     spacing: {
       empty: "",
+      extraSmall: "my-6",
       large: "my-24",
     },
   },
