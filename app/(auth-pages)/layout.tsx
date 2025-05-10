@@ -8,12 +8,14 @@ export default async function Layout({
   children: React.ReactNode;
 }) {
   return (
-    <>
-      <Header />
-      <Wrapper height="fullHeight" spacing="large">
-        {children}
-      </Wrapper>
-      <Footer />
-    </>
+    <html>
+      <body>
+        <Header />
+        <Wrapper height="fullHeight" spacing="large">
+          {children}
+        </Wrapper>
+        <Footer />
+      </body>
+    </html>
   );
 }
