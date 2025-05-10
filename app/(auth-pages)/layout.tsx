@@ -1,9 +1,19 @@
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Wrapper from "@/components/Wrapper";
+
 export default async function Layout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <div className="max-w-7xl flex flex-col gap-12 items-start">{children}</div>
+    <>
+      <Header />
+      <Wrapper height="fullHeight" spacing="large">
+        {children}
+      </Wrapper>
+      <Footer />
+    </>
   );
 }
