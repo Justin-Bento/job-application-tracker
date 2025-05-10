@@ -2,7 +2,8 @@ import NextLogo from "./next-logo";
 import SupabaseLogo from "./supabase-logo";
 import { Card } from "./ui/card";
 import Wrapper from "./Wrapper";
-import { SubmitButton } from "./submit-button";
+import { Button } from "./ui/button";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -14,7 +15,12 @@ export default function Header() {
             <span className="border-l rotate-45 h-4" />
             <SupabaseLogo />
           </div>
-          <SubmitButton variant="secondary">Login To Job Tracker</SubmitButton>
+          <Button className=" relative isolate">
+            <Link href="/sign-in">
+              Sign In
+              <span className="absolute inset-0"></span>
+            </Link>
+          </Button>
         </Wrapper>
       </Card>
     </header>
