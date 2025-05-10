@@ -1,13 +1,24 @@
 import ApplicationTracker from "@/components/ApplicationTracker";
 import { Button } from "@/components/ui/button";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
 import Wrapper from "@/components/Wrapper";
 import { createClient } from "@/utils/supabase/server";
 import { PlusIcon } from "lucide-react";
 import { redirect } from "next/navigation";
 
-export default async function ProtectedPage() {
+export default async function ProtectedPage({
+  searchParams,
+}: {
+  searchParams: { page?: string };
+}) {
   const supabase = await createClient();
-
   const {
     data: { user },
   } = await supabase.auth.getUser();
@@ -16,17 +27,31 @@ export default async function ProtectedPage() {
     return redirect("/");
   }
 
-  let { data: jobApplications, error } = await supabase
+  // Pagination setup
+  const currentPage = Number(searchParams.page) || 1;
+  const itemsPerPage = 20;
+  const from = (currentPage - 1) * itemsPerPage;
+  const to = from + itemsPerPage - 1;
+
+  // Fetch paginated data
+  let {
+    data: jobApplications,
+    error,
+    count,
+  } = await supabase
     .from("jobApplications")
-    .select("*");
+    .select("*", { count: "exact" })
+    .range(from, to);
 
   if (error) {
     console.error("Error fetching jobs:", error);
     return await supabase.auth.signOut();
   }
-  console.log(jobApplications);
+
+  const totalPages = Math.ceil((count || 0) / itemsPerPage);
+
   return (
-    <>
+    <div className="space-y-8">
       <section className="mx-auto max-w-2xl lg:mx-0 space-y-4">
         <p className="text-sm/7 capitalize font-semibold text-teal-600">
           Get the help you need
@@ -39,12 +64,14 @@ export default async function ProtectedPage() {
           cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.
         </p>
       </section>
+
       <form className="mt-4 mb-12">
         <Button className="flex flex-row-reverse items-center gap-4">
           <PlusIcon className="size-5" />
           Create New Job
         </Button>
       </form>
+
       <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2">
         {jobApplications?.map((job) => (
           <li key={job.id}>
@@ -59,9 +86,62 @@ export default async function ProtectedPage() {
               offers={job.offers}
               jobURL={job.jobURL}
             />
-          </li> // Replace `title` with your field
+          </li>
         ))}
       </ul>
-    </>
+
+      {totalPages > 1 && (
+        <Pagination className="mt-12">
+          <PaginationContent>
+            <PaginationItem>
+              <PaginationPrevious
+                href={currentPage > 1 ? `?page=${currentPage - 1}` : "#"}
+                className={
+                  currentPage <= 1 ? "opacity-50 cursor-not-allowed" : ""
+                }
+              />
+            </PaginationItem>
+
+            {Array.from({ length: Math.min(totalPages, 5) }, (_, i) => {
+              // Show limited page numbers (max 5)
+              let pageNum;
+              if (totalPages <= 5) {
+                pageNum = i + 1;
+              } else if (currentPage <= 3) {
+                pageNum = i + 1;
+              } else if (currentPage >= totalPages - 2) {
+                pageNum = totalPages - 4 + i;
+              } else {
+                pageNum = currentPage - 2 + i;
+              }
+
+              return (
+                <PaginationItem key={pageNum}>
+                  <PaginationLink
+                    href={`?page=${pageNum}`}
+                    isActive={currentPage === pageNum}
+                  >
+                    {pageNum}
+                  </PaginationLink>
+                </PaginationItem>
+              );
+            })}
+
+            <PaginationItem>
+              <PaginationNext
+                href={
+                  currentPage < totalPages ? `?page=${currentPage + 1}` : "#"
+                }
+                className={
+                  currentPage >= totalPages
+                    ? "opacity-50 cursor-not-allowed"
+                    : ""
+                }
+              />
+            </PaginationItem>
+          </PaginationContent>
+        </Pagination>
+      )}
+    </div>
   );
 }
