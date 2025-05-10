@@ -51,7 +51,7 @@ export default async function ProtectedPage({
   const totalPages = Math.ceil((count || 0) / itemsPerPage);
 
   return (
-    <div className="space-y-8">
+    <Wrapper className="space-y-8">
       <section className="mx-auto max-w-2xl lg:mx-0 space-y-4">
         <p className="text-sm/7 capitalize font-semibold text-teal-600">
           Get the help you need
@@ -142,6 +142,6 @@ export default async function ProtectedPage({
           </PaginationContent>
         </Pagination>
       )}
-    </div>
+    </Wrapper>
   );
 }
